@@ -184,6 +184,7 @@ Open technology work:
 - State-region resources are intentionally left at vanilla physical potential, including gold, oil, rubber, mines, logging, fishing, whaling, arable land, and arable resource options. This is recorded in `planning/30_state_resources_policy.md`; do not copy `map_data/state_regions` unless a future pass approves a specific exception.
 - First broad 1816 civilian building-level rebalance is implemented and recorded in `planning/31_building_level_rebalance_plan.md`. It reduced total starting building levels from 8,212 to 6,718 and removed 13 approved tech-inconsistent building blocks.
 - Dedicated military pass is implemented and recorded in `planning/32_military_pass_audit.md`: all vanilla regional formation files are now overridden, unit types are compatible with the 1816 starting tech tiers, Egypt/Algeria/DEI placement issues were cleaned up, oversized barracks-only starts were capped from 1,107 to 892 explicit barracks levels, and `ZUL` received a small named formation.
+- First post-baseline bug cleanup is implemented and recorded in `planning/34_bug_cleanup_static_qa.md`: the zero-pop/static ownership checks are clean, malformed Sweden character braces were fixed, and inactive 1836 war/treaty/deployment leftovers were removed.
 - Remaining building work: any later targeted economy or military corrections found in-game.
 
 Initial scripted European subject overrides:
