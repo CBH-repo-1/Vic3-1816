@@ -1,0 +1,98 @@
+﻿# Custom fixed tags for the Congress of Vienna 1816 start.
+# Tags follow the approved V00-V99 namespace to avoid vanilla dynamic tags.
+
+V00 = { # Liechtenstein
+	color = { 20  45  140 }
+	country_type = recognized
+	tier = principality
+	cultures = { alemannic }
+	religion = catholic
+	capital = STATE_TYROL
+}
+
+V01 = { # San Marino
+	color = { 105  185  230 }
+	country_type = recognized
+	tier = city_state
+	cultures = { north_italian }
+	religion = catholic
+	capital = STATE_ROMAGNA
+}
+
+V02 = { # Monaco
+	color = { 205  40  45 }
+	country_type = recognized
+	tier = principality
+	cultures = { french }
+	religion = catholic
+	capital = STATE_PROVENCE
+}
+
+V03 = { # Andorra
+	color = { 235  190  55 }
+	country_type = recognized
+	tier = principality
+	cultures = { catalan }
+	religion = catholic
+	capital = STATE_CATALONIA
+}
+
+V04 = { # Saxe-Gotha-Altenburg
+	color = { 68  145  84 }
+	country_type = recognized
+	tier = principality
+	cultures = { north_german }
+	religion = protestant
+	capital = STATE_SAXONY
+}
+
+V05 = { # Saxe-Hildburghausen
+	color = { 120  170  112 }
+	country_type = recognized
+	tier = principality
+	cultures = { north_german }
+	religion = protestant
+	capital = STATE_SAXONY
+}
+
+V06 = { # Kuwait
+	color = { 175  42  38 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	religion = sunni
+	capital = STATE_BASRA
+}
+
+V07 = { # Ryukyu
+	color = { 205  100  55 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { japanese }
+	capital = STATE_RYUKYU_ISLANDS
+}
+
+V08 = { # Choctaw Nation
+	color = { 45  95  160 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { muskogean }
+	capital = STATE_MISSISSIPPI
+}
+
+V09 = { # Chickasaw Nation
+	color = { 145  70  55 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { muskogean }
+	capital = STATE_MISSISSIPPI
+}
+
+V10 = { # Multan
+	color = { 78  125  72 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { panjabi }
+	religion = sunni
+	capital = STATE_PUNJAB
+}

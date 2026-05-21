@@ -1,0 +1,1154 @@
+﻿POPS = {
+		s:STATE_MALAYA = {
+		region_state:JOH = {
+			create_pop = {
+				culture = malay
+				size = 441601
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 11220
+			}
+			create_pop = {
+				culture = yue
+				size = 33733
+			}
+			create_pop = {
+				culture = tamil
+				size = 1496
+			}
+			create_pop = {
+				culture = british
+				size = 951
+			}
+		}
+		region_state:SEL = {
+			create_pop = {
+				culture = malay
+				size = 213184
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 7140
+			}
+			create_pop = {
+				culture = yue
+				size = 22441
+			}
+		}
+		region_state:PRK = {
+			create_pop = {
+				culture = malay
+				size = 138723
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 2040
+			}
+			create_pop = {
+				culture = yue
+				size = 9180
+			}
+		}
+		region_state:SIA = {
+			create_pop = {
+				culture = malay
+				size = 252965
+			}
+			create_pop = {
+				culture = yue
+				size = 13056
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = yue
+				size = 4080
+			}
+		}
+		region_state:BIC = {
+			create_pop = {
+				culture = malay
+				size = 68001
+			}
+			create_pop = {
+				culture = tamil
+				size = 2992
+			}
+			create_pop = {
+				culture = yue
+				size = 11560
+			}
+			create_pop = {
+				culture = british
+				size = 1901
+			}
+		}
+	}
+	s:STATE_NORTH_BORNEO = {
+		region_state:BRU = {
+			create_pop = {
+				culture = dayak
+				size = 76502
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 12240
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 18360
+			}
+			create_pop = {
+				culture = yue
+				size = 7340
+			}
+			create_pop = {
+				culture = bornean
+				size = 102202
+			}
+		}
+		region_state:SUL = {
+			create_pop = {
+				culture = dayak
+				size = 14280
+			}
+			create_pop = {
+				culture = moro
+				size = 3296
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 6120
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 2040
+			}
+			create_pop = {
+				culture = bornean
+				size = 15504
+			}
+			create_pop = {
+				culture = yue
+				size = 408
+			}
+		}
+		region_state:BLG = {
+			create_pop = {
+				culture = dayak
+				size = 7140
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 306
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 4080
+			}
+			create_pop = {
+				culture = bornean
+				size = 1020
+			}
+		}
+	}
+		s:STATE_WEST_BORNEO = {
+		region_state:LAN = {
+			create_pop = {
+				culture = bornean
+				size = 32641
+			}
+			create_pop = {
+				culture = dayak
+				size = 9180
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 6834
+			}
+			create_pop = {
+				culture = hakka
+				size = 26521
+			}
+		}
+		region_state:STG = {
+			create_pop = {
+				culture = bornean
+				size = 40627
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 3468
+			}
+			create_pop = {
+				culture = dayak
+				size = 25500
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 3570
+			}
+			create_pop = {
+				culture = dayak
+				religion = protestant
+				size = 1020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 2142
+			}
+		}
+		region_state:PON = {
+			create_pop = {
+				culture = bornean
+				size = 99789
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 8262
+			}
+			create_pop = {
+				culture = dayak
+				size = 29581
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 5508
+			}
+			create_pop = {
+				culture = dayak
+				religion = protestant
+				size = 1020
+			}
+			create_pop = {
+				culture = hakka
+				size = 1224
+			}
+		}
+		region_state:SMB = {
+			create_pop = {
+				culture = bornean
+				size = 61201
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 6120
+			}
+			create_pop = {
+				culture = dayak
+				size = 11220
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 1020
+			}
+			create_pop = {
+				culture = hakka
+				size = 1020
+			}
+		}
+	}
+		s:STATE_EAST_BORNEO = {
+		region_state:BNJ = {
+			create_pop = {
+				culture = bornean
+				size = 109746
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 30601
+			}
+			create_pop = {
+				culture = dayak
+				size = 11424
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 10200
+			}
+			create_pop = {
+				culture = yue
+				size = 816
+			}
+		}
+		region_state:BLG = {
+			create_pop = {
+				culture = dayak
+				size = 47941
+			}
+			create_pop = {
+				culture = bornean
+				size = 45085
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 19380
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 8160
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 2040
+			}
+			create_pop = {
+				culture = dayak
+				religion = protestant
+				size = 510
+			}
+		}
+		region_state:KTI = {
+			create_pop = {
+				culture = dayak
+				size = 81602
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 6120
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 9180
+			}
+			create_pop = {
+				culture = bornean
+				size = 71402
+			}
+		}
+	}
+	s:STATE_WEST_JAVA = {
+		region_state:DEI = {
+			create_pop = {
+				culture = javan
+				size = 3500711
+			}
+			create_pop = {
+				culture = yue
+				size = 61609
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 310298
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 41821
+			}
+			create_pop = {
+				culture = dutch
+				size = 24077
+			}
+		}
+	}
+	s:STATE_EAST_JAVA = {
+		region_state:DEI = {
+			create_pop = {
+				culture = javan
+				size = 1911306
+			}
+			create_pop = {
+				culture = yue
+				size = 31009
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 155863
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 21420
+			}
+			create_pop = {
+				culture = dutch
+				size = 2448
+			}
+		}
+	}
+	s:STATE_CENTRAL_JAVA = {
+		region_state:DEI = {
+			create_pop = {
+				culture = javan
+				size = 1808203
+			}
+			create_pop = {
+				culture = yue
+				size = 20808
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 294586
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 19380
+			}
+			create_pop = {
+				culture = dutch
+				size = 1938
+			}
+		}
+		region_state:YOG = {
+			create_pop = {
+				culture = javan
+				size = 43882
+			}
+			create_pop = {
+				culture = yue
+				size = 908
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 9180
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 5508
+			}
+		}
+		region_state:SRK = {
+			create_pop = {
+				culture = javan
+				size = 33549
+			}
+			create_pop = {
+				culture = yue
+				size = 558
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 6717
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 3477
+			}
+		}
+	}
+		s:STATE_NORTH_SUMATRA = {
+		region_state:SAK = {
+			create_pop = {
+				culture = sumatran
+				size = 500058
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sumatran
+				size = 39192
+			}
+			create_pop = {
+				culture = dutch
+				size = 816
+			}
+			create_pop = {
+				culture = batak
+				size = 46082
+			}
+			create_pop = {
+				culture = batak
+				religion = sunni
+				size = 15154
+			}
+			create_pop = {
+				culture = batak
+				religion = protestant
+				size = 5304
+			}
+			create_pop = {
+				culture = yue
+				size = 20727
+			}
+		}
+		region_state:JMB = {
+			create_pop = {
+				culture = sumatran
+				size = 78563
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sumatran
+				size = 6120
+			}
+			create_pop = {
+				culture = batak
+				size = 7173
+			}
+			create_pop = {
+				culture = batak
+				religion = sunni
+				size = 1967
+			}
+			create_pop = {
+				culture = yue
+				size = 1024
+			}
+		}
+	}
+		s:STATE_SOUTH_SUMATRA = {
+		region_state:JMB = {
+			create_pop = {
+				culture = sumatran
+				size = 91926
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sumatran
+				size = 12457
+			}
+			create_pop = {
+				culture = dutch
+				size = 306
+			}
+			create_pop = {
+				culture = batak
+				size = 18434
+			}
+			create_pop = {
+				culture = batak
+				religion = sunni
+				size = 6516
+			}
+			create_pop = {
+				culture = batak
+				religion = protestant
+				size = 2244
+			}
+			create_pop = {
+				culture = yue
+				size = 3468
+			}
+		}
+	}
+		s:STATE_ACEH = {
+		region_state:ACE = {
+			create_pop = {
+				culture = sumatran
+				size = 273402
+			}
+			create_pop = {
+				culture = yue
+				size = 10200
+			}
+			create_pop = {
+				culture = batak
+				size = 97002
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = batak
+				size = 14586
+			}
+			create_pop = {
+				culture = batak
+				religion = sunni
+				size = 17635
+			}
+			create_pop = {
+				culture = batak
+				religion = protestant
+				size = 163
+			}
+			create_pop = {
+				culture = dutch
+				size = 214
+			}
+		}
+		region_state:SAK = {
+			create_pop = {
+				culture = sumatran
+				size = 118342
+			}
+			create_pop = {
+				culture = yue
+				size = 3672
+			}
+			create_pop = {
+				culture = batak
+				size = 22453
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = batak
+				size = 6936
+			}
+			create_pop = {
+				culture = batak
+				religion = sunni
+				size = 8570
+			}
+		}
+	}
+	s:STATE_WESTERN_NEW_GUINEA = {
+		region_state:PPU = {
+			create_pop = {
+				culture = melanesian
+				size = 359043
+			}
+		}
+		region_state:TID = {
+			create_pop = {
+				culture = moluccan
+				size = 20813
+			}
+			create_pop = {
+				culture = melanesian
+				size = 62221
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = melanesian
+				size = 2040
+			}
+		}
+	}
+	s:STATE_MOLUCCAS = {
+		region_state:DEI = {
+			create_pop = {
+				culture = moluccan
+				size = 98746
+			}
+			create_pop = {
+				culture = dutch
+				size = 396
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 104173
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 33524
+			}
+			create_pop = {
+				culture = melanesian
+				size = 15074
+			}
+			create_pop = {
+				culture = moluccan
+				religion = protestant
+				size = 7470
+			}
+		}
+		region_state:TID = {
+			create_pop = {
+				culture = moluccan
+				size = 98440
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 80799
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 36390
+			}
+			create_pop = {
+				culture = melanesian
+				size = 12320
+			}
+		}
+	}
+		s:STATE_CELEBES = {
+		region_state:SLW = {
+			create_pop = {
+				culture = moluccan
+				size = 103226
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 354963
+			}
+		}
+		region_state:BTN = {
+			create_pop = {
+				culture = moluccan
+				size = 24560
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 41022
+			}
+			create_pop = {
+				culture = moluccan
+				religion = protestant
+				size = 1020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 11333
+			}
+			create_pop = {
+				culture = dutch
+				size = 110
+			}
+		}
+		region_state:TID = {
+			create_pop = {
+				culture = moluccan
+				size = 7752
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 19643
+			}
+			create_pop = {
+				culture = moluccan
+				religion = protestant
+				size = 1530
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 4792
+			}
+			create_pop = {
+				culture = dutch
+				size = 165
+			}
+		}
+	}
+	s:STATE_EASTERN_NEW_GUINEA = {
+		region_state:PPU = {
+			create_pop = {
+				culture = melanesian
+				size = 408112
+			}
+		}
+	}
+		s:STATE_SUNDA_ISLANDS = {
+		region_state:BAL = {
+			create_pop = {
+				culture = balinese
+				religion = hindu
+				size = 567123
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = balinese
+				size = 20400
+			}
+			create_pop = {
+				culture = balinese
+				size = 62735
+			}
+			create_pop = {
+				culture = moluccan
+				size = 607116
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 216236
+			}
+			create_pop = {
+				culture = dutch
+				size = 396
+			}
+			create_pop = {
+				culture = melanesian
+				size = 48961
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				size = 51001
+			}
+		}
+		region_state:POR = {
+			create_pop = {
+				culture = melanesian
+				size = 40801
+			}
+			create_pop = {
+				culture = melanesian
+				religion = sunni
+				size = 20400
+			}
+			create_pop = {
+				culture = portuguese
+				size = 200
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 16320
+			}
+			create_pop = {
+				culture = melanesian
+				religion = catholic
+				size = 8160
+			}
+			create_pop = {
+				culture = moluccan
+				religion = catholic
+				size = 4076
+			}
+		}
+	}
+	s:STATE_MINDANAO = {
+		region_state:PHI = {
+			create_pop = {
+				culture = spanish
+				size = 12
+			}
+			create_pop = {
+				culture = filipino_mestizo
+				size = 292
+			}
+			create_pop = {
+				culture = visayan
+				size = 51331
+			}
+			create_pop = {
+				culture = lumad
+				religion = catholic
+				size = 6122
+			}
+			create_pop = {
+				culture = lumad
+				size = 42293
+			}
+		}
+		region_state:MGD = {
+			create_pop = {
+				culture = moro
+				size = 210124
+			}
+			create_pop = {
+				culture = filipino_mestizo
+				size = 5916
+			}
+			create_pop = {
+				culture = lumad
+				size = 51318
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lumad
+				religion = animist
+				size = 10221
+			}
+			create_pop = {
+				culture = bornean
+				size = 20405
+			}
+		}
+		region_state:MND = {
+			create_pop = {
+				culture = lumad
+				size = 460347
+			}
+			create_pop = {
+				culture = moro
+				size = 51127
+			}
+			create_pop = {
+				culture = visayan
+				size = 4897
+			}
+		}
+		region_state:SUL = {
+			create_pop = {
+				culture = moro
+				religion = sunni
+				size = 61609
+			}
+			create_pop = {
+				culture = bornean
+				size = 9792
+			}
+			create_pop = {
+				culture = lumad
+				size = 17544
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lumad
+				size = 6426
+			}
+			create_pop = {
+				culture = yue
+				size = 1224
+			}
+		}
+	}
+	s:STATE_LUZON = {
+		region_state:PHI = {
+			create_pop = {
+				culture = spanish
+				size = 961
+			}
+			create_pop = {
+				culture = filipino_mestizo
+				size = 48500
+			}
+			create_pop = {
+			    culture = tagalog
+			    size = 879272
+			}
+			create_pop = {
+			    culture = ilocano
+			    size = 385574
+			}
+			create_pop = {
+			    culture = visayan
+			    size = 20708
+			}
+			create_pop = {
+			    culture = tagalog
+			    religion = animist
+			    size = 7848
+			}
+			create_pop = {
+			    culture = ilocano
+			    religion = animist
+			    size = 120313
+			}
+		}
+		region_state:SUL = {
+			create_pop = {
+				culture = moro
+				religion = sunni
+				size = 31621
+			}
+			create_pop = {
+				culture = lumad
+				religion = animist
+				size = 12240
+			}
+			create_pop = {
+				culture = yue
+				size = 235
+			}
+		}
+	}
+	s:STATE_VISAYAS = {
+		region_state:PHI = {
+			create_pop = {
+				culture = spanish
+				size = 485
+			}
+			create_pop = {
+				culture = filipino_mestizo
+				size = 27259
+			}
+			create_pop = {
+				culture = visayan
+				size = 855803
+			}
+			create_pop = {
+				culture = tagalog
+				size = 30602
+			}
+			create_pop = {
+				culture = visayan
+				religion = animist
+				size = 140291
+			}
+		}
+	}
+	s:STATE_EAST_MICRONESIA = {
+		region_state:MCR = {
+			create_pop = {
+				culture = micronesian
+				size = 24317
+			}
+			create_pop = {
+				culture = spanish
+				size = 25
+			}
+			create_pop = {
+				culture = polynesian
+				size = 367
+			}
+		}
+	}
+
+	s:STATE_WEST_MICRONESIA = {
+		region_state:MCR = {
+			create_pop = {
+				culture = micronesian
+				size = 24317
+			}
+			create_pop = {
+				culture = spanish
+				size = 25
+			}
+			create_pop = {
+				culture = polynesian
+				size = 367
+			}
+		}
+		region_state:PHI = {
+			# Guam, based off 1830 census
+			create_pop = {
+				culture = micronesian # Natives
+				religion = catholic
+				size = 2664
+			}
+			create_pop = {
+				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
+				size = 1027
+			}
+			create_pop = {
+				culture = spanish # Spanish / Mestizo
+				size = 5
+			}
+			create_pop = {
+				culture = visayan # Filipinos
+				size = 2664
+			}
+			# Palau, could not find detailed information, likely below 6000 (late 19th century), with some Filipinos
+			create_pop = {
+				culture = micronesian # Natives
+				religion = catholic
+				size = 942
+			}
+			create_pop = {
+				culture = micronesian # Natives
+				size = 1461
+			}
+			create_pop = {
+				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
+				size = 63
+			}
+			create_pop = {
+				culture = visayan # Filipinos
+				size = 348
+			}
+		}
+	}
+	s:STATE_SOLOMON_ISLANDS = {
+		region_state:BLA = {
+			create_pop = {
+				culture = melanesian
+				size = 53449
+			}
+		}
+
+	}
+
+	s:STATE_NAURU = {
+		region_state:NRU = {
+			create_pop = { # Population of ~1400 estimated by T. B. Simpson of the Giraffe in 1844
+				culture = melanesian
+				size = 1276
+			}
+		}
+	}
+
+	s:STATE_FIJI = {
+		region_state:FJI = {
+			create_pop = {
+				culture = melanesian
+				size = 83642
+			}
+		}
+	}
+
+	s:STATE_VANUATU = {
+		region_state:VNT = {
+			create_pop = {
+				culture = melanesian
+				size = 93842
+			}
+		}
+	}
+
+	s:STATE_KANAK = {
+		region_state:KNK = {
+			create_pop = {
+				culture = melanesian
+				size = 57125
+			}
+		}
+	}
+
+	s:STATE_BOUGAINVILLE = {
+		region_state:HLA = {
+			create_pop = {
+				culture = melanesian
+				size = 48961
+			}
+		}
+	}
+
+	s:STATE_TAHITI = {
+		region_state:PLY = {
+			create_pop = {
+				culture = polynesian
+				size = 172388
+			}
+			create_pop = {
+				culture = polynesian
+				religion = protestant
+				size = 163
+			}
+			create_pop = {
+				culture = french
+				religion = catholic
+				size = 408
+			}
+		}
+	}
+
+	s:STATE_TONGA = {
+		region_state:TNG = {
+			create_pop = {
+				culture = polynesian
+				size = 40801
+			}
+		}
+	}
+}

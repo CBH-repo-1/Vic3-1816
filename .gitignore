@@ -1,0 +1,17 @@
+# Local diagnostic backups and temporary Victoria 3 data
+backups/
+disabled-vic3-artifacts/
+disabled-vic3-launcher-cache-*/
+disabled-vic3-saves/
+
+# Windows and editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and generated scratch files
+*.log
+*.tmp
+*.bak

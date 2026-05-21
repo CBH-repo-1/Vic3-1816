@@ -1,0 +1,31 @@
+﻿DIPLOMACY = {
+	c:GBR ?= {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:KAU
+					type = protectorate
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:KAU
+				type = protectorate
+			}
+		}
+	}
+
+	c:FRA ?= {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:PLY
+					type = protectorate
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:PLY
+				type = protectorate
+			}
+		}
+	}
+}

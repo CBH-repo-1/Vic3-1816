@@ -1,0 +1,98 @@
+﻿V00 = {
+	flag_definition = {
+		coa = V00
+		subject_canton = V00
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V01 = {
+	flag_definition = {
+		coa = V01
+		subject_canton = V01
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V02 = {
+	flag_definition = {
+		coa = V02
+		subject_canton = V02
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V03 = {
+	flag_definition = {
+		coa = V03
+		subject_canton = V03
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V04 = {
+	flag_definition = {
+		coa = V04
+		subject_canton = V04
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V05 = {
+	flag_definition = {
+		coa = V05
+		subject_canton = V05
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V06 = {
+	flag_definition = {
+		coa = V06
+		subject_canton = V06
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V07 = {
+	flag_definition = {
+		coa = V07
+		subject_canton = V07
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V08 = {
+	flag_definition = {
+		coa = V08
+		subject_canton = V08
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V09 = {
+	flag_definition = {
+		coa = V09
+		subject_canton = V09
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+
+V10 = {
+	flag_definition = {
+		coa = V10
+		subject_canton = V10
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}

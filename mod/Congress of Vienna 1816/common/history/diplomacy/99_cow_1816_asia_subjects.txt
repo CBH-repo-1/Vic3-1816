@@ -1,0 +1,15 @@
+﻿DIPLOMACY = {
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:V07
+			type = tributary
+		}
+	}
+
+	c:SIA ?= {
+		create_diplomatic_pact = {
+			country = c:VIE
+			type = tributary
+		}
+	}
+}

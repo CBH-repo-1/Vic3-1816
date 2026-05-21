@@ -1,0 +1,31 @@
+﻿DIPLOMACY = {
+	c:RUS ?= {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:UZH
+					type = protectorate
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:UZH
+				type = protectorate
+			}
+		}
+	}
+
+	c:PAN ?= {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:KAS
+					type = vassal
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:KAS
+				type = vassal
+			}
+		}
+	}
+}

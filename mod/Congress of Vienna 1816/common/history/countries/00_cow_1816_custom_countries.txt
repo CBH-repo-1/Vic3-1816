@@ -1,0 +1,77 @@
+﻿COUNTRIES = {
+	c:V03 ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_freedom_of_conscience
+	}
+
+	c:V04 ?= {
+		effect_cow_1816_starting_technology_tier_2_tech = yes
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_freedom_of_conscience
+	}
+
+	c:V05 ?= {
+		effect_cow_1816_starting_technology_tier_2_tech = yes
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_freedom_of_conscience
+	}
+
+	c:V06 ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_slave_trade
+	}
+
+	c:V07 ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_isolationism
+	}
+
+	c:V10 ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_state_religion
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:MLT ?= {
+		set_country_type = colonial
+	}
+
+	c:SUD ?= {
+		effect_starting_technology_tier_5_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_mercantilism
+	}
+
+	c:ZAN ?= {
+		effect_starting_technology_tier_5_tech = yes
+		add_technology_researched = international_trade
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_mercantilism
+	}
+
+	c:VIE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+	}
+}

@@ -1,0 +1,48 @@
+﻿DIPLOMACY = {
+	c:TUR ?= {
+		create_diplomatic_pact = {
+			country = c:ALD
+			type = protectorate
+		}
+
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:TRI
+					type = puppet
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:TRI
+				type = puppet
+			}
+		}
+
+		create_diplomatic_pact = {
+			country = c:TRI
+			type = protectorate
+		}
+	}
+
+	c:TRI ?= {
+		create_diplomatic_pact = {
+			country = c:FZN
+			type = tributary
+		}
+	}
+
+	c:GBR ?= {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:ABU
+					type = protectorate
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:ABU
+				type = protectorate
+			}
+		}
+	}
+}

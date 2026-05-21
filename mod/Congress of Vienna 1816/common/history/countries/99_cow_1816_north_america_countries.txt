@@ -1,0 +1,62 @@
+﻿COUNTRIES = {
+	c:NEW ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_subjecthood
+	}
+
+	c:SC1 ?= {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_subjecthood
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+
+	c:GUA ?= {
+		set_country_type = colonial
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_subjecthood
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+
+	c:COM ?= {
+		set_country_type = unrecognized
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_11 = yes
+	}
+
+	c:DKT ?= {
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+}

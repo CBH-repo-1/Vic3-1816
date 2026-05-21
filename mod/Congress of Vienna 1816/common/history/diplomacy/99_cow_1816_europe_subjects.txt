@@ -1,0 +1,39 @@
+﻿DIPLOMACY = {
+	# 1816 European subject layer.
+	# Vanilla already covers GBR->HAN, DEN->HOL/SCH, NET->LUX, SWE->NOR,
+	# RUS->FIN, GBR->ION, and TUR->MOL/WAL/SER.
+
+	c:AUS ?= {
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = crown_land
+		}
+
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					who = c:KRA
+					type = puppet
+				}
+			}
+			remove_diplomatic_pact = {
+				country = c:KRA
+				type = puppet
+			}
+		}
+	}
+
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:MLT
+			type = colony
+		}
+	}
+
+	c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:POL
+			type = personal_union
+		}
+	}
+}

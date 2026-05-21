@@ -1,0 +1,196 @@
+﻿DIPLOMACY = {
+	c:BIC ?= {
+		if = {
+			limit = { has_diplomatic_pact = { who = c:NAG type = puppet } }
+			remove_diplomatic_pact = { country = c:NAG type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:NAG type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:NAG type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:IND type = puppet } }
+			remove_diplomatic_pact = { country = c:IND type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:IND type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:IND type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:GWA type = puppet } }
+			remove_diplomatic_pact = { country = c:GWA type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:GWA type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:GWA type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BAS type = puppet } }
+			remove_diplomatic_pact = { country = c:BAS type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BAS type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:BAS type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BHO type = puppet } }
+			remove_diplomatic_pact = { country = c:BHO type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BHO type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:BHO type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:MEW type = puppet } }
+			remove_diplomatic_pact = { country = c:MEW type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:MEW type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:MEW type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JAI type = puppet } }
+			remove_diplomatic_pact = { country = c:JAI type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JAI type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:JAI type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JOD type = puppet } }
+			remove_diplomatic_pact = { country = c:JOD type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JOD type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:JOD type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BIK type = puppet } }
+			remove_diplomatic_pact = { country = c:BIK type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BIK type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:BIK type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JAS type = puppet } }
+			remove_diplomatic_pact = { country = c:JAS type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JAS type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:JAS type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:KOT type = puppet } }
+			remove_diplomatic_pact = { country = c:KOT type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:KOT type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:KOT type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:ASM type = puppet } }
+			remove_diplomatic_pact = { country = c:ASM type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:ASM type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:ASM type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:MNP type = puppet } }
+			remove_diplomatic_pact = { country = c:MNP type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:MNP type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:MNP type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:KUT type = puppet } }
+			remove_diplomatic_pact = { country = c:KUT type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:KUT type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:KUT type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:IDA type = puppet } }
+			remove_diplomatic_pact = { country = c:IDA type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:IDA type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:IDA type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:NAW type = puppet } }
+			remove_diplomatic_pact = { country = c:NAW type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:NAW type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:NAW type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:DHA type = puppet } }
+			remove_diplomatic_pact = { country = c:DHA type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:DHA type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:DHA type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JUN type = puppet } }
+			remove_diplomatic_pact = { country = c:JUN type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:JUN type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:JUN type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BHV type = puppet } }
+			remove_diplomatic_pact = { country = c:BHV type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BHV type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:BHV type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:PLP type = puppet } }
+			remove_diplomatic_pact = { country = c:PLP type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:PLP type = exempt_from_service } }
+			remove_diplomatic_pact = { country = c:PLP type = exempt_from_service }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:SAT type = puppet } }
+			remove_diplomatic_pact = { country = c:SAT type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BER type = puppet } }
+			remove_diplomatic_pact = { country = c:BER type = puppet }
+		}
+		if = {
+			limit = { has_diplomatic_pact = { who = c:BER type = puppet } }
+			remove_diplomatic_pact = { country = c:BER type = puppet }
+		}
+
+		create_diplomatic_pact = { country = c:SAT type = protectorate }
+		create_diplomatic_pact = { country = c:BER type = protectorate }
+		create_diplomatic_pact = { country = c:TIP type = protectorate }
+		create_diplomatic_pact = { country = c:KUT type = protectorate }
+		create_diplomatic_pact = { country = c:IDA type = protectorate }
+		create_diplomatic_pact = { country = c:NAW type = protectorate }
+		create_diplomatic_pact = { country = c:DHA type = protectorate }
+		create_diplomatic_pact = { country = c:JUN type = protectorate }
+		create_diplomatic_pact = { country = c:BHV type = protectorate }
+		create_diplomatic_pact = { country = c:PLP type = protectorate }
+	}
+
+	c:NAG ?= {
+		create_diplomatic_pact = { country = c:BAS type = tributary }
+	}
+
+	c:KAB ?= {
+		create_diplomatic_pact = { country = c:KAS type = tributary }
+		create_diplomatic_pact = { country = c:V10 type = tributary }
+	}
+}

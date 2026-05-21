@@ -1,0 +1,35 @@
+﻿COUNTRIES = {
+	c:ALD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_slave_trade
+	}
+
+	c:GML ?= {
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:LOM ?= {
+		effect_cow_1816_starting_technology_tier_2_tech = yes
+		effect_starting_politics_reactionary = yes
+
+		set_tax_level = medium
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+	}
+
+	c:POL ?= {
+		effect_cow_1816_starting_technology_tier_2_tech = yes
+		effect_starting_politics_reactionary = yes
+
+		activate_law = law_type:law_national_supremacy
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+	}
+}

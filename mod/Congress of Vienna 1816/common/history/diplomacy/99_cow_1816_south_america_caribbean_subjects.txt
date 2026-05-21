@@ -1,0 +1,42 @@
+﻿DIPLOMACY = {
+	c:SPA ?= {
+		create_diplomatic_pact = {
+			country = c:SC2
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:SC3
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:CHL
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:DOM
+			type = colony
+		}
+	}
+
+	c:POR ?= {
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = personal_union
+		}
+	}
+
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:JAM
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:BAH
+			type = colony
+		}
+	}
+}

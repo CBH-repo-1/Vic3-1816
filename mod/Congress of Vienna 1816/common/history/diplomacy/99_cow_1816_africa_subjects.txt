@@ -1,0 +1,10 @@
+﻿DIPLOMACY = {
+	# Zanzibar is playable for the 1816 start, but remains in the Omani
+	# sphere rather than a fully independent coastal state.
+	c:OMA ?= {
+		create_diplomatic_pact = {
+			country = c:ZAN
+			type = tributary
+		}
+	}
+}
