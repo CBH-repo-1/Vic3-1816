@@ -15,6 +15,7 @@
 
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_legacy_slavery
 	}
 
 	c:BAH ?= {
@@ -24,5 +25,6 @@
 
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_legacy_slavery
 	}
 }

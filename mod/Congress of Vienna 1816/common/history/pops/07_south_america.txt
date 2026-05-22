@@ -33,6 +33,7 @@ POPS = {
 	s:STATE_GUAYANA = {
 		region_state:NET = {
 			create_pop = {
+				pop_type = slaves
 				culture = afro_caribbean
 				religion = animist
 				size = 36000
@@ -46,6 +47,7 @@ POPS = {
 				size = 7796
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = afro_caribbean
 				size = 12000
 			}
@@ -60,12 +62,18 @@ POPS = {
 				size = 4000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = afro_antillean
-				size = 14400
+				size = 12251
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 2149
 			}
 		}
 		region_state:GBR = {
 			create_pop = {
+				pop_type = slaves
 				culture = afro_caribbean
 				size = 92000
 			}
@@ -832,12 +840,13 @@ POPS = {
 		region_state:CHL = {
 			create_pop = {
 				culture = south_andean
-				size = 611756
+				size = 609376
 			}
 
 			create_pop = {
+				pop_type = slaves
 				culture = afro_caribeno	# Afro Chileans
-				size = 1120
+				size = 3500
 			}
 		}
 	}

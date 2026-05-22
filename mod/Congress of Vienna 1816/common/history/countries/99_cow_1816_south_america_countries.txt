@@ -10,6 +10,7 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_slavery
 		activate_law = law_type:law_subjecthood
 
 		ig:ig_landowners ?= {
@@ -31,6 +32,7 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_slavery
 		activate_law = law_type:law_subjecthood
 
 		ig:ig_landowners ?= {

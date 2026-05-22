@@ -17,6 +17,7 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_slavery
 		activate_law = law_type:law_subjecthood
 
 		ig:ig_landowners ?= {
@@ -52,6 +53,10 @@
 		set_country_type = unrecognized
 		effect_starting_politics_traditional = yes
 		effect_native_conscription_11 = yes
+	}
+
+	c:LKT ?= {
+		set_country_type = unrecognized
 	}
 
 	c:DKT ?= {
