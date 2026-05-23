@@ -1,6 +1,6 @@
 # Europe Population Refinement Audit
 
-Status: audit complete; proposed changes pending approval.
+Status: Baltic Governorates correction implemented after approval.
 
 ## Current Safety Checks
 
@@ -79,8 +79,30 @@ This conflicts with the approved Europe inventory, which says the Baltic Governo
 
 ## Approval Needed
 
-Approve the recommended Baltic Governorates correction:
+Approved and implemented:
 
-- Move start ownership and population from active `UBD` to `RUS`.
-- Keep `UBD` available only as a releasable/flavor tag.
-- Then run a focused Russian population total review so the final number is deliberate.
+- Start ownership and population were moved from active `UBD` to `RUS`.
+- `UBD` remains defined but no longer has start-map ownership or start-population buckets.
+- Direct `RUS` population was rescaled back to the existing approved target of 45,800,000 after absorbing the Baltic Governorates.
+
+## Implementation Details
+
+- `STATE_TALINN`, `STATE_TARTU`, the Livonian part of `STATE_RIGA`, and `STATE_COURLAND` now start under `RUS`.
+- `STATE_RIGA`'s prior split `RUS` and `UBD` pop buckets were merged into one `RUS` bucket before scaling.
+- Focused Baltic `RUS` pop totals after the global direct-Russia rescale:
+  - `STATE_COURLAND`: 452,175.
+  - `STATE_RIGA`: 644,548.
+  - `STATE_TALINN`: 302,422.
+  - `STATE_TARTU`: 300,858.
+
+## Post-Implementation Validation
+
+- `RUS`: 45,800,000.
+- `POL`: 2,600,000.
+- `FIN`: 1,112,400.
+- No active `country = c:UBD` ownership remains in state history.
+- No `region_state:UBD` pop buckets remain.
+- Province-owning state/country pairs missing pop buckets: 0.
+- Nonpositive scripted pop sizes: 0.
+- Changed state and pop files have clean brace depth.
+- Changed state and pop files are UTF-8 BOM encoded.

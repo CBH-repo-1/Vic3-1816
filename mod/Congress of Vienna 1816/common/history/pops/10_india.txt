@@ -159,74 +159,68 @@ POPS = {
 		region_state:ASM = {
 			create_pop = {
 				culture = assamese
-				size = 427662
+				size = 172748
 			}
 
 			create_pop = {
 				culture = manipuri
-				size = 12536
+				size = 5064
 			}
 
 			create_pop = {
 				culture = assamese
 				pop_type = slaves
-				size = 63948
+				size = 25831
 			}
 
 			create_pop = {
 				culture = bengali
-				size = 100400
+				size = 40555
 			}
 
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 87888
+				size = 35501
 			}
 
 			create_pop = {
-				culture = british # including Irish
-				size = 526
-				pop_type = bureaucrats
-			}
-
-			create_pop = {
-				culture = scottish
-				size = 175
+				culture = assamese
+				size = 283
 				pop_type = bureaucrats
 			}
 
 			create_pop = {
 				culture = naga # Khasi
-				size = 15592
+				size = 6298
 			}
 
 			create_pop = {
 				culture = assamese
-				size = 883896
+				size = 357038
 			}
 
 			create_pop = {
 				culture = assamese
 				pop_type = slaves
-				size = 57106
+				size = 23067
 			}
 
 			create_pop = {
 				culture = assamese
 				religion = animist
-				size = 313601
+				size = 126675
 			}
 
 			create_pop = {
 				culture = assamese
 				religion = sunni
-				size = 76482
+				size = 30894
 			}
 
 			create_pop = {
 				culture = naga
-				size = 188262
+				size = 76046
 			}
 		}
 		region_state:NGA = {
@@ -1636,52 +1630,52 @@ POPS = {
 		region_state:BCE = {
 			create_pop = {
 				culture = sinhala
-				size = 1064395
+				size = 602945
 			}
 			create_pop = {
 				culture = lacustrine_bantu
-				size =877
+				size =497
 			}
 			create_pop = {
 				culture = tamil
-				size = 243159
+				size = 137742
 			}
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 40109
+				size = 22721
 			}
 			create_pop = {
 				culture = sinhala
 				religion = sunni
-				size = 30082
+				size = 17041
 			}
 			create_pop = {
 				culture = malay
-				size = 20556
+				size = 11644
 			}
 			create_pop = {
 				culture = british
-				size = 10017
+				size = 5674
 			}
 			create_pop = {
 				culture = sinhala
-				size =45373
+				size =25702
 			}
 			create_pop = {
 				culture = sinhala
 				religion = protestant
-				size = 15041
+				size = 8520
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = tamil
-				size = 26321
+				size = 14910
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sinhala
-				size = 8022
+				size = 4544
 			}
 		}
 		region_state:MLD = {

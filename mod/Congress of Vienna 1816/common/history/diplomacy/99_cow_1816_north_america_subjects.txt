@@ -4,6 +4,38 @@
 			country = c:NEW
 			type = colony
 		}
+
+		create_diplomatic_pact = {
+			country = c:ONT
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:QUE
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:NBS
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:NVS
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:HBC
+			type = chartered_company
+		}
+	}
+
+	c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:ALK
+			type = chartered_company
+		}
 	}
 
 	c:SPA ?= {

@@ -1,11 +1,5 @@
 ﻿POPS = {
 	s:STATE_IVORY_COAST = {
-		region_state:FRA = {
-			create_pop = {
-				culture = akan
-				size = 91923
-			}
-		}
 		region_state:BLE = {
 			create_pop = {
 				culture = akan
@@ -34,7 +28,7 @@
 		region_state:AYI = {
 			create_pop = {
 				culture = akan
-				size = 82730
+				size = 174653
 			}
 			create_pop = {
 				pop_type = slaves
@@ -2266,27 +2260,14 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:SIL = {
-			create_pop = {
-				culture = british
-				size = 44
-			}
-			create_pop = {
-				culture = fang
-				religion = protestant
-				size = 533
-			}
-			create_pop = {
-				culture = fang
-				size = 538
-			}
+		region_state:SPA = {
 			create_pop = {
 				culture = equatorial_bantu
-				size = 4711
+				size = 6843
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 1067
+				culture = spanish
+				size = 50
 			}
 		}
 		region_state:POR = {

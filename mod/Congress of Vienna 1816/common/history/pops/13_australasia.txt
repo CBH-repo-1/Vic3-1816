@@ -7,11 +7,11 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 101384
+				size = 13098
 			}
 			create_pop = {
 				culture = irish
-				size = 16080
+				size = 2077
 			}
 		}
 	}
@@ -22,7 +22,7 @@
 				size = 31118
 			}
 			create_pop = {
-				culture = australian
+				culture = aborigine
 				size = 24676
 			}
 		}
@@ -32,12 +32,12 @@
 		region_state:NSW = {
 			create_pop = {
 				culture = aborigine
-				size = 200
+				size = 5000
 			}
 
 			create_pop = {
 				culture = australian
-				size = 41200
+				size = 2000
 			}
 		}
 	}
@@ -48,7 +48,7 @@
 				size = 59200
 			}
 			create_pop = {
-				culture = australian
+				culture = aborigine
 				size = 4000
 			}
 		}
@@ -56,7 +56,7 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:WTI = {
 			create_pop = {
-				culture = australian
+				culture = aborigine
 				size = 10500
 			}
 
@@ -73,7 +73,7 @@
 		}
 		region_state:KAU = {
 			create_pop = {
-				culture = australian
+				culture = aborigine
 				size = 300
 			}
 
@@ -91,7 +91,7 @@
 			}
 
 			create_pop = {
-				culture = australian
+				culture = aborigine
 				size = 3004
 			}
 
@@ -133,47 +133,21 @@
 		region_state:NTO = {
 			create_pop = {
 				culture = maori
-				religion = protestant
-				size = 30000
-			}
-
-			create_pop = {
-				culture = maori
-				size = 25000
-			}
-
-			create_pop = {
-				culture = maori
-				size = 5000
-			}
-
-			create_pop = {
-				culture = australian
-				size = 1004
-			}
-
-			create_pop = {
-				culture = maori
-				size = 32000
+				size = 85000
 			}
 		}
 	}
 	s:STATE_SOUTH_ISLAND = {
 		region_state:NTO = {
 			create_pop = {
-				culture = australian
-				size = 428
-			}
-
-			create_pop = {
 				culture = maori
-				size = 12000
+				size = 2000
 			}
 		}
 		region_state:NTU = {
 			create_pop = {
 				culture = maori
-				size = 64000
+				size = 13000
 			}
 		}
 	}

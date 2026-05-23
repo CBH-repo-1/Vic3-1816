@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:TUG ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -10,5 +10,9 @@
 		}
 		set_variable = algeria_touggourt_var
 		add_modifier = { name = modifier_regency_landowners }
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

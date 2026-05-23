@@ -7,4 +7,11 @@
 			type = tributary
 		}
 	}
+
+	c:OYO ?= {
+		create_diplomatic_pact = {
+			country = c:DAH
+			type = tributary
+		}
+	}
 }

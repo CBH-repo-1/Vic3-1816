@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:SIL ?= {
 		effect_starting_technology_tier_3_tech = yes
 		activate_law = law_type:law_colonial_administration # Sierra Leone was subject to the British crown but wasn't itself a monarchy
@@ -16,5 +16,9 @@
 		}
 
 		add_primary_culture = cu:british
+
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:FRM ?= {
 		# set_next_election_date = ???
 		
@@ -16,6 +16,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 2
+		}
+
+		ig:ig_petty_bourgeoisie ?= {
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_kleinburger
 		}
 	}
 }

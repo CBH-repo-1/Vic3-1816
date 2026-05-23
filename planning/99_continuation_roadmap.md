@@ -188,13 +188,33 @@ Open technology work:
 - First pop-refinement batch is implemented and recorded in `planning/35_caribbean_pop_refinement.md`: Cuba, Puerto Rico, Jamaica, Bahamas, and the split West Indies colonies now have more plausible 1816 Caribbean totals and enslaved/free composition; `JAM` and `BAH` were given `law_legacy_slavery`.
 - North America USA state-distribution refinement is implemented and recorded in `planning/36_north_america_pop_refinement.md`: direct `USA` population was redistributed to approximate 1816 census-interpolated state totals, reducing overgrown frontier states while preserving each state's existing internal pop composition.
 - Comanche/Lakota playability refinement is implemented and recorded in `planning/37_comanche_lakota_playable_refinement.md`: `LKT` now receives a late unrecognized-country override like `COM`, and Comancheria's Oklahoma pop bucket was cleaned up from a later Cherokee/slave-heavy Indian Territory artifact into a Comanche/Caddoan/Siouan/Apache frontier mix.
+- Europe population refinement is started and recorded in `planning/40_europe_pop_refinement.md`: the active `UBD` Baltic Governorates start was removed, its ownership and population were folded into `RUS`, and direct `RUS` population was rescaled back to the approved 45,800,000 target.
+- MENA population refinement is implemented and recorded in `planning/41_mena_pop_refinement.md`: leftover Egyptian ownership/population in `STATE_ADANA` was removed, folded into `TUR`, and `EGY`/`TUR` were rescaled back to their approved totals.
+- Sub-Saharan Africa population refinement is implemented and recorded in `planning/42_subsaharan_africa_pop_refinement.md`: the too-early French Cote d'Ivoire port was moved to `AYI`, and Fernando Po/Bioko was moved from `SIL` to `SPA` with a local-heavy pop bucket.
+- Central Asia/Afghanistan population refinement is implemented and recorded in `planning/43_central_asia_afghanistan_pop_refinement.md`: `STATE_SEMIRECHE` was moved from `OZH` to `UZH`, and the matching pop bucket moved with it.
+- South Asia/India population refinement is implemented and recorded in `planning/44_south_asia_india_pop_refinement.md`: overlarge `BCE` Ceylon and `ASM` Assam buckets were scaled down, and tiny British/Scottish bureaucrat remnants in Assam were replaced with Assamese bureaucrats.
+- East Asia population refinement is implemented and recorded in `planning/45_east_asia_pop_refinement.md`: overlarge `STATE_FORMOSA`/`CHI` and `STATE_RYUKYU_ISLANDS`/`V07` pop buckets were scaled down while leaving mainland China, Japan, Korea, Tibet, and Hokkaido alone.
+- Southeast Asia/Indonesia population refinement is implemented in `planning/46_southeast_asia_indonesia_pop_refinement.md`: Spanish-subject Philippines and independent Philippine local populations were scaled down while leaving West Micronesia, North Borneo, Java, and mainland Southeast Asia alone for this pass.
+- Oceania population refinement is implemented in `planning/47_oceania_pop_refinement.md`: 1836 settler leftovers in Australia were corrected, New Zealand was rescaled to a cleaner 100,000 Maori total, and Hawaii's anachronistic Han/Christian/missionary composition was corrected while preserving its 145,000 total.
+- Russia/Siberia population refinement is audited in `planning/48_russia_siberia_pop_refinement.md`: direct `RUS` still matches the approved 45,800,000 target, Finland and Congress Poland are separate, Siberia/Alaska/Qing frontier buckets are plausible enough, and no focused pop edit is recommended.
+- Final global population QA is complete in `planning/49_global_population_qa.md`: pop/state alignment, definitions, pop types, slave-law consistency, profession sanity, and low-pop state checks are clean; no immediate pop data fix is recommended.
+- Government/laws/interest group clean pass is complete for the approved playable-only scope in `planning/50_government_laws_ig_clean_pass.md`: structural cleanup fixed missing `MLT` crown-colony laws and consolidated duplicate `COM`, `LKT`, and `KAU` country-history blocks; playable content added custom `law_native_council` for `COM`/`LKT`, removed anachronistic Organic Regulation/elected bureaucracy laws from `MOL`/`WAL`, added explicit ruling IGs to custom playable and colonial/company starts, toned down `KRA` from its over-liberal vanilla free-city setup, and left `ION` as the approved republic/protectorate abstraction.
+- Worldwide interest-group sweep is complete in `planning/54_worldwide_interest_group_sweep.md`: all 412 active landholders have country history, all active non-decentralized landholders now have an explicit ruling interest group, duplicate active country-history tags remain at 0, and law/IG references validate cleanly. This was a structural pass only; country-specific IG display names such as Qing scholar-officials, Romanian boyars, or Native Council elder names are deferred as future flavor/design work.
+- Focused interest-group flavor pass is complete in `planning/55_interest_group_flavor_pass.md`: high-visibility IG display names now cover Qing scholar-officials, Korean yangban, Romanian boyars, Native Council elders, East India Company/Presidency Armies, and Zamindars for major India starts; Bremen, Frankfurt, Hamburg, and Lubeck now use a `ig_petty_bourgeoisie`/`ig_kleinburger` ruling setup instead of landed aristocrats. Structural validation remains clean.
+- First claims/diplomacy clean pass is implemented and recorded in `planning/51_claims_diplomacy_clean_pass.md`: because the mod overrides vanilla diplomacy with empty `00_*` files, already-approved subject links are now recreated explicitly for European personal unions/crown lands, British/Spanish/Dutch colonial subjects, Ottoman dependents, Qing/Korean/Tibetan relationships, Southeast Asian subjects, BIC/British India, and selected African/MENA relationships. Static pact validation is clean with 82 created pacts, 0 bad references, and 0 duplicate creates. Claims were audited structurally; no claim-reference bug was found, but claim pruning is deferred for user design approval.
+- Subject-map sweep is complete in `planning/52_subject_map_sweep.md`: all 82 created pacts now have active start-map actors/targets, valid country-type compatibility, 0 duplicate creates, and 0 brace failures. The one technical mismatch found was `BIC -> TIP` as a protectorate while `TIP` was still decentralized; `TIP` is now `unrecognized` so the approved protectorate can appear on the subject map.
+- Worldwide focused claims pass is implemented in `planning/53_worldwide_claims_pass.md`: claim entries were reduced from 79 to 66 by removing Sweden's inherited Finland claims, Chile's inherited Antofagasta claim, the approved Patagonia/Araucania successor-state claims, early Greek claims on the Ionian Islands/Thessaly, Serbia's Delvidek claim, and Morocco's West Sahara claim. Remaining claim clusters such as USA frontier, Moldavia/Bessarabia, Caucasus, colonial/company, and Mindanao claims are intentionally preserved for later event or frontier systems.
 - Remaining building work: any later targeted economy or military corrections found in-game.
 
 Initial scripted European subject overrides:
 
-- `AUS -> LOM` as `crown_land`.
-- `GBR -> MLT` as `colony`.
-- `RUS -> POL` as `personal_union`.
+- `AUS -> HUN`, `TRS`, `CRO`, and `LOM` as `crown_land`.
+- `GBR -> HAN` as `personal_union`, `GBR -> ION` as `protectorate`, and `GBR -> MLT` as `colony`.
+- `DEN -> HOL` and `DEN -> SCH` as `personal_union`.
+- `NET -> LUX` as `personal_union` plus `grant_own_market`.
+- `SWE -> NOR` as `personal_union`.
+- `RUS -> FIN` and `RUS -> POL` as `personal_union`.
+- `TUR -> MOL`, `TUR -> WAL`, and `TUR -> SER` as `protectorate`.
 - Vanilla `AUS -> KRA` puppet pact removed, preserving Krakow as a free city landholder until joint-protection mechanics are scripted.
 - `MLT` is set to `colonial` country type in country history so the colony pact is valid.
 
@@ -243,7 +263,7 @@ Earlier recommended regional passes, now mostly collapsed into the consolidated 
 ## Before Scripting
 
 - Custom `V**` country definitions and approved first-pass localization overrides have been started.
-- Next script governments, dedicated military building levels, laws/claims, literacy/profession refinement, and later flavor/event systems.
+- Next script government/law/interest-group content batches, laws/claims, literacy/profession refinement, and later flavor/event systems.
 - After each script milestone, copy/sync the mod source into the Paradox launcher mod folder and test boot.
 
 ## Current MENA Work

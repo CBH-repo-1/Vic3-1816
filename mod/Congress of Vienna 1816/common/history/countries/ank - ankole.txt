@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:ANK ?= {
 		effect_starting_technology_tier_6_tech = yes
 
@@ -11,5 +11,9 @@
 		activate_law = law_type:law_debt_slavery
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_right_of_assembly
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

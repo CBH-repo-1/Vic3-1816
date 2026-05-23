@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:PLY ?= {
 		effect_starting_technology_tier_5_tech = yes
 		add_technology_researched = international_trade
@@ -12,5 +12,8 @@
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_subjecthood
 
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

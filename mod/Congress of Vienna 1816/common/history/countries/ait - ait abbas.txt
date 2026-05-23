@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:AIT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -9,5 +9,9 @@
 			type = je_reconquest_of_algeria
 		}
 		set_variable = algeria_ait_abbas_var
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

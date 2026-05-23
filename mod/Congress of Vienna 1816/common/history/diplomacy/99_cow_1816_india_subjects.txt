@@ -1,4 +1,11 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:BIC
+			type = chartered_company
+		}
+	}
+
 	c:BIC ?= {
 		if = {
 			limit = { has_diplomatic_pact = { who = c:NAG type = puppet } }
@@ -168,14 +175,18 @@
 			limit = { has_diplomatic_pact = { who = c:BER type = puppet } }
 			remove_diplomatic_pact = { country = c:BER type = puppet }
 		}
-		if = {
-			limit = { has_diplomatic_pact = { who = c:BER type = puppet } }
-			remove_diplomatic_pact = { country = c:BER type = puppet }
-		}
 
 		create_diplomatic_pact = { country = c:SAT type = protectorate }
 		create_diplomatic_pact = { country = c:BER type = protectorate }
 		create_diplomatic_pact = { country = c:TIP type = protectorate }
+		create_diplomatic_pact = { country = c:AWA type = protectorate }
+		create_diplomatic_pact = { country = c:HYD type = protectorate }
+		create_diplomatic_pact = { country = c:MYS type = protectorate }
+		create_diplomatic_pact = { country = c:TRA type = protectorate }
+		create_diplomatic_pact = { country = c:COC type = protectorate }
+		create_diplomatic_pact = { country = c:ALW type = protectorate }
+		create_diplomatic_pact = { country = c:PTA type = protectorate }
+		create_diplomatic_pact = { country = c:MUG type = puppet }
 		create_diplomatic_pact = { country = c:KUT type = protectorate }
 		create_diplomatic_pact = { country = c:IDA type = protectorate }
 		create_diplomatic_pact = { country = c:NAW type = protectorate }

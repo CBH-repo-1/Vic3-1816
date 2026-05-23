@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:MST ?= {
 		effect_starting_technology_tier_2_tech = yes
 		
@@ -8,6 +8,10 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 2
+		}
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
 		}
 	}
 }

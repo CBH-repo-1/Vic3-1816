@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:CHC ?= {
 		add_primary_culture = cu:north_caucasian
 		
@@ -20,6 +20,10 @@
 				has_dlc_feature = ep1_content
 			}
 			add_journal_entry = { type = je_caucasian_war_imamate }
+		}
+
+		ig:ig_devout ?= {
+			add_ruling_interest_group = yes
 		}
 	}
 }

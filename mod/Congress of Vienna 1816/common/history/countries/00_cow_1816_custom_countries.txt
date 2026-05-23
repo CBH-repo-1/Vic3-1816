@@ -3,24 +3,41 @@
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_conservative = yes
 		activate_law = law_type:law_freedom_of_conscience
+
+		ig:ig_devout ?= {
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_catholic_church
+		}
 	}
 
 	c:V04 ?= {
 		effect_cow_1816_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 		activate_law = law_type:law_freedom_of_conscience
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:V05 ?= {
 		effect_cow_1816_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 		activate_law = law_type:law_freedom_of_conscience
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:V06 ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_slave_trade
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:V07 ?= {
@@ -29,6 +46,10 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_isolationism
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:V10 ?= {
@@ -43,11 +64,24 @@
 
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
+			set_interest_group_name = ig_zamindars
 		}
 	}
 
 	c:MLT ?= {
 		set_country_type = colonial
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_subjecthood
+
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= {
+			set_interest_group_name = ig_catholic_church
+		}
 	}
 
 	c:SUD ?= {
@@ -55,6 +89,10 @@
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery
 		activate_law = law_type:law_mercantilism
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:ZAN ?= {
@@ -63,6 +101,10 @@
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery
 		activate_law = law_type:law_mercantilism
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:VIE ?= {

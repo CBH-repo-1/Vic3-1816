@@ -1,6 +1,16 @@
 ﻿DIPLOMACY = {
 	c:SPA ?= {
 		create_diplomatic_pact = {
+			country = c:CUB
+			type = colony
+		}
+
+		create_diplomatic_pact = {
+			country = c:PCO
+			type = colony
+		}
+
+		create_diplomatic_pact = {
 			country = c:SC2
 			type = colony
 		}

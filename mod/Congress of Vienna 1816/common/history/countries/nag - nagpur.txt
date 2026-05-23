@@ -1,6 +1,11 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:NAG ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_princely_state = yes
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_zamindars
+		}
 	}
 }

@@ -840,86 +840,86 @@
 		region_state:PHI = {
 			create_pop = {
 				culture = spanish
-				size = 12
+				size = 10
 			}
 			create_pop = {
 				culture = filipino_mestizo
-				size = 292
+				size = 250
 			}
 			create_pop = {
 				culture = visayan
-				size = 51331
+				size = 43847
 			}
 			create_pop = {
 				culture = lumad
 				religion = catholic
-				size = 6122
+				size = 5229
 			}
 			create_pop = {
 				culture = lumad
-				size = 42293
+				size = 36126
 			}
 		}
 		region_state:MGD = {
 			create_pop = {
 				culture = moro
-				size = 210124
+				size = 165011
 			}
 			create_pop = {
 				culture = filipino_mestizo
-				size = 5916
+				size = 4646
 			}
 			create_pop = {
 				culture = lumad
-				size = 51318
+				size = 40300
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lumad
 				religion = animist
-				size = 10221
+				size = 8027
 			}
 			create_pop = {
 				culture = bornean
-				size = 20405
+				size = 16024
 			}
 		}
 		region_state:MND = {
 			create_pop = {
 				culture = lumad
-				size = 460347
+				size = 361511
 			}
 			create_pop = {
 				culture = moro
-				size = 51127
+				size = 40150
 			}
 			create_pop = {
 				culture = visayan
-				size = 4897
+				size = 3846
 			}
 		}
 		region_state:SUL = {
 			create_pop = {
 				culture = moro
 				religion = sunni
-				size = 61609
+				size = 48382
 			}
 			create_pop = {
 				culture = bornean
-				size = 9792
+				size = 7690
 			}
 			create_pop = {
 				culture = lumad
-				size = 17544
+				size = 13777
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lumad
-				size = 6426
+				size = 5046
 			}
 			create_pop = {
 				culture = yue
-				size = 1224
+				size = 961
 			}
 		}
 	}
@@ -927,49 +927,49 @@
 		region_state:PHI = {
 			create_pop = {
 				culture = spanish
-				size = 961
+				size = 821
 			}
 			create_pop = {
 				culture = filipino_mestizo
-				size = 48500
+				size = 41428
 			}
 			create_pop = {
 			    culture = tagalog
-			    size = 879272
+			    size = 751070
 			}
 			create_pop = {
 			    culture = ilocano
-			    size = 385574
+			    size = 329356
 			}
 			create_pop = {
 			    culture = visayan
-			    size = 20708
+			    size = 17689
 			}
 			create_pop = {
 			    culture = tagalog
 			    religion = animist
-			    size = 7848
+			    size = 6704
 			}
 			create_pop = {
 			    culture = ilocano
 			    religion = animist
-			    size = 120313
+			    size = 102771
 			}
 		}
 		region_state:SUL = {
 			create_pop = {
 				culture = moro
 				religion = sunni
-				size = 31621
+				size = 24832
 			}
 			create_pop = {
 				culture = lumad
 				religion = animist
-				size = 12240
+				size = 9612
 			}
 			create_pop = {
 				culture = yue
-				size = 235
+				size = 185
 			}
 		}
 	}
@@ -977,24 +977,24 @@
 		region_state:PHI = {
 			create_pop = {
 				culture = spanish
-				size = 485
+				size = 414
 			}
 			create_pop = {
 				culture = filipino_mestizo
-				size = 27259
+				size = 23285
 			}
 			create_pop = {
 				culture = visayan
-				size = 855803
+				size = 731024
 			}
 			create_pop = {
 				culture = tagalog
-				size = 30602
+				size = 26140
 			}
 			create_pop = {
 				culture = visayan
 				religion = animist
-				size = 140291
+				size = 119836
 			}
 		}
 	}

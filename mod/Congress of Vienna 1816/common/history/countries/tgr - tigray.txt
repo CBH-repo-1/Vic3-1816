@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:TGR ?= {
 		effect_starting_technology_tier_5_tech = yes
 
@@ -8,5 +8,9 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_subjecthood
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

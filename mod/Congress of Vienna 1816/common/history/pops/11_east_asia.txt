@@ -972,29 +972,29 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = min
-				size = 1039831
+				size = 689298
 			}
 			create_pop = {
 				culture = min
 				religion = mahayana
-				size = 499119
+				size = 330863
 			}
 			create_pop = {
 				culture = manchu
-				size = 512
+				size = 340
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 629622
+				size = 417373
 			}
 			create_pop = {
 				culture = han # nanfaren
 				religion = mahayana
-				size = 224088
+				size = 148547
 			}
 			create_pop = {
 				culture = yuanzhumin
-				size = 623899
+				size = 413579
 			}
 		}
 	}
@@ -1815,7 +1815,7 @@
 		region_state:V07 = {
 			create_pop = {
 				culture = japanese
-				size = 264370
+				size = 155650
 			}
 		}
 	}

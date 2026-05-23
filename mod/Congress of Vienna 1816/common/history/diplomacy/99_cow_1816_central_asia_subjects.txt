@@ -28,4 +28,11 @@
 			}
 		}
 	}
+
+	c:KAL ?= {
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = vassal
+		}
+	}
 }

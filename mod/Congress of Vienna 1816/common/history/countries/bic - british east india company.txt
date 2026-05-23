@@ -2,6 +2,7 @@
 	c:BIC ?= {
 		ig:ig_industrialists ?= {
 			add_ruling_interest_group = yes
+			set_interest_group_name = ig_east_india_company
 		}
 		effect_cow_1816_starting_technology_tier_2_tech = yes
 
@@ -30,6 +31,7 @@
 
 		ig:ig_armed_forces ?= {
 			add_ruling_interest_group = yes
+			set_interest_group_name = ig_presidency_armies
 		}
 
 		set_tax_level = high # EIC revenue was essentially based on tax farming

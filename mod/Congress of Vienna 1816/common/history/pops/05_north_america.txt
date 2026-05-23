@@ -1210,12 +1210,6 @@
 	s:STATE_HAWAIIAN_ISLANDS = {
 		region_state:HAW = {
 			create_pop = {
-				pop_type = clergymen
-				culture = yankee
-				religion = protestant
-				size = 75
-			}
-			create_pop = {
 				pop_type = capitalists
 				culture = yankee
 				religion = protestant
@@ -1233,17 +1227,8 @@
 			}
 			create_pop = {
 				culture = hawaiian
-				religion = protestant
-				size = 99863
-			}
-			create_pop = {
-				culture = hawaiian
-				religion = catholic
-				size = 6416
-			}
-			create_pop = {
-				culture = han
-				size = 37740
+				religion = animist
+				size = 144094
 			}
 		}
 	}

@@ -20,6 +20,7 @@
 
 		ig:ig_landowners ?= { 
 			add_ruling_interest_group = yes
+			set_interest_group_name = ig_yangban
 		}
 
 		add_modifier = { name = modifier_regency_landowners }

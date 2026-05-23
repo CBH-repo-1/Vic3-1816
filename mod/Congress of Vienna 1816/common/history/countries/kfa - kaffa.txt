@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:KFA ?= {
 		effect_starting_technology_tier_5_tech = yes
 
@@ -6,5 +6,9 @@
 
 		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_mercantilism
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

@@ -4608,7 +4608,7 @@ NGA = { # Naga
 
 TIP = { # Tipperah
 	color = { 255 204 204 }
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 

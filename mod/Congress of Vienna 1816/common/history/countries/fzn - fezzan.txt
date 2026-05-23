@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:FZN ?= {
 		effect_starting_technology_tier_4_tech = yes
 
@@ -6,5 +6,9 @@
 		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_tenant_farmers
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

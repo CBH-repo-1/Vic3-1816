@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:OMA ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -30,5 +30,9 @@
 		activate_law = law_type:law_right_of_assembly
 
 		set_market_capital = STATE_OMAN
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

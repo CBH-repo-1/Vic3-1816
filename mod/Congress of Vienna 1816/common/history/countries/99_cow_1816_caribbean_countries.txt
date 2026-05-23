@@ -6,6 +6,13 @@
 
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_subjecthood
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_devout ?= {
+			set_interest_group_name = ig_catholic_church
+		}
 	}
 
 	c:JAM ?= {
@@ -16,6 +23,10 @@
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_legacy_slavery
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 
 	c:BAH ?= {
@@ -26,5 +37,9 @@
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_legacy_slavery
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

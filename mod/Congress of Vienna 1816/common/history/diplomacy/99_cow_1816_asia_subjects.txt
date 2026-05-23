@@ -1,4 +1,49 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
+	c:SPA ?= {
+		create_diplomatic_pact = {
+			country = c:PHI
+			type = colony
+		}
+	}
+
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:BCE
+			type = colony
+		}
+	}
+
+	c:NET ?= {
+		create_diplomatic_pact = {
+			country = c:DEI
+			type = dominion
+		}
+	}
+
+	c:DEI ?= {
+		create_diplomatic_pact = {
+			country = c:YOG
+			type = puppet
+		}
+
+		create_diplomatic_pact = {
+			country = c:SRK
+			type = puppet
+		}
+	}
+
+	c:CHI ?= {
+		create_diplomatic_pact = {
+			country = c:TIB
+			type = vassal
+		}
+
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = tributary
+		}
+	}
+
 	c:JAP ?= {
 		create_diplomatic_pact = {
 			country = c:V07
@@ -8,8 +53,37 @@
 
 	c:SIA ?= {
 		create_diplomatic_pact = {
+			country = c:CHP
+			type = vassal
+		}
+
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = vassal
+		}
+
+		create_diplomatic_pact = {
+			country = c:LUA
+			type = tributary
+		}
+
+		create_diplomatic_pact = {
 			country = c:VIE
 			type = tributary
+		}
+	}
+
+	c:DAI ?= {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = vassal
+		}
+	}
+
+	c:BUR ?= {
+		create_diplomatic_pact = {
+			country = c:SHS
+			type = vassal
 		}
 	}
 }

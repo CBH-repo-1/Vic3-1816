@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:HEK ?= {
 		effect_starting_technology_tier_2_tech = yes
 		
@@ -9,5 +9,9 @@
 			institution = institution_schools
 			level = 2
 		}		
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
 	}
 }

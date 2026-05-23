@@ -1,8 +1,2 @@
 ﻿COUNTRIES = {
-	# Keep Kaurna as a local/decentralized polity after removing the 1836-style
-	# British protectorate relationship.
-	c:KAU ?= {
-		set_country_type = decentralized
-		effect_starting_politics_traditional = yes
-	}
 }

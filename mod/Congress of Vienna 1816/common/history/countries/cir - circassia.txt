@@ -1,4 +1,4 @@
-﻿COUNTRIES = {
+COUNTRIES = {
 	c:CIR ?= {
 		effect_starting_technology_tier_3_tech = yes
 		
@@ -18,6 +18,10 @@
 				has_dlc_feature = ep1_content
 			}
 			add_journal_entry = { type = je_caucasian_war_circassia }
+		}
+
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
 		}
 	}
 }

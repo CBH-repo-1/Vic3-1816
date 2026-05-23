@@ -1,6 +1,14 @@
 ﻿COUNTRIES = {
 	c:HBC ?= {
 		effect_starting_technology_tier_3_tech = yes
+
+		ig:ig_industrialists ?= {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+		}
+
 		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_total_separation
