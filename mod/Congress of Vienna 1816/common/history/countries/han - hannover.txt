@@ -18,7 +18,7 @@ COUNTRIES = {
 			level = 2
 		}
 		
-		add_journal_entry = { type = je_victoria }
+		# COW 1816: the Victoria succession journal entry is delayed from the 1816 Regency-era start.
 
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes

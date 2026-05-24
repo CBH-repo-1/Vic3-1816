@@ -1,10 +1,27 @@
 ﻿CHARACTERS = {
 	c:FRA ?= {
-		create_character = { # King Louis-Philippe d'Orléans
-			template = FRA_louis_philippe
+		create_character = { # Louis XVIII
+			first_name = Louis
+			last_name = de_Bourbon
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1755.11.17
+			culture = cu:french
+			interest_group = ig_landowners
+			ideology = ideology_legitimist
+			traits = {
+				cautious
+				basic_political_operator
+			}
+			on_created = {
+				set_variable = legitimist_leader
+				set_variable = house_bourbon
+				set_variable = is_married
+			}
 		}
-		create_character = { # Heir, Prince Ferdinand-Philippe
-			template = FRA_ferdinand_philippe
+		create_character = { # Louis Antoine, Duke of Angouleme
+			template = FRA_louis_antoine_de_bourbon
 		}
 
 		## Interest Group leaders ##

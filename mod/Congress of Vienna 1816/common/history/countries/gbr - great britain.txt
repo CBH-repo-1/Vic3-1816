@@ -73,7 +73,7 @@
 			level = 1
 		}
 
-		add_journal_entry = { type = je_victoria }
+		# COW 1816: the Victoria succession journal entry is delayed from the 1816 Regency-era start.
 		if = {
 			limit = {
 				has_dlc_feature = rp1_content

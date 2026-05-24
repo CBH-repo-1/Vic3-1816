@@ -1,15 +1,44 @@
 ﻿CHARACTERS = {
 	c:SPA ?= {
 		create_character = {
-			template = spa_maria_cristina_template
+			# Ferdinand VII
+			first_name = Fernando
+			last_name = de_Borbon
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1784.10.14
+			culture = cu:spanish
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				imperious
+				pious
+			}
 			on_created = {
-				set_variable = { name = regency_years value = 3 }
-				set_character_immortal = yes
+				set_variable = house_bourbon
 			}
 		}
 
 		create_character = {
-			template = spa_isabel_de_borbon_template
+			# Infante Carlos, Count of Molina
+			first_name = Carlos
+			last_name = de_Borbon
+			historical = yes
+			heir = yes
+			noble = yes
+			birth_date = 1788.3.29
+			culture = cu:spanish
+			interest_group = ig_landowners
+			ideology = ideology_carlist
+			traits = {
+				ambitious
+				persistent
+				arrogant
+			}
+			on_created = {
+				set_variable = house_bourbon
+			}
 		}
 
 		create_character = {

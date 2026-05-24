@@ -1,7 +1,19 @@
 ﻿CHARACTERS = {
 	c:USA ?= {
 		create_character = {
-			template = usa_andrew_jackson_template
+			# James Madison, president on 1816.1.1.
+			first_name = James
+			last_name = Madison
+			historical = yes
+			ruler = yes
+			birth_date = 1751.3.16
+			culture = cu:yankee
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				erudite
+				cautious
+			}
 		}
 
 		create_character = {

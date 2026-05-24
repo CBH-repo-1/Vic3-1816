@@ -1,0 +1,304 @@
+﻿DIPLOMACY = {
+	# Great powers and the post-Vienna settlement.
+	c:GBR ?= {
+		set_relations = { country = c:AUS value = 30 }
+		set_relations = { country = c:PRU value = 25 }
+		set_relations = { country = c:RUS value = 15 }
+		set_relations = { country = c:FRA value = -25 }
+		set_relations = { country = c:POR value = 60 }
+		set_relations = { country = c:NET value = 35 }
+		set_relations = { country = c:SPA value = 20 }
+		set_relations = { country = c:TUR value = 20 }
+		set_relations = { country = c:USA value = 10 }
+		set_relations = { country = c:BIC value = 80 }
+		set_relations = { country = c:HAN value = 60 }
+		set_relations = { country = c:ION value = 50 }
+		set_relations = { country = c:MLT value = 50 }
+		set_relations = { country = c:HBC value = 60 }
+		set_relations = { country = c:QUE value = 50 }
+		set_relations = { country = c:ONT value = 50 }
+		set_relations = { country = c:NVS value = 50 }
+		set_relations = { country = c:NBS value = 50 }
+		set_relations = { country = c:NEW value = 50 }
+		set_relations = { country = c:JAM value = 45 }
+		set_relations = { country = c:BAH value = 45 }
+		set_relations = { country = c:BCE value = 50 }
+		set_relations = { country = c:SIL value = 40 }
+		set_relations = { country = c:SAF value = 40 }
+		set_relations = { country = c:HAW value = 10 }
+		set_relations = { country = c:PLY value = 10 }
+	}
+
+	c:AUS ?= {
+		set_relations = { country = c:PRU value = 30 }
+		set_relations = { country = c:RUS value = 40 }
+		set_relations = { country = c:FRA value = -20 }
+		set_relations = { country = c:TUR value = -20 }
+		set_relations = { country = c:HUN value = 60 }
+		set_relations = { country = c:TRS value = 60 }
+		set_relations = { country = c:CRO value = 60 }
+		set_relations = { country = c:LOM value = 60 }
+		set_relations = { country = c:KRA value = 25 }
+		set_relations = { country = c:BAV value = 30 }
+		set_relations = { country = c:BAD value = 30 }
+		set_relations = { country = c:WUR value = 30 }
+		set_relations = { country = c:SAX value = 30 }
+		set_relations = { country = c:SIC value = 30 }
+		set_relations = { country = c:PAP value = 30 }
+		set_relations = { country = c:MOD value = 30 }
+		set_relations = { country = c:PAR value = 30 }
+		set_relations = { country = c:LUC value = 30 }
+		set_relations = { country = c:SAR value = 30 }
+	}
+
+	c:PRU ?= {
+		set_relations = { country = c:RUS value = 35 }
+		set_relations = { country = c:FRA value = -30 }
+		set_relations = { country = c:SWE value = 20 }
+		set_relations = { country = c:HAN value = 20 }
+		set_relations = { country = c:BRA value = 30 }
+		set_relations = { country = c:BRE value = 30 }
+		set_relations = { country = c:HAM value = 30 }
+		set_relations = { country = c:LUB value = 30 }
+		set_relations = { country = c:FRM value = 25 }
+		set_relations = { country = c:SAX value = 25 }
+		set_relations = { country = c:HES value = 25 }
+		set_relations = { country = c:HEK value = 25 }
+		set_relations = { country = c:NAS value = 25 }
+		set_relations = { country = c:ANH value = 25 }
+		set_relations = { country = c:MEC value = 25 }
+		set_relations = { country = c:MST value = 25 }
+		set_relations = { country = c:OLD value = 25 }
+		set_relations = { country = c:SCM value = 25 }
+		set_relations = { country = c:SCW value = 25 }
+		set_relations = { country = c:COB value = 25 }
+		set_relations = { country = c:MEI value = 25 }
+		set_relations = { country = c:WEI value = 25 }
+		set_relations = { country = c:HOH value = 25 }
+		set_relations = { country = c:WLD value = 25 }
+		set_relations = { country = c:BAV value = 20 }
+		set_relations = { country = c:BAD value = 20 }
+		set_relations = { country = c:WUR value = 20 }
+	}
+
+	c:RUS ?= {
+		set_relations = { country = c:TUR value = -45 }
+		set_relations = { country = c:PER value = -35 }
+		set_relations = { country = c:SWE value = -20 }
+		set_relations = { country = c:FIN value = 50 }
+		set_relations = { country = c:POL value = 30 }
+		set_relations = { country = c:CHI value = 10 }
+		set_relations = { country = c:KZH value = 5 }
+		set_relations = { country = c:OZH value = 5 }
+		set_relations = { country = c:UZH value = 5 }
+		set_relations = { country = c:CHC value = -40 }
+		set_relations = { country = c:CIR value = -40 }
+		set_relations = { country = c:MOL value = 25 }
+		set_relations = { country = c:WAL value = 25 }
+		set_relations = { country = c:SER value = 35 }
+	}
+
+	c:FRA ?= {
+		set_relations = { country = c:NET value = -25 }
+		set_relations = { country = c:SPA value = 10 }
+		set_relations = { country = c:PAP value = 20 }
+		set_relations = { country = c:SAR value = 20 }
+		set_relations = { country = c:SIC value = 10 }
+		set_relations = { country = c:HAI value = -50 }
+		set_relations = { country = c:PLY value = 20 }
+	}
+
+	c:NET ?= {
+		set_relations = { country = c:LUX value = 60 }
+		set_relations = { country = c:DEI value = 80 }
+		set_relations = { country = c:JAP value = 20 }
+	}
+
+	c:SWE ?= {
+		set_relations = { country = c:NOR value = 50 }
+		set_relations = { country = c:DEN value = -20 }
+	}
+
+	c:DEN ?= {
+		set_relations = { country = c:HOL value = 50 }
+		set_relations = { country = c:SCH value = 50 }
+		set_relations = { country = c:PRU value = -10 }
+	}
+
+	# Atlantic empires and the Americas.
+	c:SPA ?= {
+		set_relations = { country = c:POR value = 30 }
+		set_relations = { country = c:USA value = -25 }
+		set_relations = { country = c:HAI value = -20 }
+		set_relations = { country = c:ARG value = -60 }
+		set_relations = { country = c:PRG value = -30 }
+		set_relations = { country = c:URU value = -25 }
+		set_relations = { country = c:CUB value = 50 }
+		set_relations = { country = c:PCO value = 50 }
+		set_relations = { country = c:DOM value = 50 }
+		set_relations = { country = c:SC1 value = 50 }
+		set_relations = { country = c:GUA value = 50 }
+		set_relations = { country = c:SC2 value = 50 }
+		set_relations = { country = c:SC3 value = 50 }
+		set_relations = { country = c:CHL value = 50 }
+		set_relations = { country = c:PHI value = 50 }
+	}
+
+	c:POR ?= {
+		set_relations = { country = c:BRZ value = 70 }
+		set_relations = { country = c:URU value = -40 }
+		set_relations = { country = c:ARG value = -20 }
+	}
+
+	c:BRZ ?= {
+		set_relations = { country = c:URU value = -40 }
+		set_relations = { country = c:ARG value = -20 }
+		set_relations = { country = c:PRG value = -10 }
+	}
+
+	c:ARG ?= {
+		set_relations = { country = c:PRG value = 10 }
+		set_relations = { country = c:URU value = -20 }
+	}
+
+	c:USA ?= {
+		set_relations = { country = c:SC1 value = -25 }
+		set_relations = { country = c:COM value = -35 }
+		set_relations = { country = c:LKT value = -20 }
+		set_relations = { country = c:HBC value = -10 }
+		set_relations = { country = c:ALK value = -10 }
+	}
+
+	c:HBC ?= {
+		set_relations = { country = c:ALK value = -15 }
+	}
+
+	# Ottoman, Persian, and North African spheres.
+	c:TUR ?= {
+		set_relations = { country = c:EGY value = -20 }
+		set_relations = { country = c:ALD value = 30 }
+		set_relations = { country = c:TUN value = 30 }
+		set_relations = { country = c:TRI value = 30 }
+		set_relations = { country = c:MOL value = -20 }
+		set_relations = { country = c:WAL value = -20 }
+		set_relations = { country = c:SER value = -20 }
+		set_relations = { country = c:HDJ value = 10 }
+		set_relations = { country = c:NEJ value = -40 }
+		set_relations = { country = c:PER value = -20 }
+	}
+
+	c:EGY ?= {
+		set_relations = { country = c:HDJ value = 30 }
+		set_relations = { country = c:NEJ value = -50 }
+	}
+
+	c:TRI ?= {
+		set_relations = { country = c:FZN value = 40 }
+		set_relations = { country = c:TUN value = 10 }
+	}
+
+	c:PER ?= {
+		set_relations = { country = c:ARB value = 40 }
+		set_relations = { country = c:KAB value = -20 }
+		set_relations = { country = c:HER value = -20 }
+	}
+
+	c:KAB ?= {
+		set_relations = { country = c:KAN value = -20 }
+		set_relations = { country = c:HER value = -20 }
+		set_relations = { country = c:KAS value = 30 }
+		set_relations = { country = c:V10 value = 30 }
+		set_relations = { country = c:BIC value = -15 }
+	}
+
+	# East, South, and Southeast Asia.
+	c:CHI ?= {
+		set_relations = { country = c:KOR value = 60 }
+		set_relations = { country = c:TIB value = 55 }
+		set_relations = { country = c:JAP value = -15 }
+		set_relations = { country = c:DAI value = -15 }
+		set_relations = { country = c:SIA value = -20 }
+	}
+
+	c:JAP ?= {
+		set_relations = { country = c:V07 value = 35 }
+	}
+
+	c:SIA ?= {
+		set_relations = { country = c:DAI value = -45 }
+		set_relations = { country = c:BUR value = -20 }
+		set_relations = { country = c:CMI value = 35 }
+		set_relations = { country = c:CHP value = 35 }
+		set_relations = { country = c:LUA value = 35 }
+		set_relations = { country = c:VIE value = 35 }
+		set_relations = { country = c:CAM value = -20 }
+	}
+
+	c:DAI ?= {
+		set_relations = { country = c:CAM value = 35 }
+	}
+
+	c:BUR ?= {
+		set_relations = { country = c:SHS value = 35 }
+		set_relations = { country = c:BIC value = -20 }
+	}
+
+	c:BIC ?= {
+		set_relations = { country = c:BCE value = 60 }
+		set_relations = { country = c:AWA value = 30 }
+		set_relations = { country = c:HYD value = 30 }
+		set_relations = { country = c:MYS value = 30 }
+		set_relations = { country = c:TRA value = 30 }
+		set_relations = { country = c:COC value = 30 }
+		set_relations = { country = c:ALW value = 30 }
+		set_relations = { country = c:PTA value = 30 }
+		set_relations = { country = c:MUG value = 30 }
+		set_relations = { country = c:KUT value = 30 }
+		set_relations = { country = c:IDA value = 30 }
+		set_relations = { country = c:NAW value = 30 }
+		set_relations = { country = c:DHA value = 30 }
+		set_relations = { country = c:JUN value = 30 }
+		set_relations = { country = c:BHV value = 30 }
+		set_relations = { country = c:PLP value = 30 }
+		set_relations = { country = c:SAT value = 30 }
+		set_relations = { country = c:BER value = 30 }
+		set_relations = { country = c:TIP value = 30 }
+		set_relations = { country = c:NAG value = -30 }
+		set_relations = { country = c:IND value = -30 }
+		set_relations = { country = c:GWA value = -30 }
+		set_relations = { country = c:NEP value = -20 }
+		set_relations = { country = c:SIN value = -10 }
+	}
+
+	c:DEI ?= {
+		set_relations = { country = c:YOG value = 35 }
+		set_relations = { country = c:SRK value = 35 }
+		set_relations = { country = c:ACE value = -25 }
+		set_relations = { country = c:BRU value = -15 }
+		set_relations = { country = c:BLG value = -15 }
+	}
+
+	c:PHI ?= {
+		set_relations = { country = c:MGD value = -20 }
+		set_relations = { country = c:SUL value = -20 }
+	}
+
+	c:MGD ?= {
+		set_relations = { country = c:SUL value = 10 }
+	}
+
+	# African and Indian Ocean edges.
+	c:OMA ?= {
+		set_relations = { country = c:ZAN value = 35 }
+		set_relations = { country = c:MBS value = 10 }
+	}
+
+	c:OYO ?= {
+		set_relations = { country = c:DAH value = 20 }
+	}
+
+	c:SAF ?= {
+		set_relations = { country = c:XHO value = -30 }
+		set_relations = { country = c:ZUL value = -10 }
+	}
+}

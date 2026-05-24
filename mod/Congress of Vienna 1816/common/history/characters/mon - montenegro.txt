@@ -3,11 +3,6 @@
 		create_character = {
 			template = mon_petar_II_petrovic_njegos
 		}
-
-		create_character = {
-			template = mon_danilo_petrovic_njegos
-		}
-
 		create_character = {
 			template = mon_kenjo_jankoviC_
 		}

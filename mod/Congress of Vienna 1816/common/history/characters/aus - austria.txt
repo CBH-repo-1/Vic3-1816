@@ -1,13 +1,41 @@
 ﻿CHARACTERS = {
 	c:AUS ?= {
 		create_character = {
-			# Ferdinand I of Austria
-			template = aus_ferdinand_I_habsburg_template
+			# Francis I of Austria
+			first_name = Franz
+			last_name = von_Habsburg_Lothringen
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1768.2.12
+			culture = primary_culture
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				pious
+				cautious
+				basic_political_operator
+			}
+			on_created = {
+				set_variable = is_married
+			}
 		}
 
 		create_character = {
-			# Franz Joseph I of Austria
-			template = aus_franz_josef_I_habsburg_template
+			# Ferdinand I of Austria
+			first_name = Ferdinand
+			last_name = von_Habsburg_Lothringen
+			historical = yes
+			heir = yes
+			noble = yes
+			birth_date = 1793.4.19
+			culture = primary_culture
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				pious
+				cautious
+			}
 		}
 
 		create_character = {
@@ -81,4 +109,3 @@
 		}
 	}
 }
-

@@ -1,9 +1,6 @@
 ﻿CHARACTERS = {
 	c:TUG ?= {
 		create_character = {
-			template = TUG_sultan_abd_al_rahman
-		}
-		create_character = {
 			template = TUG_lalla_aisha
 		}
 	}

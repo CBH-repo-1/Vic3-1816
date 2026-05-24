@@ -13,16 +13,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = Frederick-William
-			last_name = "von_Mecklenburg-Strelitz"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 16
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-		}
 	}
 }

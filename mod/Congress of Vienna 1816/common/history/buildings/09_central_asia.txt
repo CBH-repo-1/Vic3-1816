@@ -790,6 +790,17 @@
 	s:STATE_KABUL={
 		region_state:KAB={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:KAB"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -869,6 +880,17 @@
 	}
 	s:STATE_BALUCHISTAN={
 		region_state:MAK={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MAK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -1033,6 +1055,17 @@
 	}
 	s:STATE_HIMALAYAS={
 		region_state:NEP={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:NEP"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={

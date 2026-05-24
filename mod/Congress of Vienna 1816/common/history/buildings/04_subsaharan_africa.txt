@@ -126,6 +126,17 @@
 	s:STATE_HAUSALAND={
 		region_state:SOK={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:SOK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1708,6 +1719,17 @@
 	}
 	s:STATE_NORTH_MADAGASCAR={
 		region_state:MAD={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MAD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={

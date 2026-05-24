@@ -4,8 +4,5 @@
 		create_character = {
 			template = BAG_vishwanath_baghela_template
 		}
-		create_character = {
-			template = BAG_raghuraj_baghela_template
-		}
 	}
 }

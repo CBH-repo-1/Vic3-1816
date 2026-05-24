@@ -4,8 +4,5 @@
 		create_character = {
 			template = BAS_bhopal_deo
 		}	
-		create_character = {
-			template = BAS_bhairam_deo
-		}
 	}
 }

@@ -14,20 +14,5 @@
 				reserved
 			}
 		}	
-
-		create_character = {
-			# Surendra Bikram Shah
-			first_name = "Surendra_Bikram"
-			last_name = "Shah"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 5
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

@@ -28,6 +28,6 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_haitian_debt }
+		# COW 1816: Haitian indemnity/debt content is delayed until a later France-Haiti chain.
 	}
 }

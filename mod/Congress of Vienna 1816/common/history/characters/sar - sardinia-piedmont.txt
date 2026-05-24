@@ -3,11 +3,6 @@
 		create_character = {
 			template = sar_charles_albert_sardinia_template	
 		}
-
-		create_character = {
-			template = sar_victor_emmanuel_template
-		}
-
 		create_character = {
 			first_name = Alessandro
 			last_name = "Di_Saluzzo"

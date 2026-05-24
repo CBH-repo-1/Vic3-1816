@@ -14,20 +14,5 @@
 				arrogant
 			}
 		}	
-
-		create_character = {
-			# Sidkeong Namgyal
-			first_name = "Sidkeong"
-			last_name = "Namgyal"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 17
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				reserved
-			}
-		}
 	}
 }

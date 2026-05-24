@@ -7,11 +7,6 @@
 				set_character_immortal = yes
 			}
 		}	
-
-		create_character = {
-			template = KOR_yi_hwan
-		}
-
 		create_character = {
 			template = KOR_yi_sang_hwang
 		}

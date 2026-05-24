@@ -77,6 +77,24 @@
 
 	c:TUN ?= {
 		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = Jayish_Tunis
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TUNISIA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_TUNISIA
+				count = 2
+			}
+		}
+
+		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_north_africa
 			name = Bahriat_alTuwnusia

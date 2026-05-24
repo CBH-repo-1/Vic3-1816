@@ -66,15 +66,6 @@
 			add_ideology = ideology_liberal_praetorian
 		}
 
-		set_variable = { name = recent_coup_or_revolution_var value = 2 }
-
-		if = {
-			limit = {
-				has_dlc_feature = ip4_content
-			}
-			add_journal_entry = { type = je_devorismo }
-			add_journal_entry = { type = je_second_liberalism }
-			add_modifier = { name = modifier_legacy_of_the_liberal_wars days = long_modifier_time is_decaying = yes }
-		}
+		# COW 1816: post-Liberal-Wars journal entries and modifiers are delayed for later Portuguese content.
 	}
 }

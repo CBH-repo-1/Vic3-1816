@@ -1,11 +1,23 @@
 ﻿CHARACTERS = {
 	c:GBR ?= {
 		create_character = {
-			template = gbr_william_hanover_template
-		}	
-	
-		create_character = {
-			template = gbr_queen_victoria_template
+			# George, Prince Regent; de facto ruler while George III is incapacitated.
+			first_name = George
+			last_name = Hannover
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1762.8.12
+			culture = cu:british
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				expensive_tastes
+				basic_political_operator
+			}
+			on_created = {
+				set_variable = is_married
+			}
 		}
 
 		create_character = {

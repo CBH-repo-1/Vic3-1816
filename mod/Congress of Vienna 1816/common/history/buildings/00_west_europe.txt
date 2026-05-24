@@ -6,7 +6,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=3
+						levels=2
 					}
 				}
 				reserves=1
@@ -29,7 +29,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -114,7 +114,7 @@
 					building={
 						type="building_financial_district"
 						country="c:SWE"
-						levels=3
+						levels=2
 						region="STATE_SVEALAND"
 					}
 					building={
@@ -202,7 +202,7 @@
 					building={
 						type="building_financial_district"
 						country="c:SWE"
-						levels=3
+						levels=2
 						region="STATE_GOTALAND"
 					}
 					building={
@@ -369,7 +369,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:SWE"
-						levels=3
+						levels=2
 						region="STATE_SCANIA"
 					}
 				}
@@ -442,7 +442,7 @@
 					building={
 						type="building_rye_farm"
 						country="c:DEN"
-						levels=6
+						levels=4
 						region="STATE_JUTLAND"
 					}
 				}
@@ -455,7 +455,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DEN"
-						levels=5
+						levels=3
 						region="STATE_JUTLAND"
 					}
 				}
@@ -496,7 +496,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -506,7 +506,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -609,17 +609,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_arms_industry"
-				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -6070,6 +6059,17 @@
 	s:STATE_WEST_SWITZERLAND={
 		region_state:SWI={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:SWI"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -6812,6 +6812,17 @@
 	s:STATE_WURTTEMBERG={
 		region_state:WUR={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:WUR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -6961,6 +6972,17 @@
 	s:STATE_BADEN={
 		region_state:BAD={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:BAD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
@@ -7064,6 +7086,17 @@
 			}
 		}
 		region_state:HAN={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:HAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -7464,6 +7497,17 @@
 	}
 	s:STATE_SAXONY={
 		region_state:SAX={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:SAX"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

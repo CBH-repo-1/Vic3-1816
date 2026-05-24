@@ -1,0 +1,522 @@
+﻿namespace = cow_1816_journal_startup
+
+# Adds custom 1816 journal entries after GDP has initialized.
+cow_1816_journal_startup.1 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_variable = cow_1816_custom_journal_entries_added }
+			}
+			set_variable = cow_1816_custom_journal_entries_added
+
+			if = {
+				limit = { c:ALD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_ald_regency_corsairs }
+			}
+
+			if = {
+				limit = { c:ANH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:ARG ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:AUS ?= THIS }
+				add_journal_entry = { type = je_cow_1816_aus_congress_system }
+			}
+
+			if = {
+				limit = { c:BAD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:BAV ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:BIC ?= THIS }
+				add_journal_entry = { type = je_cow_1816_bic_maratha_war }
+			}
+
+			if = {
+				limit = { c:BRA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:BRE ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:BRZ ?= THIS }
+				add_journal_entry = { type = je_cow_1816_brz_kingdom_tropics }
+			}
+
+			if = {
+				limit = { c:BUK ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:BUR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_bur_konbaung_ascendancy }
+			}
+
+			if = {
+				limit = { c:CHI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_chi_canton_system }
+			}
+
+			if = {
+				limit = { c:CHL ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:COB ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:COM ?= THIS }
+				add_journal_entry = { type = je_cow_1816_com_southern_plains }
+			}
+
+			if = {
+				limit = { c:DAI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_dai_nguyen_state_building }
+			}
+
+			if = {
+				limit = { c:DEI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_dei_restore_dutch_rule }
+			}
+
+			if = {
+				limit = { c:DEN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_den_postwar_denmark }
+			}
+
+			if = {
+				limit = { c:EGY ?= THIS }
+				add_journal_entry = { type = je_cow_1816_egy_muhammad_ali_state }
+			}
+
+			if = {
+				limit = { c:FRA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_fra_bourbon_restoration }
+			}
+
+			if = {
+				limit = { c:FRM ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:GBR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_gbr_postwar_settlement }
+			}
+
+			if = {
+				limit = { c:GWA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_maratha_confederacy_restored }
+			}
+
+			if = {
+				limit = { c:HAI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_hai_two_haitis }
+			}
+
+			if = {
+				limit = { c:HAM ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:HAN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:HAW ?= THIS }
+				add_journal_entry = { type = je_cow_1816_haw_kamehameha_kingdom }
+			}
+
+			if = {
+				limit = { c:HBC ?= THIS }
+				add_journal_entry = { type = je_cow_1816_hbc_fur_trade_empire }
+			}
+
+			if = {
+				limit = { c:HEK ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:HER ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:HES ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:HOH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:HOL ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:IND ?= THIS }
+				add_journal_entry = { type = je_cow_1816_maratha_confederacy_restored }
+			}
+
+			if = {
+				limit = { c:JAP ?= THIS }
+				add_journal_entry = { type = je_cow_1816_jap_tokugawa_order }
+			}
+
+			if = {
+				limit = { c:KAB ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:KAF ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:KAN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:KHI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:KOK ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:KOR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_kor_hermit_kingdom }
+			}
+
+			if = {
+				limit = { c:KUN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:KZH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:LIP ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:LKT ?= THIS }
+				add_journal_entry = { type = je_cow_1816_lkt_western_expansion }
+			}
+
+			if = {
+				limit = { c:LOM ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:LUB ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:LUC ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:MAD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_mad_radama_kingdom }
+			}
+
+			if = {
+				limit = { c:MAI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:MEC ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:MEI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:MOD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:MOL ?= THIS }
+				add_journal_entry = { type = je_cow_1816_balkan_ottoman_vassals }
+			}
+
+			if = {
+				limit = { c:MON ?= THIS }
+				add_journal_entry = { type = je_cow_1816_balkan_ottoman_vassals }
+			}
+
+			if = {
+				limit = { c:MOR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_mor_makhzen_tribes }
+			}
+
+			if = {
+				limit = { c:MST ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:NAG ?= THIS }
+				add_journal_entry = { type = je_cow_1816_maratha_confederacy_restored }
+			}
+
+			if = {
+				limit = { c:NAS ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:NET ?= THIS }
+				add_journal_entry = { type = je_cow_1816_net_united_kingdom_netherlands }
+			}
+
+			if = {
+				limit = { c:OLD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:OZH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:PAN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_pan_sikh_consolidation }
+			}
+
+			if = {
+				limit = { c:PAP ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:PAR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:PER ?= THIS }
+				add_journal_entry = { type = je_cow_1816_per_qajar_restoration }
+			}
+
+			if = {
+				limit = { c:POR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_por_atlantic_united_kingdom }
+			}
+
+			if = {
+				limit = { c:PRG ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:PRU ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:RUS ?= THIS }
+				add_journal_entry = { type = je_cow_1816_rus_holy_alliance }
+			}
+
+			if = {
+				limit = { c:SAR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:SAT ?= THIS }
+				add_journal_entry = { type = je_cow_1816_maratha_confederacy_restored }
+			}
+
+			if = {
+				limit = { c:SAX ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:SC1 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:SC2 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:SC3 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:SCH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:SCM ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:SCW ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:SER ?= THIS }
+				add_journal_entry = { type = je_cow_1816_balkan_ottoman_vassals }
+			}
+
+			if = {
+				limit = { c:SIA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_sia_chakri_consolidation }
+			}
+
+			if = {
+				limit = { c:SIC ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:SOK ?= THIS }
+				add_journal_entry = { type = je_cow_1816_sok_caliphate_consolidation }
+			}
+
+			if = {
+				limit = { c:SPA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spa_crisis_indies }
+			}
+
+			if = {
+				limit = { c:SWE ?= THIS }
+				add_journal_entry = { type = je_cow_1816_swe_scandinavian_balance }
+			}
+
+			if = {
+				limit = { c:TRI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_barbary_autonomy }
+			}
+
+			if = {
+				limit = { c:TUN ?= THIS }
+				add_journal_entry = { type = je_cow_1816_barbary_autonomy }
+			}
+
+			if = {
+				limit = { c:TUR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_tur_ottoman_recovery }
+			}
+
+			if = {
+				limit = { c:TUS ?= THIS }
+				add_journal_entry = { type = je_cow_1816_italian_restoration }
+			}
+
+			if = {
+				limit = { c:URU ?= THIS }
+				add_journal_entry = { type = je_cow_1816_spanish_america_wars_independence }
+			}
+
+			if = {
+				limit = { c:USA ?= THIS }
+				add_journal_entry = { type = je_cow_1816_usa_era_good_feelings }
+			}
+
+			if = {
+				limit = { c:UZH ?= THIS }
+				add_journal_entry = { type = je_cow_1816_central_asia_khanate_rivalries }
+			}
+
+			if = {
+				limit = { c:V04 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:V05 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:V10 ?= THIS }
+				add_journal_entry = { type = je_cow_1816_afghan_fragmentation }
+			}
+
+			if = {
+				limit = { c:WAL ?= THIS }
+				add_journal_entry = { type = je_cow_1816_balkan_ottoman_vassals }
+			}
+
+			if = {
+				limit = { c:WEI ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:WLD ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:WUR ?= THIS }
+				add_journal_entry = { type = je_cow_1816_german_confederation_politics }
+			}
+
+			if = {
+				limit = { c:ZUL ?= THIS }
+				add_journal_entry = { type = je_cow_1816_zul_state_formation }
+			}
+
+		}
+	}
+}

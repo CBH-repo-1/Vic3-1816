@@ -1,0 +1,2563 @@
+﻿namespace = cow_1816_journal
+
+# Postwar Settlement
+cow_1816_journal.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.1.t
+	desc = cow_1816_journal.1.d
+	flavor = cow_1816_journal.1.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.1.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.1.b
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Workshop of the World
+cow_1816_journal.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.2.t
+	desc = cow_1816_journal.2.d
+	flavor = cow_1816_journal.2.f
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.2.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_industrial_momentum
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.2.b
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Bourbon Restoration
+cow_1816_journal.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.3.t
+	desc = cow_1816_journal.3.d
+	flavor = cow_1816_journal.3.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.3.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.3.b
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Return to Great Power
+cow_1816_journal.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.4.t
+	desc = cow_1816_journal.4.d
+	flavor = cow_1816_journal.4.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.4.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.4.b
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Congress System
+cow_1816_journal.5 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.5.t
+	desc = cow_1816_journal.5.d
+	flavor = cow_1816_journal.5.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.5.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.5.b
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# Habsburg Crownlands
+cow_1816_journal.6 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.6.t
+	desc = cow_1816_journal.6.d
+	flavor = cow_1816_journal.6.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.6.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+}
+
+# Reform State
+cow_1816_journal.7 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.7.t
+	desc = cow_1816_journal.7.d
+	flavor = cow_1816_journal.7.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.7.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# German Dualism
+cow_1816_journal.8 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.8.t
+	desc = cow_1816_journal.8.d
+	flavor = cow_1816_journal.8.f
+
+	event_image = {
+		video = "ep1_power_blocs"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.8.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_regional_leadership
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.8.b
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Holy Alliance
+cow_1816_journal.9 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.9.t
+	desc = cow_1816_journal.9.d
+	flavor = cow_1816_journal.9.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.9.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Imperial Borderlands
+cow_1816_journal.10 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.10.t
+	desc = cow_1816_journal.10.d
+	flavor = cow_1816_journal.10.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.10.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+}
+
+# Ottoman Recovery
+cow_1816_journal.11 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.11.t
+	desc = cow_1816_journal.11.d
+	flavor = cow_1816_journal.11.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.11.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Eastern Question
+cow_1816_journal.12 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.12.t
+	desc = cow_1816_journal.12.d
+	flavor = cow_1816_journal.12.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.12.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.12.b
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Canton System
+cow_1816_journal.13 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.13.t
+	desc = cow_1816_journal.13.d
+	flavor = cow_1816_journal.13.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.13.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.13.b
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# Qing Inner Frontiers
+cow_1816_journal.14 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.14.t
+	desc = cow_1816_journal.14.d
+	flavor = cow_1816_journal.14.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.14.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+}
+
+# Era of Good Feelings
+cow_1816_journal.15 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.15.t
+	desc = cow_1816_journal.15.d
+	flavor = cow_1816_journal.15.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.15.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+}
+
+# Continental Frontier
+cow_1816_journal.16 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.16.t
+	desc = cow_1816_journal.16.d
+	flavor = cow_1816_journal.16.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.16.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.16.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Crisis of the Indies
+cow_1816_journal.17 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.17.t
+	desc = cow_1816_journal.17.d
+	flavor = cow_1816_journal.17.f
+
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.17.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_colonial_governance
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.17.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Postwar Restoration
+cow_1816_journal.18 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.18.t
+	desc = cow_1816_journal.18.d
+	flavor = cow_1816_journal.18.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.18.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# United Kingdom Across the Atlantic
+cow_1816_journal.19 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.19.t
+	desc = cow_1816_journal.19.d
+	flavor = cow_1816_journal.19.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.19.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.19.b
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Liberal Revolution
+cow_1816_journal.20 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.20.t
+	desc = cow_1816_journal.20.d
+	flavor = cow_1816_journal.20.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.20.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Kingdom in the Tropics
+cow_1816_journal.21 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.21.t
+	desc = cow_1816_journal.21.d
+	flavor = cow_1816_journal.21.f
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.21.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_industrial_momentum
+			days = 1095
+		}
+	}
+}
+
+# Road to Independence
+cow_1816_journal.22 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.22.t
+	desc = cow_1816_journal.22.d
+	flavor = cow_1816_journal.22.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.22.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.22.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Before the Third Anglo-Maratha War
+cow_1816_journal.23 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.23.t
+	desc = cow_1816_journal.23.d
+	flavor = cow_1816_journal.23.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.23.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.23.b
+		add_modifier = {
+			name = cow_1816_reward_colonial_governance
+			days = 1095
+		}
+	}
+}
+
+# Company Raj Foundations
+cow_1816_journal.24 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.24.t
+	desc = cow_1816_journal.24.d
+	flavor = cow_1816_journal.24.f
+
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.24.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_colonial_governance
+			days = 1095
+		}
+	}
+}
+
+# Qajar Restoration
+cow_1816_journal.25 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.25.t
+	desc = cow_1816_journal.25.d
+	flavor = cow_1816_journal.25.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.25.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Centralize the Realm
+cow_1816_journal.26 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.26.t
+	desc = cow_1816_journal.26.d
+	flavor = cow_1816_journal.26.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.26.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Muhammad Ali's State
+cow_1816_journal.27 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.27.t
+	desc = cow_1816_journal.27.d
+	flavor = cow_1816_journal.27.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.27.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Ambition of Egypt
+cow_1816_journal.28 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.28.t
+	desc = cow_1816_journal.28.d
+	flavor = cow_1816_journal.28.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.28.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# United Kingdom of the Netherlands
+cow_1816_journal.29 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.29.t
+	desc = cow_1816_journal.29.d
+	flavor = cow_1816_journal.29.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.29.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+}
+
+# Colonial Commercial Revival
+cow_1816_journal.30 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.30.t
+	desc = cow_1816_journal.30.d
+	flavor = cow_1816_journal.30.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.30.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# New Scandinavian Balance
+cow_1816_journal.31 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.31.t
+	desc = cow_1816_journal.31.d
+	flavor = cow_1816_journal.31.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.31.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+}
+
+# Baltic Ambition
+cow_1816_journal.32 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.32.t
+	desc = cow_1816_journal.32.d
+	flavor = cow_1816_journal.32.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.32.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Postwar Denmark
+cow_1816_journal.33 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.33.t
+	desc = cow_1816_journal.33.d
+	flavor = cow_1816_journal.33.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.33.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Schleswig-Holstein Question
+cow_1816_journal.34 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.34.t
+	desc = cow_1816_journal.34.d
+	flavor = cow_1816_journal.34.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.34.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Late Tokugawa Order
+cow_1816_journal.35 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.35.t
+	desc = cow_1816_journal.35.d
+	flavor = cow_1816_journal.35.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.35.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# Rangaku and Reform
+cow_1816_journal.36 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.36.t
+	desc = cow_1816_journal.36.d
+	flavor = cow_1816_journal.36.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.36.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Hermit Kingdom
+cow_1816_journal.37 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.37.t
+	desc = cow_1816_journal.37.d
+	flavor = cow_1816_journal.37.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.37.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# Court Reform
+cow_1816_journal.38 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.38.t
+	desc = cow_1816_journal.38.d
+	flavor = cow_1816_journal.38.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.38.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Chakri Consolidation
+cow_1816_journal.39 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.39.t
+	desc = cow_1816_journal.39.d
+	flavor = cow_1816_journal.39.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.39.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Between Empires
+cow_1816_journal.40 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.40.t
+	desc = cow_1816_journal.40.d
+	flavor = cow_1816_journal.40.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.40.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Nguyen State-Building
+cow_1816_journal.41 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.41.t
+	desc = cow_1816_journal.41.d
+	flavor = cow_1816_journal.41.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.41.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Mekong Rivalry
+cow_1816_journal.42 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.42.t
+	desc = cow_1816_journal.42.d
+	flavor = cow_1816_journal.42.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.42.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Konbaung Ascendancy
+cow_1816_journal.43 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.43.t
+	desc = cow_1816_journal.43.d
+	flavor = cow_1816_journal.43.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.43.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Company Frontier
+cow_1816_journal.44 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.44.t
+	desc = cow_1816_journal.44.d
+	flavor = cow_1816_journal.44.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.44.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+}
+
+# Restore Dutch Rule
+cow_1816_journal.45 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.45.t
+	desc = cow_1816_journal.45.d
+	flavor = cow_1816_journal.45.f
+
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.45.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_colonial_governance
+			days = 1095
+		}
+	}
+}
+
+# Java Revenue State
+cow_1816_journal.46 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.46.t
+	desc = cow_1816_journal.46.d
+	flavor = cow_1816_journal.46.f
+
+	event_image = {
+		video = "ep1_transfer_of_authority"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.46.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_colonial_governance
+			days = 1095
+		}
+	}
+}
+
+# Sikh Empire Consolidation
+cow_1816_journal.47 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.47.t
+	desc = cow_1816_journal.47.d
+	flavor = cow_1816_journal.47.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.47.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Frontier Between Empires
+cow_1816_journal.48 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.48.t
+	desc = cow_1816_journal.48.d
+	flavor = cow_1816_journal.48.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.48.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Confederacy Restored
+cow_1816_journal.49 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.49.t
+	desc = cow_1816_journal.49.d
+	flavor = cow_1816_journal.49.f
+
+	event_image = {
+		video = "ep1_power_blocs"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.49.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_regional_leadership
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.49.b
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Subsidiary Alliance
+cow_1816_journal.50 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.50.t
+	desc = cow_1816_journal.50.d
+	flavor = cow_1816_journal.50.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.50.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Wars of Independence
+cow_1816_journal.51 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.51.t
+	desc = cow_1816_journal.51.d
+	flavor = cow_1816_journal.51.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.51.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.51.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Recognition and Fragmentation
+cow_1816_journal.52 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.52.t
+	desc = cow_1816_journal.52.d
+	flavor = cow_1816_journal.52.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.52.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Restoration Italy
+cow_1816_journal.53 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.53.t
+	desc = cow_1816_journal.53.d
+	flavor = cow_1816_journal.53.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.53.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.53.b
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Seeds of the Risorgimento
+cow_1816_journal.54 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.54.t
+	desc = cow_1816_journal.54.d
+	flavor = cow_1816_journal.54.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.54.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Confederation Politics
+cow_1816_journal.55 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.55.t
+	desc = cow_1816_journal.55.d
+	flavor = cow_1816_journal.55.f
+
+	event_image = {
+		video = "ep1_power_blocs"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.55.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_regional_leadership
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.55.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# German Economic Union
+cow_1816_journal.56 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.56.t
+	desc = cow_1816_journal.56.d
+	flavor = cow_1816_journal.56.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.56.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Ottoman Vassals
+cow_1816_journal.57 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.57.t
+	desc = cow_1816_journal.57.d
+	flavor = cow_1816_journal.57.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.57.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Balkan Uprisings
+cow_1816_journal.58 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.58.t
+	desc = cow_1816_journal.58.d
+	flavor = cow_1816_journal.58.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.58.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+	option = {
+		name = cow_1816_journal.58.b
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Afghan Fragmentation
+cow_1816_journal.59 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.59.t
+	desc = cow_1816_journal.59.d
+	flavor = cow_1816_journal.59.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.59.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+}
+
+# Between Empires
+cow_1816_journal.60 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.60.t
+	desc = cow_1816_journal.60.d
+	flavor = cow_1816_journal.60.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.60.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Khanate Rivalries
+cow_1816_journal.61 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.61.t
+	desc = cow_1816_journal.61.d
+	flavor = cow_1816_journal.61.f
+
+	event_image = {
+		video = "ep1_power_blocs"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.61.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_regional_leadership
+			days = 1095
+		}
+	}
+}
+
+# Russian Shadow
+cow_1816_journal.62 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.62.t
+	desc = cow_1816_journal.62.d
+	flavor = cow_1816_journal.62.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.62.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Two Haitis
+cow_1816_journal.63 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.63.t
+	desc = cow_1816_journal.63.d
+	flavor = cow_1816_journal.63.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.63.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_internal_cohesion
+			days = 1095
+		}
+	}
+}
+
+# French Recognition
+cow_1816_journal.64 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.64.t
+	desc = cow_1816_journal.64.d
+	flavor = cow_1816_journal.64.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.64.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Regency and Corsairs
+cow_1816_journal.65 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.65.t
+	desc = cow_1816_journal.65.d
+	flavor = cow_1816_journal.65.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.65.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Road to Algiers
+cow_1816_journal.66 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.66.t
+	desc = cow_1816_journal.66.d
+	flavor = cow_1816_journal.66.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.66.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Makhzen and the Tribes
+cow_1816_journal.67 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.67.t
+	desc = cow_1816_journal.67.d
+	flavor = cow_1816_journal.67.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.67.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Atlantic and Maghreb Pressure
+cow_1816_journal.68 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.68.t
+	desc = cow_1816_journal.68.d
+	flavor = cow_1816_journal.68.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.68.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_diplomatic_settlement
+			days = 1095
+		}
+	}
+}
+
+# Barbary Autonomy
+cow_1816_journal.69 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.69.t
+	desc = cow_1816_journal.69.d
+	flavor = cow_1816_journal.69.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.69.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# Mediterranean Commerce
+cow_1816_journal.70 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.70.t
+	desc = cow_1816_journal.70.d
+	flavor = cow_1816_journal.70.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.70.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Caliphate Consolidation
+cow_1816_journal.71 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.71.t
+	desc = cow_1816_journal.71.d
+	flavor = cow_1816_journal.71.f
+
+	event_image = {
+		video = "votp_monarch_holding_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.71.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_conservative_order
+			days = 1095
+		}
+	}
+}
+
+# West African Jihad Legacy
+cow_1816_journal.72 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.72.t
+	desc = cow_1816_journal.72.d
+	flavor = cow_1816_journal.72.f
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.72.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_local_polity_coherence
+			days = 1095
+		}
+	}
+}
+
+# Radama's Kingdom
+cow_1816_journal.73 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.73.t
+	desc = cow_1816_journal.73.d
+	flavor = cow_1816_journal.73.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.73.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Foreign Mission and Trade
+cow_1816_journal.74 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.74.t
+	desc = cow_1816_journal.74.d
+	flavor = cow_1816_journal.74.f
+
+	event_image = {
+		video = "ip4_university_lecture"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.74.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_reform_pressure
+			days = 1095
+		}
+	}
+}
+
+# Zulu State Formation
+cow_1816_journal.75 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.75.t
+	desc = cow_1816_journal.75.d
+	flavor = cow_1816_journal.75.f
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.75.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_local_polity_coherence
+			days = 1095
+		}
+	}
+}
+
+# Highveld Upheaval
+cow_1816_journal.76 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.76.t
+	desc = cow_1816_journal.76.d
+	flavor = cow_1816_journal.76.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.76.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_military_reform
+			days = 1095
+		}
+	}
+}
+
+# Lords of the Southern Plains
+cow_1816_journal.77 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.77.t
+	desc = cow_1816_journal.77.d
+	flavor = cow_1816_journal.77.f
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.77.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_local_polity_coherence
+			days = 1095
+		}
+	}
+}
+
+# Band Confederacy
+cow_1816_journal.78 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.78.t
+	desc = cow_1816_journal.78.d
+	flavor = cow_1816_journal.78.f
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.78.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_local_polity_coherence
+			days = 1095
+		}
+	}
+}
+
+# Western Expansion
+cow_1816_journal.79 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.79.t
+	desc = cow_1816_journal.79.d
+	flavor = cow_1816_journal.79.f
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.79.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_local_polity_coherence
+			days = 1095
+		}
+	}
+}
+
+# Plains Trade Network
+cow_1816_journal.80 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.80.t
+	desc = cow_1816_journal.80.d
+	flavor = cow_1816_journal.80.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.80.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Kamehameha's Kingdom
+cow_1816_journal.81 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.81.t
+	desc = cow_1816_journal.81.d
+	flavor = cow_1816_journal.81.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.81.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_state_capacity
+			days = 1095
+		}
+	}
+}
+
+# Pacific Crossroads
+cow_1816_journal.82 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.82.t
+	desc = cow_1816_journal.82.d
+	flavor = cow_1816_journal.82.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.82.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Fur Trade Empire
+cow_1816_journal.83 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.83.t
+	desc = cow_1816_journal.83.d
+	flavor = cow_1816_journal.83.f
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.83.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_commercial_networks
+			days = 1095
+		}
+	}
+}
+
+# Red River and British North America
+cow_1816_journal.84 = {
+	type = country_event
+	placement = ROOT
+
+	title = cow_1816_journal.84.t
+	desc = cow_1816_journal.84.d
+	flavor = cow_1816_journal.84.f
+
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	option = {
+		name = cow_1816_journal.84.a
+		default_option = yes
+		add_modifier = {
+			name = cow_1816_reward_frontier_administration
+			days = 1095
+		}
+	}
+}

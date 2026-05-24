@@ -17,20 +17,5 @@
 				set_variable = is_married
 			}
 		}
-
-		create_character = {
-			# Adolf, future Grand Duke of Luxembourg
-			first_name = "Adolf"
-			last_name = "von_Nassau-Weilburg"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 19
-			interest_group = ig_armed_forces
-			ideology = ideology_moderate
-			traits = {
-				charismatic
-			}
-		}	
 	}
 }

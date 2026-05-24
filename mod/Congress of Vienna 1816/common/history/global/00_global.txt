@@ -967,10 +967,7 @@ GLOBAL = {
 			culture = cu:han
 		}
 
-		set_variable = {
-			name = china_warlord_explosion
-			value = 5
-		}
+		# COW 1816: Warlord China collapse pressure is delayed for later Qing crisis content.
 	}
 
 	s:STATE_LAOS.region_state:DAI = {

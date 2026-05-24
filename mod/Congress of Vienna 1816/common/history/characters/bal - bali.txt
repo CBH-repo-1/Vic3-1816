@@ -13,20 +13,5 @@
 			traits = {
 			}
 		}	
-
-		create_character = {
-			# Dewa Agung Putra III
-			first_name = "Putra"
-			last_name = "Klungkung"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			birth_date = 1832.2.7 # pure guesswork, reigned from 1851-1903
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

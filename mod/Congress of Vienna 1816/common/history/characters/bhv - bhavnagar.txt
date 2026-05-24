@@ -4,10 +4,6 @@
 		create_character = {
 			template = BHV_wajesimhji_wakhatsimhji_template
 		}
-		create_character = {
-			template = BHV_akherajji_bhavsimhji_template
-		}
-
 		# IG Leaders
 		create_character = {
 			template = BHV_pramanandas_ranchordas_template

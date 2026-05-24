@@ -6,7 +6,7 @@
 				add_ownership={
 					country={
 						country="c:USA"
-						levels=5
+						levels=2
 					}
 				}
 				reserves=1
@@ -51,7 +51,7 @@
 					building={
 						type="building_financial_district"
 						country="c:USA"
-						levels=3
+						levels=1
 						region="STATE_LOUISIANA"
 					}
 				}
@@ -116,7 +116,7 @@
 					building={
 						type="building_financial_district"
 						country="c:USA"
-						levels=5
+						levels=3
 						region="STATE_NEW_YORK"
 					}
 				}
@@ -278,19 +278,6 @@
 			}
 		}
 	}
-	if = {
-		limit = {
-			has_american_buildings_dlc_trigger = yes
-		}
-		s:STATE_NEW_YORK={
-			region_state:USA={
-				create_building={
-					building="building_central_park"
-					level=1
-				}
-			}
-		}
-	}
 	s:STATE_VIRGINIA={
 		region_state:USA={
 			create_building={
@@ -381,7 +368,7 @@
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=4
+						levels=3
 						region="STATE_VIRGINIA"
 					}
 				}
@@ -986,7 +973,7 @@
 					building={
 						type="building_maize_farm"
 						country="c:USA"
-						levels=3
+						levels=1
 						region="STATE_TENNESSEE"
 					}
 					building={
@@ -1018,13 +1005,13 @@
 					building={
 						type="building_tobacco_plantation"
 						country="c:USA"
-						levels=5
+						levels=2
 						region="STATE_TENNESSEE"
 					}
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=5
+						levels=2
 						region="STATE_TENNESSEE"
 					}
 				}
@@ -1144,7 +1131,7 @@
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=5
+						levels=3
 						region="STATE_ALABAMA"
 					}
 				}
@@ -1244,7 +1231,7 @@
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=4
+						levels=3
 						region="STATE_GEORGIA"
 					}
 				}
@@ -2215,7 +2202,7 @@
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=5
+						levels=3
 						region="STATE_NORTH_CAROLINA"
 					}
 				}
@@ -2262,7 +2249,7 @@
 					building={
 						type="building_financial_district"
 						country="c:USA"
-						levels=3
+						levels=1
 						region="STATE_MASSACHUSETTS"
 					}
 				}
@@ -2274,7 +2261,7 @@
 					building={
 						type="building_manor_house"
 						country="c:USA"
-						levels=5
+						levels=3
 						region="STATE_SOUTH_CAROLINA"
 					}
 				}

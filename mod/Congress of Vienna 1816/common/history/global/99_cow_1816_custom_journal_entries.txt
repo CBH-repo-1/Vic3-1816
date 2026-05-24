@@ -1,0 +1,409 @@
+﻿# Schedules the approved 1816 custom journal entries after the first game tick.
+# GDP-based goals calculate as zero if these are added directly during history setup.
+GLOBAL = {
+
+	c:ALD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:ANH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:ARG ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:AUS ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BAD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BAV ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BIC ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BRA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BRE ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BRZ ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BUK ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:BUR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:CHI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:CHL ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:COB ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:COM ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:DAI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:DEI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:DEN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:EGY ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:FRA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:FRM ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:GBR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:GWA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HAI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HAM ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HAN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HAW ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HBC ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HEK ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HER ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HES ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HOH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:HOL ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:IND ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:JAP ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KAB ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KAF ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KAN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KHI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KOK ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KOR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KUN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:KZH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:LIP ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:LKT ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:LOM ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:LUB ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:LUC ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MAD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MAI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MEC ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MEI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MOD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MOL ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MON ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MOR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:MST ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:NAG ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:NAS ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:NET ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:OLD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:OZH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PAN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PAP ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PAR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PER ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:POR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PRG ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:PRU ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:RUS ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SAR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SAT ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SAX ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SC1 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SC2 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SC3 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SCH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SCM ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SCW ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SER ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SIA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SIC ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SOK ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SPA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:SWE ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:TRI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:TUN ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:TUR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:TUS ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:URU ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:USA ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:UZH ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:V04 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:V05 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:V10 ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:WAL ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:WEI ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:WLD ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:WUR ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+	c:ZUL ?= {
+		trigger_event = { id = cow_1816_journal_startup.1 days = 1 }
+	}
+
+}

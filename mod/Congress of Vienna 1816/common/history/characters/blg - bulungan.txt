@@ -13,20 +13,5 @@
 			traits = {
 			}
 		}	
-
-		create_character = {
-			# Muhammad Jalaluddin bin Muhammad Alimuddin
-			first_name = "Muhammad_Jalaluddin"
-			last_name = "Bulungan"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			birth_date = 1832.10.2 # reigned from 1861-1866, birth date unknown
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

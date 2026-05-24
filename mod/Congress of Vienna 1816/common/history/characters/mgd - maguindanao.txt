@@ -13,20 +13,5 @@
 			traits = {
 			}
 		}	
-
-		create_character = {
-			# Sultan Muhammad Makakwa
-			first_name = "Muhammad_Makakwa"
-			last_name = "of_Maguindanao"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			birth_date = 1821.2.5 # reigned from 1854 to 1884, birth date unknown
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

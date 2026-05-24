@@ -22,15 +22,11 @@ COUNTRIES = {
 
 		set_tax_level = low
 
-		set_variable = {
-			name = china_warlord_explosion
-			value = 0
-		}
 		set_import_tariff_level = { 
 			goods = g:opium
 			level = no_tariffs_or_subventions
 		}
-		add_journal_entry = { type = je_warlord_china }
+		# COW 1816: Warlord China collapse pressure is delayed for later Qing crisis content.
 
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes

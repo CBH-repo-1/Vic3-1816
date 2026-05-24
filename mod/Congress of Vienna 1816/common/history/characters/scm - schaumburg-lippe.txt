@@ -13,16 +13,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = Adolf
-			last_name = "von_Schaumburg-Lippe"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 18
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-		}
 	}
 }

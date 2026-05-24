@@ -17,19 +17,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = "Francesco"
-			last_name = "d_Absburgo-Toscana"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
-			age = 1 # 
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

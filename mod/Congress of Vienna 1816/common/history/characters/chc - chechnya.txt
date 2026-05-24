@@ -3,8 +3,5 @@
 		create_character = {
 			template = CHC_Shamil_Murid
 		}
-		create_character = {
-			template = CHC_Hadji_Murad
-		}
 	}
 }

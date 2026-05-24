@@ -7,10 +7,6 @@ CHARACTERS = {
 		}
 
 		create_character = {
-			template = tur_abdulmecid_osmanoglu_template
-		}
-
-		create_character = {
 			template = TUR_mehmet_emin_rauf_pasha
 		}
 

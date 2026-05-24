@@ -4,8 +4,5 @@
 		create_character = {
 			template = LAD_tsepal_dondup_namgyal_template
 		}
-		create_character = {
-			template = LAD_kunga_namgyal_template
-		}
 	}
 }

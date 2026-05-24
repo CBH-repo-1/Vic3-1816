@@ -26,12 +26,7 @@
 		}
 
 		set_capital = STATE_SLOVAKIA
-		if = {
-			limit = {
-				has_dlc_feature = ip3_content
-			}
-			add_journal_entry = { type = je_hungarian_revolution }
-		}
+		# COW 1816: 1848 Hungarian Revolution journal content is delayed.
 
 		start_national_awakening = {
 			culture = cu:hungarian

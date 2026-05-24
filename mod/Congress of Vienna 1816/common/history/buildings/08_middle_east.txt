@@ -828,6 +828,17 @@
 	s:STATE_LARISTAN={
 		region_state:PER={
 			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
@@ -1129,6 +1140,17 @@
 	}
 	s:STATE_IRAKAJEMI={
 		region_state:PER={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_textile_mill"
 				add_ownership={

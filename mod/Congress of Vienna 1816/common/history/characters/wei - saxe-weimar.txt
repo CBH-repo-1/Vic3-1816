@@ -13,16 +13,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = Charles-Alexander
-			last_name = "von_Sachsen-Weimar-Eisenach"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 17
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-		}
 	}
 }

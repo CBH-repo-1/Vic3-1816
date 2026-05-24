@@ -1,7 +1,19 @@
 ﻿CHARACTERS = {
 	c:BIC ?= {
 		create_character = {
-			template = BIC_george_eden
+			# Francis Rawdon-Hastings, Governor-General of India in 1816.
+			first_name = Francis
+			last_name = "Rawdon-Hastings"
+			historical = yes
+			ruler = yes
+			birth_date = 1754.12.9
+			culture = cu:british
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				experienced_political_operator
+				basic_offensive_planner
+			}
 			on_created = {
 				set_variable = { name = colonial_governor_term value = 0 }
 			}

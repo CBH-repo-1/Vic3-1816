@@ -5,10 +5,6 @@
 		create_character = {
 			template = HYD_nasir_ud_daulah_asaf_jah_template
 		}	
-		create_character = {
-			template = HYD_afzal_ud_daulah_asaf_jah_template
-		}
-
 		# IG leaders
 		create_character = {
 			template = HYD_mubarez_ud_daulah_asaf_jah_template

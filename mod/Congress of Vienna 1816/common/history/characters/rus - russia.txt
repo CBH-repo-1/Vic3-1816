@@ -2,11 +2,47 @@
 	c:RUS ?= {
 		# Royals
 		create_character = {
-			template = RUS_nicholas_i
+			# Alexander I
+			first_name = Aleksandr
+			last_name = Romanov
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1777.12.23
+			culture = primary_culture
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				pious
+				romantic
+				basic_political_operator
+			}
+			on_created = {
+				set_variable = is_married
+			}
 		}
 		
 		create_character = {
-			template = RUS_alexander_ii
+			# Nicholas was the senior dynastic fallback after Constantine.
+			first_name = Nikolai
+			last_name = Romanov
+			historical = yes
+			heir = yes
+			noble = yes
+			birth_date = 1796.7.6
+			dna = dna_tsar_nicolas_01
+			culture = primary_culture
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				arrogant
+				pious
+				imposing
+			}
+			on_created = {
+				set_variable = is_married
+			}
+			trait_generation = { }
 		}
 
 		# IG Leaders

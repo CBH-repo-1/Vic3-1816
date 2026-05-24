@@ -13,19 +13,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = Georg
-			last_name = "von_Sachsen-Meiningen"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 9
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

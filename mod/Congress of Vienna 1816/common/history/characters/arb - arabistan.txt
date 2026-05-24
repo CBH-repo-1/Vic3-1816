@@ -15,18 +15,5 @@
 				cautious
 			}
 		}
-		create_character = {
-			# Mizal bin Mardaw
-			first_name = "Mizal"
-			last_name = "al_Kaabi"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			birth_date = 1834.1.1 # complete guesswork
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-			}
-		}
 	}
 }

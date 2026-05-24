@@ -18,24 +18,6 @@
 				set_variable = is_married
 			}
 		}
-		
-		create_character = {
-			# Louis II, Grande Duke of Baden
-			first_name = Ludwig
-			last_name = von_Baden
-			historical = yes
-			culture = primary_culture
-			religion = rel:protestant
-			heir = yes
-			age = 12
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-			traits = {
-				trait_child
-				#psychological_affliction # "Nicht heilbaren Geisteskrankheit"
-			}
-		}
-
 		create_character = {
 			first_name = "Ludwig_Georg"
 			last_name = "Winter"

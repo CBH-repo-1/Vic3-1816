@@ -13,16 +13,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			first_name = Leopold
-			last_name = "von_Lippe"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 14
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-		}
 	}
 }

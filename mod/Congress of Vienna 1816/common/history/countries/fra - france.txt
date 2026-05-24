@@ -63,28 +63,8 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_modifier = {
-			name = modifier_haitian_independence_payments_4
-		}
-
-		set_variable = {
-			name = orleanist_restoration_var
-		}
-		set_variable = {
-			name = fra_republic_counter
-			value = 1
-		}
-		if = {
-			limit = {
-				has_dlc_feature = voice_of_the_people_content
-			}
-			add_journal_entry = {
-				type = je_divided_monarchists
-			}
-			add_journal_entry = {
-				type = je_conquest_of_algeria
-			}
-		}
+		# COW 1816: Haiti indemnity, Orleanist restoration, and Algeria conquest content are delayed.
+		set_variable = legitimist_restoration_var
 		
 		add_company = company_type:company_dmc
 		company:company_dmc = {

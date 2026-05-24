@@ -18,23 +18,6 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			# Charles I of Wurttemberg
-			first_name = Karl
-			last_name = "von_Wurttemberg"
-			historical = yes
-			culture = primary_culture
-			religion = rel:protestant
-			heir = yes
-			age = 13
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-			traits = {
-				trait_child
-			}
-		}
-
 		# create_character = {
 			# name = "Fredrich Wilhelm I"
 			# age = 55

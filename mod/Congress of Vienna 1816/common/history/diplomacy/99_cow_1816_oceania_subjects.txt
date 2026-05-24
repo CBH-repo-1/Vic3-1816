@@ -12,6 +12,11 @@
 				type = protectorate
 			}
 		}
+
+		create_diplomatic_pact = {
+			country = c:NSW
+			type = colony
+		}
 	}
 
 	c:FRA ?= {

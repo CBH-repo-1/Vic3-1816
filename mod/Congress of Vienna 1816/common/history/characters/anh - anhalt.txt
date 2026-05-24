@@ -18,19 +18,5 @@
 				set_variable = is_married
 			}
 		}
-
-		create_character = {
-			# Frederick I, Duke of Anhalt
-			first_name = "Friedrich"
-			last_name = "Askanier"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 5
-			interest_group = ig_armed_forces
-			traits = {
-				trait_child
-			}
-		}	
 	}
 }

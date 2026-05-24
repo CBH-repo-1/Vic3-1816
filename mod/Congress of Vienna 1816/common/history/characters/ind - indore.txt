@@ -14,20 +14,5 @@
 				imperious
 			}
 		}	
-
-		create_character = {
-			# Khande Rao II Holkar X
-			first_name = "Khande_Rao"
-			last_name = "Holkar"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 8
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

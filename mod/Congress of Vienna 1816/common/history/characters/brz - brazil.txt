@@ -1,24 +1,43 @@
 ﻿CHARACTERS = {
 	c:BRZ ?= {
 		create_character = {
-			template = BRZ_emperor_pedro_02
+			# Joao VI, king of the United Kingdom of Portugal, Brazil and the Algarves.
+			first_name = JoA_o
+			last_name = de_Braganca
+			historical = yes
+			ruler = yes
+			noble = yes
+			birth_date = 1767.5.13
+			culture = primary_culture
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				cautious
+				pious
+			}
 			on_created = {
-				if = {
-					limit = {
-						has_dlc_feature = rp1_content
-					}
-					set_character_immortal = yes
-				}
+				set_variable = house_braganca
+				set_variable = is_married
 			}
 		}
 
-		# Isobel, Princess Imperial was not born until 1846
-
 		create_character = {
-			template = BRZ_diogo_antonio_feijo
+			# Pedro de Braganca
+			first_name = Pedro
+			last_name = de_Braganca
+			historical = yes
+			heir = yes
+			noble = yes
+			birth_date = 1798.10.12
+			culture = primary_culture
+			interest_group = ig_armed_forces
+			ideology = ideology_reformer
+			traits = {
+				ambitious
+				romantic
+			}
 			on_created = {
-				set_variable = { name = regency_years value = 0 }
-				set_character_immortal = yes
+				set_variable = house_braganca
 			}
 		}
 

@@ -1,0 +1,2765 @@
+﻿# COW 1816 custom journal entries. Generated from planning/61_custom_journal_entry_menu.md.
+
+je_cow_1816_gbr_postwar_settlement = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:GBR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.1 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_gbr_workshop_world = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.2 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_fra_bourbon_restoration = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:FRA = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.3 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_fra_return_great_power = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.4 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_aus_congress_system = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:AUS = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.5 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_aus_habsburg_crownlands = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.6 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_pru_reform_state = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.7 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_pru_german_dualism = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.8 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_rus_holy_alliance = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:RUS = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.9 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_rus_imperial_borderlands = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.10 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_tur_ottoman_recovery = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:TUR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.11 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_tur_eastern_question = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.12 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_chi_canton_system = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:CHI = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.13 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_chi_inner_frontiers = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.14 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_usa_era_good_feelings = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:USA = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.15 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_usa_continental_frontier = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.16 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_spa_crisis_indies = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:SPA = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.17 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_spa_postwar_restoration = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.18 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_por_atlantic_united_kingdom = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:POR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.19 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_por_liberal_revolution = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.20 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_brz_kingdom_tropics = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:BRZ = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.21 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_brz_road_independence = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.22 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_bic_maratha_war = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:BIC = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.23 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_bic_company_raj = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.24 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_per_qajar_restoration = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:PER = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.25 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_per_centralize_realm = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.26 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_egy_muhammad_ali_state = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:EGY = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.27 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_egy_ambition = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.28 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_net_united_kingdom_netherlands = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:NET = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.29 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_net_colonial_commercial_revival = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.30 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_swe_scandinavian_balance = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:SWE = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.31 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_swe_baltic_ambition = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.32 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_den_postwar_denmark = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:DEN = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.33 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_den_schleswig_holstein = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.34 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_jap_tokugawa_order = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:JAP = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.35 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_jap_rangaku_reform = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.36 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_kor_hermit_kingdom = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:KOR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.37 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_kor_court_reform = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.38 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_sia_chakri_consolidation = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:SIA = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.39 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_sia_between_empires = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.40 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_dai_nguyen_state_building = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:DAI = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.41 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_dai_mekong_rivalry = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.42 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_bur_konbaung_ascendancy = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:BUR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.43 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_bur_company_frontier = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.44 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_dei_restore_dutch_rule = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:DEI = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.45 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_dei_java_revenue_state = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.46 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_pan_sikh_consolidation = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:PAN = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.47 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_pan_frontier_empires = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.48 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_maratha_confederacy_restored = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:GWA = THIS
+			c:IND = THIS
+			c:NAG = THIS
+			c:SAT = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.49 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_maratha_subsidiary_alliance = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.50 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_spanish_america_wars_independence = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:ARG = THIS
+			c:CHL = THIS
+			c:PRG = THIS
+			c:SC1 = THIS
+			c:SC2 = THIS
+			c:SC3 = THIS
+			c:URU = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.51 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_spanish_america_recognition_fragmentation = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.52 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_italian_restoration = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:LOM = THIS
+			c:LUC = THIS
+			c:MOD = THIS
+			c:PAP = THIS
+			c:PAR = THIS
+			c:SAR = THIS
+			c:SIC = THIS
+			c:TUS = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.53 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_italian_risorgimento_seeds = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.54 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_german_confederation_politics = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:ANH = THIS
+			c:BAD = THIS
+			c:BAV = THIS
+			c:BRA = THIS
+			c:BRE = THIS
+			c:COB = THIS
+			c:FRM = THIS
+			c:HAM = THIS
+			c:HAN = THIS
+			c:HEK = THIS
+			c:HES = THIS
+			c:HOH = THIS
+			c:HOL = THIS
+			c:LIP = THIS
+			c:LUB = THIS
+			c:MEC = THIS
+			c:MEI = THIS
+			c:MST = THIS
+			c:NAS = THIS
+			c:OLD = THIS
+			c:PRU = THIS
+			c:SAX = THIS
+			c:SCH = THIS
+			c:SCM = THIS
+			c:SCW = THIS
+			c:V04 = THIS
+			c:V05 = THIS
+			c:WEI = THIS
+			c:WLD = THIS
+			c:WUR = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.55 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_german_economic_union = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.56 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_balkan_ottoman_vassals = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:MOL = THIS
+			c:MON = THIS
+			c:SER = THIS
+			c:WAL = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.57 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_balkan_uprisings = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.58 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_afghan_fragmentation = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:HER = THIS
+			c:KAB = THIS
+			c:KAF = THIS
+			c:KAN = THIS
+			c:KUN = THIS
+			c:MAI = THIS
+			c:V10 = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.59 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_afghan_between_empires = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.60 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_central_asia_khanate_rivalries = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:BUK = THIS
+			c:KHI = THIS
+			c:KOK = THIS
+			c:KZH = THIS
+			c:OZH = THIS
+			c:UZH = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.61 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_central_asia_russian_shadow = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.62 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_hai_two_haitis = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:HAI = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.63 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_hai_french_recognition = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.64 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_ald_regency_corsairs = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:ALD = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.65 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_ald_road_to_algiers = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.66 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_mor_makhzen_tribes = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:MOR = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.67 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_mor_maghreb_pressure = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.68 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_barbary_autonomy = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		OR = {
+			c:TRI = THIS
+			c:TUN = THIS
+		}
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.69 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_barbary_mediterranean_commerce = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.70 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_sok_caliphate_consolidation = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:SOK = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.71 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_sok_jihad_legacy = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.72 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_mad_radama_kingdom = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:MAD = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.73 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_mad_foreign_mission_trade = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.74 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_zul_state_formation = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:ZUL = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.75 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_zul_highveld_upheaval = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.76 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_com_southern_plains = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:COM = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.77 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_com_band_confederacy = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.78 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_lkt_western_expansion = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:LKT = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.79 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_lkt_plains_trade = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.80 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_haw_kamehameha_kingdom = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:HAW = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.81 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_haw_pacific_crossroads = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.82 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_hbc_fur_trade_empire = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		c:HBC = THIS
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.83 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_cow_1816_hbc_red_river_bna = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_historical_content
+
+
+		is_shown_in_lobby = {
+		always = no
+	}
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	on_complete = {
+		trigger_event = { id = cow_1816_journal.84 days = 0 popup = yes }
+	}
+
+	current_value = {
+		value = root.gdp
+	}
+
+	goal_add_value = {
+		value = root.gdp
+		multiply = 0.20
+	}
+
+	progressbar = yes
+	weight = 6000
+	transferable = no
+	should_be_pinned_by_default = yes
+}

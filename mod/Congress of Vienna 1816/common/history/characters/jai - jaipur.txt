@@ -8,9 +8,6 @@
 				set_character_immortal = yes
 			}
 		}
-		create_character = {
-			template = JAI_ram_singh_template
-		}
 		# IG leaders
 		create_character = {
 			template = JAI_rawal_bairi_sal_template

@@ -1511,11 +1511,23 @@
 				count = 10
 			}
 
-#			combat_unit = { # Reval and Estonia JÃ¤gers
-#				type = unit_type:combat_unit_type_line_infantry
-#				state_region = s:STATE_ESTONIA
-#				count = 4
-#			}
+			combat_unit = { # Reval, Estonia, and Narva Jagers folded into Russia after the Baltic ownership cleanup
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TALINN
+				count = 3
+			}
+
+			combat_unit = { # Riga garrison
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RIGA
+				count = 2
+			}
+
+			combat_unit = { # Courland Lancer Regiment
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_COURLAND
+				count = 1
+			}
 
 			combat_unit = { #  Field Marshal Prince Kutuzov of Smolenskâ€™s and Velikie-Luki JÃ¤gers
 				type = unit_type:combat_unit_type_line_infantry
@@ -3884,35 +3896,6 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_BALEARIC_ISLANDS
-				count = 1
-			}
-		}
-	}
-	c:UBD ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_baltic_states
-
-			combat_unit = { # Reval and Estonia JÃ¤gers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TALINN
-				count = 2
-			}
-
-			combat_unit = { # Uncertain
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_RIGA
-				count = 2
-			}
-
-			combat_unit = { # Courland Lancer Regiment
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_COURLAND
-				count = 1
-			}
-			combat_unit = { # Narva JÃ¤gers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TALINN
 				count = 1
 			}
 		}

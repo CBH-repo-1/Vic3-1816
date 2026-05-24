@@ -1,0 +1,419 @@
+COUNTRIES = {
+	c:JAP ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_japan
+			name = Tokugawa_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KANTO
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KANSAI
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHUBU
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KYUSHU
+				count = 3
+			}
+		}
+	}
+
+	c:KOR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = Joseon_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SEOUL
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PYONGYANG
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YANGHO
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BUSAN
+				count = 3
+			}
+		}
+	}
+
+	c:SIA ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = Royal_Siamese_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BANGKOK
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NAKHON_RATCHASIMA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NAKHON_RATCHASIMA
+				count = 3
+			}
+		}
+	}
+
+	c:DAI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = Nguyen_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TONKIN
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ANNAM
+				count = 7
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ANNAM
+				count = 2
+			}
+		}
+	}
+
+	c:NEP ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_himalayas
+			name = Gurkha_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HIMALAYAS
+				count = 18
+			}
+		}
+	}
+
+	c:MOR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = Makhzen_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MARRAKECH
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FEZ
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AL_RIF
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_INNER_MOROCCO
+				count = 4
+			}
+		}
+	}
+
+	c:SC3 ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_andes
+			name = Ejercito_del_Virreinato
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LIMA
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AREQUIPA
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LIMA
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_LIMA
+				count = 1
+			}
+		}
+	}
+
+	c:SOK ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_niger
+			name = Sokoto_Caliphate_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NIGERIA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EAST_HAUSALAND
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NIGERIA
+				count = 4
+			}
+		}
+	}
+
+	c:BUK ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_asia
+			name = Bukharan_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_UZBEKIA
+				count = 12
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_UZBEKIA
+				count = 3
+			}
+		}
+	}
+
+	c:KOK ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_asia
+			name = Kokandi_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TAJIKISTAN
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KIRGHIZIA
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_KIRGHIZIA
+				count = 4
+			}
+		}
+	}
+
+	c:KHI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_asia
+			name = Khivan_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KHIVA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_KHIVA
+				count = 4
+			}
+		}
+	}
+
+	c:TIB ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_himalayas
+			name = Tibetan_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LHASA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NGARI
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LHASA
+				count = 2
+			}
+		}
+	}
+
+	c:TRI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_africa
+			name = Tripolitanian_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LIBYA
+				count = 8
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_LIBYA
+				count = 2
+			}
+		}
+	}
+
+	c:SWI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_germany
+			name = Swiss_Militia
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WEST_SWITZERLAND
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EAST_SWITZERLAND
+				count = 3
+			}
+		}
+	}
+
+	c:GUA ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_america
+			name = Capitania_General_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GUATEMALA
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HONDURAS
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GUATEMALA
+				count = 1
+			}
+		}
+	}
+
+	c:COM ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_great_plains
+			name = Comanche_War_Bands
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_OKLAHOMA
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OKLAHOMA
+				count = 1
+			}
+		}
+	}
+
+	c:LKT ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_great_plains
+			name = Lakota_War_Bands
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SOUTH_DAKOTA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOUTH_DAKOTA
+				count = 1
+			}
+		}
+	}
+}

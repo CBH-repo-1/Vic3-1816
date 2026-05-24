@@ -531,11 +531,15 @@
 		region_state:USA = {
 			create_pop = {
 				culture = algonquian
-				size = 192
+				size = 30000
+			}
+			create_pop = {
+				culture = dakota
+				size = 3000
 			}
 			create_pop = {
 				culture = yankee
-				size = 674
+				size = 7000
 			}
 		}
 	}

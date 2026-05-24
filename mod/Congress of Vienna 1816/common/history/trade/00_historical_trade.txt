@@ -131,14 +131,4 @@
 			}
 		}
 	}
-	s:STATE_BASQUE_COUNTRY={
-		region_state:SPC={
-			sg:hardwood = {
-				add_imports = 5
-			}
-			sg:artillery = {
-				add_imports = 5
-			}
-		}
-	}
 }

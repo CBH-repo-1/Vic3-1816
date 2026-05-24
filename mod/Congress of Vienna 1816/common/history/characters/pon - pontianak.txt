@@ -13,20 +13,5 @@
 			traits = {
 			}
 		}	
-
-		create_character = {
-			# Sultan Hamid Alkadrie
-			first_name = "Hamid"
-			last_name = "Alkadrie"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			birth_date = 1825.9.2 # reigned from 1855–1872, birth date unknown
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

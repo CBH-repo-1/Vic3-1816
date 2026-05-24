@@ -590,6 +590,17 @@
 	s:STATE_FEZ={
 		region_state:MOR={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:MOR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -760,6 +771,17 @@
 	}
 	s:STATE_ALGIERS={
 		region_state:ALD={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:ALD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

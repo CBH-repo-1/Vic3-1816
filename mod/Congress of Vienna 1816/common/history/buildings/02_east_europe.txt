@@ -328,6 +328,17 @@
 	s:STATE_GREATER_POLAND={
 		region_state:POL={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:POL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_textile_mill"
 				add_ownership={
 					building={
@@ -1234,6 +1245,17 @@
 	s:STATE_NORTHERN_TRANSYLVANIA={
 		region_state:TRS={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:TRS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1350,6 +1372,17 @@
 	s:STATE_MOLDAVIA={
 		region_state:MOL={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:MOL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
@@ -1411,6 +1444,17 @@
 	}
 	s:STATE_WALLACHIA={
 		region_state:WAL={
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:WAL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

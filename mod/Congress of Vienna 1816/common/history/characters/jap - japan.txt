@@ -40,21 +40,6 @@
 		}
 
 		create_character = {
-			# Mori Takachika, daimyo of the Choshu Domain from mid-1836 until 1869. Dude was pretty politically active even from a young age.
-			first_name = Takachika
-			last_name = Mori
-			historical = yes
-			culture = primary_culture
-			birth_date = 1819.3.5
-			ig_leader = yes
-			interest_group = ig_landowners
-			traits = {
-				meticulous
-				ambitious
-			}
-		}
-
-		create_character = {
 			first_name = Tadakuni
 			last_name = Mizuno
 			historical = yes

@@ -17,19 +17,5 @@
 				set_variable = is_married
 			}
 		}	
-
-		create_character = {
-			# Peter II, Grand Duke of Oldenburg
-			first_name = Peter
-			last_name = "von_Holstein-Gottorp"
-			historical = yes
-			culture = primary_culture
-			heir = yes
-			age = 9
-			interest_group = ig_landowners
-			traits = {
-				trait_child
-			}
-		}
 	}
 }

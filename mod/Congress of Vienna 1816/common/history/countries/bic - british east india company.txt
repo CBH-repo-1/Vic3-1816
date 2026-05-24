@@ -48,14 +48,7 @@
 			level = high_tariffs
 		}
 
-		set_variable = {
-			name = east_indies_revolt_var
-			value = 0
-		}
-
-		add_journal_entry = {
-			type = je_consolidate_colonial_rule
-		}
+		# COW 1816: colonial-consolidation journal content is delayed for a future Company/Maratha chain.
 
 		add_modifier = modifier_india_company_rule
 

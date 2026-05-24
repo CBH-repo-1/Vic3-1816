@@ -1,0 +1,32 @@
+﻿DIPLOMACY = {
+	# Hard rivalries are intentionally sparse. Most 1816 tension is handled
+	# through relations so later events can escalate it cleanly.
+
+	c:RUS ?= {
+		create_diplomatic_pact = { country = c:TUR type = rivalry }
+	}
+	c:TUR ?= {
+		create_diplomatic_pact = { country = c:RUS type = rivalry }
+	}
+
+	c:SIA ?= {
+		create_diplomatic_pact = { country = c:DAI type = rivalry }
+	}
+	c:DAI ?= {
+		create_diplomatic_pact = { country = c:SIA type = rivalry }
+	}
+
+	c:SPA ?= {
+		create_diplomatic_pact = { country = c:ARG type = rivalry }
+	}
+	c:ARG ?= {
+		create_diplomatic_pact = { country = c:SPA type = rivalry }
+	}
+
+	c:EGY ?= {
+		create_diplomatic_pact = { country = c:NEJ type = rivalry }
+	}
+	c:NEJ ?= {
+		create_diplomatic_pact = { country = c:EGY type = rivalry }
+	}
+}
