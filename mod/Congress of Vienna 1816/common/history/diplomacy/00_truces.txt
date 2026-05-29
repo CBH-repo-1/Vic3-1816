@@ -1,2 +1,14 @@
 ﻿DIPLOMACY = {
 }
+
+DIPLOMACY = {
+}
+
+DIPLOMACY = {
+}
+
+DIPLOMACY = {
+}
+
+DIPLOMACY = {
+}

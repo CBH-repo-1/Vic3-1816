@@ -2,7 +2,7 @@
 	c:V10 ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_punjab
+			hq_region = sr:region_north_india
 			name = MultanArmy
 
 			combat_unit = {

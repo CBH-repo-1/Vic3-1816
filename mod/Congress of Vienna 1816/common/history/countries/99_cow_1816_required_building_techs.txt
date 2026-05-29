@@ -1,0 +1,1197 @@
+﻿# COW 1816 / Victoria 3 1.13 compatibility:
+# Countries must know the unlock technologies for buildings we explicitly create at game start.
+COUNTRIES = {
+	c:ABU ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:ACE ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:AIT ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+	}
+	c:ALD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:ALK ?= {
+		add_technology_researched = navigation
+	}
+	c:ANH ?= {
+		add_technology_researched = enclosure
+	}
+	c:ANK ?= {
+		add_technology_researched = standing_army
+	}
+	c:ARB ?= {
+		add_technology_researched = enclosure
+	}
+	c:ARG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = tech_bureaucracy
+	}
+	c:ARS ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:ASH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:ASM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = tech_bureaucracy
+	}
+	c:AUS ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = romanticism
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:AWA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:AWS ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:BAD ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:BAH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:BAL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:BAS ?= {
+		add_technology_researched = enclosure
+	}
+	c:BAV ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = romanticism
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:BCE ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:BEN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BER ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:BGI ?= {
+		add_technology_researched = standing_army
+	}
+	c:BGM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BHO ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:BHU ?= {
+		add_technology_researched = standing_army
+	}
+	c:BHV ?= {
+		add_technology_researched = enclosure
+	}
+	c:BHW ?= {
+		add_technology_researched = enclosure
+	}
+	c:BIC ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:BLG ?= {
+		add_technology_researched = standing_army
+	}
+	c:BNJ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BNY ?= {
+		add_technology_researched = standing_army
+	}
+	c:BOR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BRA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = shaft_mining
+	}
+	c:BRD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BRE ?= {
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+	}
+	c:BRG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BRU ?= {
+		add_technology_researched = standing_army
+	}
+	c:BRZ ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:BTN ?= {
+		add_technology_researched = standing_army
+	}
+	c:BUG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BUK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:BUN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+	}
+	c:BUR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:CAM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:CHC ?= {
+		add_technology_researched = enclosure
+	}
+	c:CHI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:CHL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+	}
+	c:CHP ?= {
+		add_technology_researched = standing_army
+	}
+	c:CIR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:CMI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:COB ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:COM ?= {
+		add_technology_researched = enclosure
+	}
+	c:CRO ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:CUB ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:DAH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:DAI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:DEI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:DEN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:DFR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:DOM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+	}
+	c:EGY ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:FIN ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:FRA ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = romanticism
+		add_technology_researched = shaft_mining
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:FRM ?= {
+		add_technology_researched = manufacturies
+	}
+	c:FTJ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:FTR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:FZN ?= {
+		add_technology_researched = enclosure
+	}
+	c:GBR ?= {
+		add_technology_researched = academia
+		add_technology_researched = atmospheric_engine
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = romanticism
+		add_technology_researched = shaft_mining
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:GJM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:GLD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:GML ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:GUA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:GWA ?= {
+		add_technology_researched = enclosure
+	}
+	c:HAI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:HAM ?= {
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+	}
+	c:HAN ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:HAR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:HAU ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:HAW ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+	}
+	c:HBC ?= {
+		add_technology_researched = standing_army
+	}
+	c:HDJ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:HDY ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:HEK ?= {
+		add_technology_researched = enclosure
+	}
+	c:HER ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:HES ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+	}
+	c:HOH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:HOL ?= {
+		add_technology_researched = enclosure
+	}
+	c:HUN ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:HYD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:IND ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:ION ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:ISQ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:JAI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:JAM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:JAP ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:JHN ?= {
+		add_technology_researched = enclosure
+	}
+	c:JMB ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+	}
+	c:JOH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KAB ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:KAL ?= {
+		add_technology_researched = enclosure
+	}
+	c:KAN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:KAS ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = tech_bureaucracy
+	}
+	c:KAU ?= {
+		add_technology_researched = enclosure
+	}
+	c:KFA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KHI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KOK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KON ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KOR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:KRA ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+	}
+	c:KRG ?= {
+		add_technology_researched = standing_army
+	}
+	c:KRT ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:KTI ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:KUN ?= {
+		add_technology_researched = enclosure
+	}
+	c:KUT ?= {
+		add_technology_researched = enclosure
+	}
+	c:KZH ?= {
+		add_technology_researched = standing_army
+	}
+	c:LAD ?= {
+		add_technology_researched = enclosure
+	}
+	c:LAH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:LAN ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:LIP ?= {
+		add_technology_researched = enclosure
+	}
+	c:LOM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:LUA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:LUB ?= {
+		add_technology_researched = navigation
+	}
+	c:LUC ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+	}
+	c:LUX ?= {
+		add_technology_researched = enclosure
+	}
+	c:MAD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:MAI ?= {
+		add_technology_researched = enclosure
+	}
+	c:MAK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:MBS ?= {
+		add_technology_researched = standing_army
+	}
+	c:MEC ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:MEI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:MEW ?= {
+		add_technology_researched = enclosure
+	}
+	c:MGD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:MJT ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:MKT ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:MLT ?= {
+		add_technology_researched = navigation
+	}
+	c:MOD ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+	}
+	c:MOL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = urbanization
+	}
+	c:MON ?= {
+		add_technology_researched = enclosure
+	}
+	c:MOR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:MSK ?= {
+		add_technology_researched = enclosure
+	}
+	c:MST ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:MUG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = tech_bureaucracy
+	}
+	c:MYB ?= {
+		add_technology_researched = enclosure
+	}
+	c:MYS ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = prospecting
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:NAG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = urbanization
+	}
+	c:NAS ?= {
+		add_technology_researched = enclosure
+	}
+	c:NAW ?= {
+		add_technology_researched = enclosure
+	}
+	c:NBS ?= {
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+	}
+	c:NEJ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:NEP ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+		add_technology_researched = urbanization
+	}
+	c:NET ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:NOR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+	}
+	c:NSW ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:NTO ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:NVS ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:OLD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:OMA ?= {
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+	}
+	c:ONT ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+	}
+	c:OYO ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:OZH ?= {
+		add_technology_researched = standing_army
+	}
+	c:PAN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PAP ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PAR ?= {
+		add_technology_researched = enclosure
+	}
+	c:PCO ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:PDI ?= {
+		add_technology_researched = enclosure
+	}
+	c:PER ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PHI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PHL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:PLY ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:POL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = urbanization
+	}
+	c:PON ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:POR ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PRG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+	}
+	c:PRK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:PRU ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:PTA ?= {
+		add_technology_researched = enclosure
+	}
+	c:QUE ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+	}
+	c:QWR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:RUS ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = romanticism
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:RWD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SAF ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:SAK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+	}
+	c:SAR ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SAX ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SC1 ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SC2 ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SC3 ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SCH ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = tech_bureaucracy
+	}
+	c:SCW ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+	}
+	c:SDM ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SEL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SER ?= {
+		add_technology_researched = enclosure
+	}
+	c:SGU ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SHW ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SIA ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SIC ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SIK ?= {
+		add_technology_researched = standing_army
+	}
+	c:SIL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:SIN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:SLW ?= {
+		add_technology_researched = navigation
+	}
+	c:SMB ?= {
+		add_technology_researched = standing_army
+	}
+	c:SOK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SPA ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SRK ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:STG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:SUD ?= {
+		add_technology_researched = enclosure
+	}
+	c:SUL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:SWE ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SWI ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:SWZ ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:TGI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:TGR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:TIB ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+		add_technology_researched = tech_bureaucracy
+	}
+	c:TID ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:TRA ?= {
+		add_technology_researched = enclosure
+	}
+	c:TRI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:TRS ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:TSW ?= {
+		add_technology_researched = enclosure
+	}
+	c:TUG ?= {
+		add_technology_researched = standing_army
+	}
+	c:TUN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:TUR ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:TUS ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:URU ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = tech_bureaucracy
+	}
+	c:USA ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
+		add_technology_researched = shaft_mining
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:V07 ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+	}
+	c:WAD ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:WAL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = shaft_mining
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:WBL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:WEI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = shaft_mining
+		add_technology_researched = standing_army
+	}
+	c:WLD ?= {
+		add_technology_researched = enclosure
+	}
+	c:WLG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:WLT ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:WSG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:WUR ?= {
+		add_technology_researched = academia
+		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
+		add_technology_researched = tech_bureaucracy
+		add_technology_researched = urbanization
+	}
+	c:YOG ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:ZAI ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+	c:ZAN ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = navigation
+		add_technology_researched = standing_army
+	}
+	c:ZUL ?= {
+		add_technology_researched = enclosure
+		add_technology_researched = standing_army
+	}
+}

@@ -1,8 +1,10 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:COM ?= {
 		set_country_type = unrecognized
 		effect_starting_technology_tier_6_tech = yes
 		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_warrior_caste
 		activate_law = law_type:law_native_council
 		effect_native_conscription_11 = yes
 

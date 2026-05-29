@@ -32,7 +32,6 @@ cow_1816_reward_military_reform = {
 cow_1816_reward_commercial_networks = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	building_trade_center_throughput_add = 0.02
-	country_convoys_capacity_mult = 0.02
 	country_minting_mult = 0.01
 }
 
@@ -54,7 +53,6 @@ cow_1816_reward_colonial_governance = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_bureaucracy_mult = 0.02
 	country_influence_mult = 0.01
-	country_convoys_capacity_mult = 0.01
 }
 
 cow_1816_reward_reform_pressure = {

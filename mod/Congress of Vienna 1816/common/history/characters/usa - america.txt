@@ -6,6 +6,7 @@
 			last_name = Madison
 			historical = yes
 			ruler = yes
+			ig_leader = yes
 			birth_date = 1751.3.16
 			culture = cu:yankee
 			interest_group = ig_intelligentsia

@@ -1,52 +1,69 @@
 ﻿DIPLOMACY = {
 	c:SPA ?= {
-		create_diplomatic_pact = {
-			country = c:CUB
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:CUB type = colony } } }
+			create_diplomatic_pact = {
+				country = c:CUB
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:PCO
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:PCO type = colony } } }
+			create_diplomatic_pact = {
+				country = c:PCO
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:SC2
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:SC2 type = colony } } }
+			create_diplomatic_pact = {
+				country = c:SC2
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:SC3
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:SC3 type = colony } } }
+			create_diplomatic_pact = {
+				country = c:SC3
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:CHL
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:CHL type = colony } } }
+			create_diplomatic_pact = {
+				country = c:CHL
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:DOM
-			type = colony
-		}
-	}
-
-	c:POR ?= {
-		create_diplomatic_pact = {
-			country = c:BRZ
-			type = personal_union
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:DOM type = colony } } }
+			create_diplomatic_pact = {
+				country = c:DOM
+				type = colony
+			}
 		}
 	}
 
 	c:GBR ?= {
-		create_diplomatic_pact = {
-			country = c:JAM
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:JAM type = colony } } }
+			create_diplomatic_pact = {
+				country = c:JAM
+				type = colony
+			}
 		}
 
-		create_diplomatic_pact = {
-			country = c:BAH
-			type = colony
+		if = {
+			limit = { NOT = { has_diplomatic_pact = { who = c:BAH type = colony } } }
+			create_diplomatic_pact = {
+				country = c:BAH
+				type = colony
+			}
 		}
 	}
 }

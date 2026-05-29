@@ -1,4 +1,6 @@
 ﻿DIPLOMACY = {
+
+
 	c:RUS ?= {
 		if = {
 			limit = {

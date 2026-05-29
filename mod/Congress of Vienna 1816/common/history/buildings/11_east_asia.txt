@@ -512,19 +512,6 @@
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CHI"
-						levels=5
-						region="STATE_BEIJING"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
-			}
-			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
@@ -660,19 +647,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CHI"
-						levels=3
-						region="STATE_SHANXI"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 		}
 	}
@@ -923,7 +897,7 @@
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
-				building="building_military_shipyard"
+				building="building_shipyard"
 				add_ownership={
 					country={
 						country="c:CHI"
@@ -931,7 +905,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden"  }
+				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
 				building="building_port"
@@ -1373,19 +1347,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CHI"
-						levels=9
-						region="STATE_ZHILI"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 		}
 	}
@@ -2960,7 +2921,7 @@
 			}
 		}
 	}
-	s:STATE_CHUBU={
+	s:STATE_TOKAI={
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
@@ -2991,7 +2952,7 @@
 						type="building_paper_mill"
 						country="c:JAP"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3004,7 +2965,7 @@
 						type="building_furniture_manufactory"
 						country="c:JAP"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3017,7 +2978,7 @@
 						type="building_logging_camp"
 						country="c:JAP"
 						levels=3
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3030,7 +2991,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3043,7 +3004,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3056,7 +3017,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3069,7 +3030,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=4
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1

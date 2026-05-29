@@ -1763,16 +1763,42 @@
 			}
 		}
 	}
-	s:STATE_CHUBU = {
+	s:STATE_TOKAI = {
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4158208
+				size = 3178000
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1758635
+				size = 1059000
+			}
+		}
+	}
+	s:STATE_HOKUSHINETSU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 3136000
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 1045000
+			}
+		}
+	}
+	s:STATE_KYOTO = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 1044000
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 348000
 			}
 		}
 	}
@@ -1780,12 +1806,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 6223725
+				size = 3022000
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1698636
+				size = 1007000
 			}
 		}
 	}
@@ -1816,6 +1842,12 @@
 			create_pop = {
 				culture = japanese
 				size = 155650
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 300
 			}
 		}
 	}

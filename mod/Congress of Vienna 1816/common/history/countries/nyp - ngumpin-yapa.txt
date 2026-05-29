@@ -1,0 +1,1 @@
+﻿# COW 1816: compatibility stub for undefined/stale tag NYP in the live mod folder.

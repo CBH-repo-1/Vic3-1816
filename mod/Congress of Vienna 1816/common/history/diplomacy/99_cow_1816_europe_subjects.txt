@@ -1,4 +1,4 @@
-DIPLOMACY = {
+﻿DIPLOMACY = {
 	# 1816 European subject layer.
 	# The mod overrides vanilla 00_subject_relationships.txt, so approved
 	# 1816 vanilla-style subjects are recreated explicitly here.

@@ -46,6 +46,7 @@
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_warrior_caste
 
 		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes

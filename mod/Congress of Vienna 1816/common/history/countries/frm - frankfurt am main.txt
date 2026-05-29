@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:FRM ?= {
 		# set_next_election_date = ???
 		

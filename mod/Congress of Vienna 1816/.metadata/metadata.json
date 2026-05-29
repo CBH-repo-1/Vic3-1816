@@ -2,7 +2,7 @@
   "name": "Congress of Vienna 1816",
   "id": "",
   "version": "0.1.0",
-  "supported_game_version": "1.12.*",
+  "supported_game_version": "1.13.*",
   "short_description": "A Victoria 3 mod beginning on January 1, 1816 after the Congress of Vienna.",
   "tags": [
     "Alternative History",
@@ -13,4 +13,3 @@
     "multiplayer_synchronized": true
   }
 }
-

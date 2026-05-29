@@ -1,0 +1,2 @@
+﻿# COW 1816: disabled for this start. Ryukyu is represented by V07, so the vanilla 1.13 entry
+# repeatedly evaluates unset c:RYU scopes.

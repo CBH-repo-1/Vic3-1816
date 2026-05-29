@@ -2,7 +2,7 @@
 	c:USA ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dixie
+			hq_region = sr:region_atlantic_coast
 			name = Army_of_Observation
 
 			combat_unit = {
@@ -20,7 +20,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_new_england
+			hq_region = sr:region_atlantic_coast
 			name = Regular_Army
 
 			combat_unit = {
@@ -83,7 +83,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dixie
+			hq_region = sr:region_atlantic_coast
 			name = Army_of_Florida
 
 			combat_unit = {
@@ -101,72 +101,62 @@
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_dixie
+			hq_region = sr:region_atlantic_coast
 			name = Navy_Yard_Gosport
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_VIRGINIA
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
 				count = 1
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_VIRGINIA
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 3
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_MASSACHUSETTS
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
 				count = 1
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_MASSACHUSETTS
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 2
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SOUTH_CAROLINA
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 1
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LOUISIANA
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 1
 			}
 		}
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_new_england
+			hq_region = sr:region_atlantic_coast
 			name = Navy_Yard_New_York
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_NEW_YORK
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
 				count = 3
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_NEW_YORK
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 2
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_MASSACHUSETTS
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
 				count = 1
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_MASSACHUSETTS
+			ship = {
+				type = ship_type:ship_type_frigate
 				count = 1
 			}
 
@@ -191,7 +181,7 @@
 	c:HAI ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_central_america
 			name = ArmeeIndigene
 
 			combat_unit = {
@@ -221,7 +211,7 @@
 	c:CUB ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_central_america
 			name = MiliciasdeCuba
 
 			combat_unit = {
@@ -258,7 +248,7 @@
 	c:PCO ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_central_america
 			name = MiliciasDiciplinadas
 
 			combat_unit = {

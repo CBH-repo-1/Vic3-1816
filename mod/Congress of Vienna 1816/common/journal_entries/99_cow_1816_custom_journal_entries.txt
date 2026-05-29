@@ -29,7 +29,7 @@ je_cow_1816_gbr_postwar_settlement = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_gbr_workshop_world = {
@@ -61,7 +61,7 @@ je_cow_1816_gbr_workshop_world = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_fra_bourbon_restoration = {
@@ -93,7 +93,7 @@ je_cow_1816_fra_bourbon_restoration = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_fra_return_great_power = {
@@ -125,7 +125,7 @@ je_cow_1816_fra_return_great_power = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_aus_congress_system = {
@@ -157,7 +157,7 @@ je_cow_1816_aus_congress_system = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_aus_habsburg_crownlands = {
@@ -189,7 +189,7 @@ je_cow_1816_aus_habsburg_crownlands = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_pru_reform_state = {
@@ -221,7 +221,7 @@ je_cow_1816_pru_reform_state = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_pru_german_dualism = {
@@ -253,7 +253,7 @@ je_cow_1816_pru_german_dualism = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_rus_holy_alliance = {
@@ -285,7 +285,7 @@ je_cow_1816_rus_holy_alliance = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_rus_imperial_borderlands = {
@@ -317,7 +317,7 @@ je_cow_1816_rus_imperial_borderlands = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_tur_ottoman_recovery = {
@@ -349,7 +349,7 @@ je_cow_1816_tur_ottoman_recovery = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_tur_eastern_question = {
@@ -381,7 +381,7 @@ je_cow_1816_tur_eastern_question = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_chi_canton_system = {
@@ -413,7 +413,7 @@ je_cow_1816_chi_canton_system = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_chi_inner_frontiers = {
@@ -445,7 +445,7 @@ je_cow_1816_chi_inner_frontiers = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_usa_era_good_feelings = {
@@ -477,7 +477,7 @@ je_cow_1816_usa_era_good_feelings = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_usa_continental_frontier = {
@@ -509,7 +509,7 @@ je_cow_1816_usa_continental_frontier = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_spa_crisis_indies = {
@@ -541,7 +541,7 @@ je_cow_1816_spa_crisis_indies = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_spa_postwar_restoration = {
@@ -573,7 +573,7 @@ je_cow_1816_spa_postwar_restoration = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_por_atlantic_united_kingdom = {
@@ -605,7 +605,7 @@ je_cow_1816_por_atlantic_united_kingdom = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_por_liberal_revolution = {
@@ -637,7 +637,7 @@ je_cow_1816_por_liberal_revolution = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_brz_kingdom_tropics = {
@@ -669,7 +669,7 @@ je_cow_1816_brz_kingdom_tropics = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_brz_road_independence = {
@@ -701,7 +701,7 @@ je_cow_1816_brz_road_independence = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_bic_maratha_war = {
@@ -733,7 +733,7 @@ je_cow_1816_bic_maratha_war = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_bic_company_raj = {
@@ -765,7 +765,7 @@ je_cow_1816_bic_company_raj = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_per_qajar_restoration = {
@@ -797,7 +797,7 @@ je_cow_1816_per_qajar_restoration = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_per_centralize_realm = {
@@ -829,7 +829,7 @@ je_cow_1816_per_centralize_realm = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_egy_muhammad_ali_state = {
@@ -861,7 +861,7 @@ je_cow_1816_egy_muhammad_ali_state = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_egy_ambition = {
@@ -893,7 +893,7 @@ je_cow_1816_egy_ambition = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_net_united_kingdom_netherlands = {
@@ -925,7 +925,7 @@ je_cow_1816_net_united_kingdom_netherlands = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_net_colonial_commercial_revival = {
@@ -957,7 +957,7 @@ je_cow_1816_net_colonial_commercial_revival = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_swe_scandinavian_balance = {
@@ -989,7 +989,7 @@ je_cow_1816_swe_scandinavian_balance = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_swe_baltic_ambition = {
@@ -1021,7 +1021,7 @@ je_cow_1816_swe_baltic_ambition = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_den_postwar_denmark = {
@@ -1053,7 +1053,7 @@ je_cow_1816_den_postwar_denmark = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_den_schleswig_holstein = {
@@ -1085,7 +1085,7 @@ je_cow_1816_den_schleswig_holstein = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_jap_tokugawa_order = {
@@ -1117,7 +1117,7 @@ je_cow_1816_jap_tokugawa_order = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_jap_rangaku_reform = {
@@ -1149,7 +1149,7 @@ je_cow_1816_jap_rangaku_reform = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_kor_hermit_kingdom = {
@@ -1181,7 +1181,7 @@ je_cow_1816_kor_hermit_kingdom = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_kor_court_reform = {
@@ -1213,7 +1213,7 @@ je_cow_1816_kor_court_reform = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_sia_chakri_consolidation = {
@@ -1245,7 +1245,7 @@ je_cow_1816_sia_chakri_consolidation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_sia_between_empires = {
@@ -1277,7 +1277,7 @@ je_cow_1816_sia_between_empires = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_dai_nguyen_state_building = {
@@ -1309,7 +1309,7 @@ je_cow_1816_dai_nguyen_state_building = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_dai_mekong_rivalry = {
@@ -1341,7 +1341,7 @@ je_cow_1816_dai_mekong_rivalry = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_bur_konbaung_ascendancy = {
@@ -1373,7 +1373,7 @@ je_cow_1816_bur_konbaung_ascendancy = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_bur_company_frontier = {
@@ -1405,7 +1405,7 @@ je_cow_1816_bur_company_frontier = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_dei_restore_dutch_rule = {
@@ -1437,7 +1437,7 @@ je_cow_1816_dei_restore_dutch_rule = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_dei_java_revenue_state = {
@@ -1469,7 +1469,7 @@ je_cow_1816_dei_java_revenue_state = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_pan_sikh_consolidation = {
@@ -1501,7 +1501,7 @@ je_cow_1816_pan_sikh_consolidation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_pan_frontier_empires = {
@@ -1533,7 +1533,7 @@ je_cow_1816_pan_frontier_empires = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_maratha_confederacy_restored = {
@@ -1570,7 +1570,7 @@ je_cow_1816_maratha_confederacy_restored = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_maratha_subsidiary_alliance = {
@@ -1602,7 +1602,7 @@ je_cow_1816_maratha_subsidiary_alliance = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_spanish_america_wars_independence = {
@@ -1642,7 +1642,7 @@ je_cow_1816_spanish_america_wars_independence = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_spanish_america_recognition_fragmentation = {
@@ -1674,7 +1674,7 @@ je_cow_1816_spanish_america_recognition_fragmentation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_italian_restoration = {
@@ -1715,7 +1715,7 @@ je_cow_1816_italian_restoration = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_italian_risorgimento_seeds = {
@@ -1747,7 +1747,7 @@ je_cow_1816_italian_risorgimento_seeds = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_german_confederation_politics = {
@@ -1810,7 +1810,7 @@ je_cow_1816_german_confederation_politics = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_german_economic_union = {
@@ -1842,7 +1842,7 @@ je_cow_1816_german_economic_union = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_balkan_ottoman_vassals = {
@@ -1879,7 +1879,7 @@ je_cow_1816_balkan_ottoman_vassals = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_balkan_uprisings = {
@@ -1911,7 +1911,7 @@ je_cow_1816_balkan_uprisings = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_afghan_fragmentation = {
@@ -1951,7 +1951,7 @@ je_cow_1816_afghan_fragmentation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_afghan_between_empires = {
@@ -1983,7 +1983,7 @@ je_cow_1816_afghan_between_empires = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_central_asia_khanate_rivalries = {
@@ -2022,7 +2022,7 @@ je_cow_1816_central_asia_khanate_rivalries = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_central_asia_russian_shadow = {
@@ -2054,7 +2054,7 @@ je_cow_1816_central_asia_russian_shadow = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_hai_two_haitis = {
@@ -2086,7 +2086,7 @@ je_cow_1816_hai_two_haitis = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_hai_french_recognition = {
@@ -2118,7 +2118,7 @@ je_cow_1816_hai_french_recognition = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_ald_regency_corsairs = {
@@ -2150,7 +2150,7 @@ je_cow_1816_ald_regency_corsairs = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_ald_road_to_algiers = {
@@ -2182,7 +2182,7 @@ je_cow_1816_ald_road_to_algiers = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_mor_makhzen_tribes = {
@@ -2214,7 +2214,7 @@ je_cow_1816_mor_makhzen_tribes = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_mor_maghreb_pressure = {
@@ -2246,7 +2246,7 @@ je_cow_1816_mor_maghreb_pressure = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_barbary_autonomy = {
@@ -2281,7 +2281,7 @@ je_cow_1816_barbary_autonomy = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_barbary_mediterranean_commerce = {
@@ -2313,7 +2313,7 @@ je_cow_1816_barbary_mediterranean_commerce = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_sok_caliphate_consolidation = {
@@ -2345,7 +2345,7 @@ je_cow_1816_sok_caliphate_consolidation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_sok_jihad_legacy = {
@@ -2377,7 +2377,7 @@ je_cow_1816_sok_jihad_legacy = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_mad_radama_kingdom = {
@@ -2409,7 +2409,7 @@ je_cow_1816_mad_radama_kingdom = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_mad_foreign_mission_trade = {
@@ -2441,7 +2441,7 @@ je_cow_1816_mad_foreign_mission_trade = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_zul_state_formation = {
@@ -2473,7 +2473,7 @@ je_cow_1816_zul_state_formation = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_zul_highveld_upheaval = {
@@ -2505,7 +2505,7 @@ je_cow_1816_zul_highveld_upheaval = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_com_southern_plains = {
@@ -2537,7 +2537,7 @@ je_cow_1816_com_southern_plains = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_com_band_confederacy = {
@@ -2569,7 +2569,7 @@ je_cow_1816_com_band_confederacy = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_lkt_western_expansion = {
@@ -2601,7 +2601,7 @@ je_cow_1816_lkt_western_expansion = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_lkt_plains_trade = {
@@ -2633,7 +2633,7 @@ je_cow_1816_lkt_plains_trade = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_haw_kamehameha_kingdom = {
@@ -2665,7 +2665,7 @@ je_cow_1816_haw_kamehameha_kingdom = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_haw_pacific_crossroads = {
@@ -2697,7 +2697,7 @@ je_cow_1816_haw_pacific_crossroads = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_hbc_fur_trade_empire = {
@@ -2729,7 +2729,7 @@ je_cow_1816_hbc_fur_trade_empire = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cow_1816_hbc_red_river_bna = {
@@ -2761,5 +2761,5 @@ je_cow_1816_hbc_red_river_bna = {
 	progressbar = yes
 	weight = 6000
 	transferable = no
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

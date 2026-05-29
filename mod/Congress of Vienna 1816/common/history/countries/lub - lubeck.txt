@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:LUB ?= {
 		# set_next_election_date = ???
 		

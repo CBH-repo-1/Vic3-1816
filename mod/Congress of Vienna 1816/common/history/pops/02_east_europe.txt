@@ -259,41 +259,6 @@
 				size = 2540
 			}
 		}
-		region_state:AUS = {
-		    create_pop = {
-		        culture = north_german
-		        religion = catholic
-		        size = 125277
-		    }
-		    create_pop = {
-		        culture = north_german
-		        size = 53047
-		    }
-		    create_pop = {
-		        culture = polish
-		        size = 119475
-		    }
-		    create_pop = {
-		        culture = polish
-		        religion = protestant
-		        size = 1689
-		    }
-		    create_pop = {
-		        culture = czech
-		        religion = catholic
-		        size = 71300
-		    }
-		    create_pop = {
-		        culture = czech
-		        religion = protestant
-		        size = 4812
-		    }
-		    create_pop = {
-		        culture = ashkenazi
-		        religion = jewish
-		        size = 6556
-		    }
-		}
 	}
 	s:STATE_WEST_PRUSSIA = {
 		region_state:PRU = {

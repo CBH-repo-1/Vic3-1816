@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:BRD ?= {
 		effect_starting_technology_tier_6_tech = yes
 

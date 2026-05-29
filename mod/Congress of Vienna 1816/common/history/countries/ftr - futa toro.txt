@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:FTR	?= {
 		effect_starting_technology_tier_5_tech = yes
 

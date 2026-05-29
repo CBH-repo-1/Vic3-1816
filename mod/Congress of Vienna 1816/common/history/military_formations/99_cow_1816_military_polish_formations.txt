@@ -1,8 +1,8 @@
-COUNTRIES = {
+﻿MILITARY_FORMATIONS = {
 	c:JAP ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_japan
+			hq_region = sr:region_northeast_asia
 			name = Tokugawa_Army
 
 			combat_unit = {
@@ -19,7 +19,7 @@ COUNTRIES = {
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_CHUBU
+				state_region = s:STATE_TOKAI
 				count = 4
 			}
 
@@ -34,7 +34,7 @@ COUNTRIES = {
 	c:KOR ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_manchuria
+			hq_region = sr:region_northeast_asia
 			name = Joseon_Army
 
 			combat_unit = {
@@ -196,7 +196,7 @@ COUNTRIES = {
 	c:SOK ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_niger
+			hq_region = sr:region_west_africa
 			name = Sokoto_Caliphate_Army
 
 			combat_unit = {
@@ -334,7 +334,7 @@ COUNTRIES = {
 	c:SWI ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_south_germany
+			hq_region = sr:region_central_europe
 			name = Swiss_Militia
 
 			combat_unit = {
@@ -377,43 +377,4 @@ COUNTRIES = {
 		}
 	}
 
-	c:COM ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_great_plains
-			name = Comanche_War_Bands
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_OKLAHOMA
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_OKLAHOMA
-				count = 1
-			}
-		}
-	}
-
-	c:LKT ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_great_plains
-			name = Lakota_War_Bands
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SOUTH_DAKOTA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SOUTH_DAKOTA
-				count = 1
-			}
-		}
-	}
 }

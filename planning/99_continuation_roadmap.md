@@ -8,7 +8,7 @@ Use this file after context compaction or when resuming the project.
 - Workspace: `C:\Users\Blake Gaming\Documents\New project`
 - Base game path: `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3`
 - Local launcher mod copy: `C:\Users\Blake Gaming\Documents\Paradox Interactive\Victoria 3\mod\Congress of Vienna 1816`
-- Detected base game version: `release/1.12.5`
+- Detected base game version: `1.13.6 (Matcha)`
 
 ## Current Mod Files
 

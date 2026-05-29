@@ -110,7 +110,7 @@
 						type="building_financial_district"
 						country="c:GML"
 						levels=1
-						region="STATE_HOME_COUNTIES"
+						region="STATE_VICTORIA"
 					}
 				}
 				reserves=1
@@ -138,7 +138,7 @@
 						type="building_financial_district"
 						country="c:NSW"
 						levels=1
-						region="STATE_HOME_COUNTIES"
+						region="STATE_TASMANIA"
 					}
 				}
 				reserves=1

@@ -1090,7 +1090,7 @@
 						type="building_manor_house"
 						country="c:JMB"
 						levels=1
-						region="STATE_HOLLAND"
+						region="STATE_SOUTH_SUMATRA"
 					}
 				}
 				reserves=1

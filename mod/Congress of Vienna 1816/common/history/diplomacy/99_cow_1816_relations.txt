@@ -145,12 +145,13 @@
 	}
 
 	c:POR ?= {
-		set_relations = { country = c:BRZ value = 70 }
+		set_relations = { country = c:BRZ value = 90 }
 		set_relations = { country = c:URU value = -40 }
 		set_relations = { country = c:ARG value = -20 }
 	}
 
 	c:BRZ ?= {
+		set_relations = { country = c:POR value = 90 }
 		set_relations = { country = c:URU value = -40 }
 		set_relations = { country = c:ARG value = -20 }
 		set_relations = { country = c:PRG value = -10 }

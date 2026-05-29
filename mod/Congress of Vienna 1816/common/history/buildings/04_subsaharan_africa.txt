@@ -1,18 +1,5 @@
 ﻿BUILDINGS={
 	s:STATE_IVORY_COAST={
-		region_state:FRA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FRA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:BLE={
 		}
 		region_state:KNG={
@@ -783,7 +770,7 @@
 						type="building_financial_district"
 						country="c:ZAN"
 						levels=1
-						region="STATE_OMAN"
+						region="STATE_ZANZIBAR"
 					}
 				}
 				reserves=1
@@ -927,7 +914,7 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		
+
 
 		}
 		region_state:AJR={
@@ -1989,19 +1976,6 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON={
-		region_state:SIL={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:POR={
 			create_building={
 				building="building_coffee_plantation"
@@ -2349,7 +2323,7 @@
 			}
 		}
 
-	
+
 		region_state:TSW={
 			create_building={
 				building="building_livestock_ranch"
@@ -2410,7 +2384,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	
+
 		region_state:PDI={
 			create_building={
 				building="building_millet_farm"
@@ -2592,7 +2566,7 @@
 			}
 		}
 
-	
+
 		region_state:MSK={
 			create_building={
 				building="building_millet_farm"

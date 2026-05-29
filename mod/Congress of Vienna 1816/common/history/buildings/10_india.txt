@@ -49,11 +49,10 @@
 						levels=15
 						region = "STATE_HOME_COUNTIES"
 					}
-					company = {
-						type=company_east_india_company
-						country="c:GBR"
-						levels=4
-					}
+					country={
+								country="c:GBR"
+								levels=4
+							}
 				}
 				reserves = 1
 				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }
@@ -214,11 +213,10 @@
 						levels=15
 						region = "STATE_HOME_COUNTIES"
 					}
-					company={
-						type=company_east_india_company
-						country="c:GBR"
-						levels=4
-					}
+					country={
+								country="c:GBR"
+								levels=4
+							}
 				}
 				reserves = 1
 				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }
@@ -257,11 +255,10 @@
 						levels=2
 						region = "STATE_HOME_COUNTIES"
 					}
-					company={
-						type=company_east_india_company
-						country="c:GBR"
-						levels=2
-					}
+					country={
+								country="c:GBR"
+								levels=2
+							}
 				}
 				reserves = 1
 				activate_production_methods = { "default_building_tobacco_plantation" "pm_road_carts" }
@@ -503,7 +500,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:BIC"
+						country = "c:ASM"
 						levels = 2
 						region = "STATE_ASSAM"
 					}
@@ -609,11 +606,10 @@
 			create_building={
 				building="building_opium_plantation"
 				add_ownership={
-					company={
-						type=company_east_india_company
-						country="c:GBR"
-						levels=1
-					}
+					country={
+								country="c:GBR"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
@@ -713,11 +709,10 @@
 						levels=8
 						region = "STATE_HOME_COUNTIES"
 					}
-					company = {
-						type=company_east_india_company
-						country="c:GBR"
-						levels=4
-					}
+					country={
+								country="c:GBR"
+								levels=4
+							}
 				}
 				reserves = 1
 				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }

@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:SGU	?= {
 		effect_starting_technology_tier_5_tech = yes
 

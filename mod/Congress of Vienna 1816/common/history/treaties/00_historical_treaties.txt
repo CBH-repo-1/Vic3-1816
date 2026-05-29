@@ -57,161 +57,25 @@
 				has_dlc_feature = mp1_treaties
 			}
 		}
-		create_treaty = {
-			name = treaty_name_quadruple_alliance
-			first_country = c:GBR
-			second_country = c:POR
+		# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-			is_draft = no
-			entered_into_force_on = 1834.4.22
-			binding_period = { years = 10 } # 8 years
-
-			articles_to_create = {
-				{ # Anglo-Portuguese Alliance
-					article = defensive_pact
-				}
-				{ # British Military Assistance to Portugal
-					article = military_assistance
-					source_country = c:GBR
-					target_country = c:POR
-				}
-				{ # British Economic interests in Portugal
-					article = foreign_investment_rights
-					source_country = c:POR
-					target_country = c:GBR
-				}
-				{ # British Portuguese Trade Agreement
-					article = trade_privilege
-					source_country = c:GBR
-					target_country = c:POR
-				}
-				{ # British Portuguese Trade Agreement
-					article = trade_privilege
-					source_country = c:POR
-					target_country = c:GBR
-				}
-				{ # Port wine trade
-					article = goods_transfer
-					source_country = c:POR
-					target_country = c:GBR
-					inputs = {
-						{ goods = g:wine }
-						{ quantity = 20 }
-					}
-				}
-			}
-		}
 	}
 	else = {
-		create_treaty = {
-			name = treaty_name_quadruple_alliance
-			first_country = c:GBR
-			second_country = c:POR
+		# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-			is_draft = no
-			entered_into_force_on = 1834.4.22
-			binding_period = { years = 10 } # 8 years
-
-			articles_to_create = {
-				{ # Anglo-Portuguese Alliance
-					article = defensive_pact
-				}
-				{ # British Military Assistance to Portugal
-					article = military_assistance
-					source_country = c:GBR
-					target_country = c:POR
-				}
-				{ # British Portuguese Trade Agreement
-					article = trade_privilege
-					source_country = c:GBR
-					target_country = c:POR
-				}
-				{ # Port wine trade
-					article = goods_transfer
-					source_country = c:POR
-					target_country = c:GBR
-					inputs = {
-						{ goods = g:wine }
-						{ quantity = 20 }
-					}
-				}
-			}
-		}
 	}
 	# Quadruple Alliance - GBR/SPA
-	create_treaty = {
-		name = treaty_name_quadruple_alliance
-		first_country = c:GBR
-		second_country = c:SPA
+	# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.4.22
-		binding_period = { years = 10 } # 8 years
-
-		articles_to_create = {
-			{ # Defensive Pact
-				article = defensive_pact
-			}
-			{ # British Military Assistance to Spain
-				article = military_assistance
-				source_country = c:GBR
-				target_country = c:SPA
-			}
-		}
-	}
 	# Quadruple Alliance - FRA/SPA
-	create_treaty = {
-		name = treaty_name_quadruple_alliance
-		first_country = c:FRA
-		second_country = c:SPA
+	# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.4.22
-		binding_period = { years = 10 } # 8 years
-
-		articles_to_create = {
-			{ # Defensive Pact
-				article = defensive_pact
-			}
-			{ # French Military Support to Spanish government
-				article = military_assistance
-				source_country = c:FRA
-				target_country = c:SPA
-			}
-		}
-	}
 	# Quadruple Alliance - FRA/POR
-	create_treaty = {
-		name = treaty_name_quadruple_alliance
-		first_country = c:FRA
-		second_country = c:POR
+	# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.4.22
-		binding_period = { years = 10 } # 8 years
-
-		articles_to_create = {
-			{ # Defensive Pact
-				article = defensive_pact
-			}
-		}
-	}
 	# Quadruple Alliance - POR/SPA
-	create_treaty = {
-		name = treaty_name_quadruple_alliance
-		first_country = c:SPA
-		second_country = c:POR
+	# COW 1816: removed future-dated 1.13 treaty block (1834.4.22) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.4.22
-		binding_period = { years = 10 } # 8 years
-
-		articles_to_create = {
-			{ # Defensive Pact
-				article = defensive_pact
-			}
-		}
-	}
 
 	# French Guarantee of Belgian Independence / Not official treaty
 
@@ -223,101 +87,12 @@
 				has_dlc_feature = mp1_treaties
 			}
 		}
-		create_treaty = {
-			name = treaty_name_french_military_mission_to_egypt
-			first_country = c:FRA
-			second_country = c:EGY
+		# COW 1816: removed future-dated 1.13 treaty block (1824.11.24) for 1816 start compatibility.
 
-			is_draft = no
-			entered_into_force_on = 1824.11.24 # Date of arrival of first French military mission under Boyer
-			binding_period = { years = 20 } # 8 years to cover the duration of the Orient Crisis
-
-			articles_to_create = {
-				{ # French Military Support to Egypt
-					article = military_assistance
-					source_country = c:FRA
-					target_country = c:EGY
-				}
-				{ # Small arms aid
-					article = goods_transfer
-					source_country = c:FRA
-					target_country = c:EGY
-					inputs = {
-						{ goods = g:small_arms }
-						{ quantity = 10 }
-					}
-				}
-				{ # Artillery aid
-					article = goods_transfer
-					source_country = c:FRA
-					target_country = c:EGY
-					inputs = {
-						{ goods = g:artillery }
-						{ quantity = 5 }
-					}
-				}
-				{ # French Economic interests in Egypt
-					article = foreign_investment_rights
-					source_country = c:EGY
-					target_country = c:FRA
-				}
-				{ # Cotton trade
-					article = goods_transfer
-					source_country = c:EGY
-					target_country = c:FRA
-					inputs = {
-						{ goods = g:fabric }
-						{ quantity = 120 }
-					}
-				}
-			}
-		}
 	}
 	else = {
-		create_treaty = {
-			name = treaty_name_french_military_mission_to_egypt
-			first_country = c:FRA
-			second_country = c:EGY
+		# COW 1816: removed future-dated 1.13 treaty block (1824.11.24) for 1816 start compatibility.
 
-			is_draft = no
-			entered_into_force_on = 1824.11.24 # Date of arrival of first French military mission under Boyer
-			binding_period = { years = 20 } # 8 years to cover the duration of the Orient Crisis
-
-			articles_to_create = {
-				{ # French Military Support to Egypt
-					article = military_assistance
-					source_country = c:FRA
-					target_country = c:EGY
-				}
-				{ # Small arms aid
-					article = goods_transfer
-					source_country = c:FRA
-					target_country = c:EGY
-					inputs = {
-						{ goods = g:small_arms }
-						{ quantity = 10 }
-					}
-				}
-				{ # Artillery aid
-					article = goods_transfer
-					source_country = c:FRA
-					target_country = c:EGY
-					inputs = {
-						{ goods = g:artillery }
-						{ quantity = 5 }
-					}
-				}
-				{ # Cotton trade
-					article = goods_transfer
-					source_country = c:EGY
-					target_country = c:FRA
-					inputs = {
-						{ goods = g:fabric }
-						{ quantity = 120 }
-					}
-				}
-			}
-		}
 	}
 
 	# US Military Assistance to Texas (unofficial, but substantial)
@@ -459,84 +234,19 @@
 	}
 
 	# Swedish-Prussian Trade relationship / Not official treaty
-	create_treaty = {
-		name = treaty_name_swe_pru_trade
-		first_country = c:SWE
-		second_country = c:PRU
+	# COW 1816: removed future-dated 1.13 treaty block (1834.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.1.1 # Formal formation of the Zollverein with which Sweden traded
-		binding_period = { years = 10 } # 8 years
 
-		articles_to_create = {
-			{ # Swedish-Prussian Trade Agreement
-				article = trade_privilege
-				source_country = c:SWE
-				target_country = c:PRU
-			}
-			{ # Swedish-Prussian Trade Agreement
-				article = trade_privilege
-				source_country = c:PRU
-				target_country = c:SWE
-			}
-		}
-	}
+	# COW 1816: removed future-dated 1.13 treaty block (1835.11.29) for 1816 start compatibility.
 
-	create_treaty = {
-		name = treaty_name_prussian_military_mission_to_turkey
-		first_country = c:PRU
-		second_country = c:TUR
-
-		is_draft = no
-		entered_into_force_on = 1835.11.29 # von Moltkes arrival in Constantinople
-		binding_period = { years = 15 } # 14 years from game start
-
-		articles_to_create = {
-			{ # Prussian Military Mission in Turkey
-				article = military_assistance
-				source_country = c:PRU
-				target_country = c:TUR
-			}
-		}
-	}
 
 	# Transit Rights Agreement for Switzerland
-	create_treaty = {
-		name = treaty_name_swi_transit_rights
-		first_country = c:SWI
-		second_country = c:FRA
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 } # 10 years
-
-		articles_to_create = {
-			{
-				article = transit_rights
-				source_country = c:FRA
-				target_country = c:SWI
-			}
-		}
-	}
 
 	# Transit Rights Agreement for Luxemburg
-	create_treaty = {
-		name = treaty_name_lux_transit_rights
-		first_country = c:PRU # Luxemburg was a part of the German Confederation and Zollverein but we cant represent it in-game (for now)
-		second_country = c:LUX
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 } # 10 years
-
-		articles_to_create = {
-			{
-				article = transit_rights
-				source_country = c:PRU
-				target_country = c:LUX
-			}
-		}
-	}
 
 	# Macau Treaty Port
 	create_treaty = {
@@ -569,34 +279,8 @@
 	}
 
 	# Singapore Treaty Port
-	create_treaty = {
-		name = treaty_name_singapore_treaty
-		first_country = c:JOH
-		second_country = c:BIC
+	# COW 1816: removed future-dated 1.13 treaty block (1819.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1819.1.1 # Establishment of Singapore as a british trading port
-		binding_period = { years = 116 } # 99 year binding period after start of game
-
-		articles_to_create = {
-			{
-				article = treaty_port
-				source_country = c:JOH
-				target_country = c:BIC
-				inputs = {
-					{ state = s:STATE_MALAYA.region_state:JOH }
-				}
-			}
-			{
-				article = money_transfer
-				source_country = c:BIC
-				target_country = c:JOH
-				inputs = {
-					{ quantity = 100 }
-				}
-			}
-		}
-	}
 
 	# Hormuz Treaty Port
 	create_treaty = {
@@ -629,48 +313,10 @@
 	}
 
 	# Prussia Military Access
-	create_treaty = {
-		first_country = c:PRU
-		second_country = c:HAN
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 } # 10 year binding period after start of game
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		articles_to_create = {
-			{
-				article = military_access
-				source_country = c:HAN
-				target_country = c:PRU
-			}
-			{
-				article = military_access
-				source_country = c:PRU
-				target_country = c:HAN
-			}
-		}
-	}
-	create_treaty = {
-		first_country = c:PRU
-		second_country = c:BAV
-
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 } # 10 year binding period after start of game
-
-		articles_to_create = {
-			{
-				article = military_access
-				source_country = c:PRU
-				target_country = c:BAV
-			}
-			{
-				article = military_access
-				source_country = c:BAV
-				target_country = c:PRU
-			}
-		}
-	}
 
 	# Dutch-Japanese Trade relationship / Dejima, Nagasaki / Not official treaty
 	create_treaty = {
@@ -755,115 +401,20 @@
 	}
 
 	# Siam supporting Cambodian independence - TODO fix this PRCAL-39401
-	create_treaty = {
-		first_country = c:SIA
-		second_country = c:CAM
+	# COW 1816: removed future-dated 1.13 treaty block (1834.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1834.1.1 # End of the last war
-		binding_period = { years = 10 } # However long you want, really
-
-		articles_to_create = {
-			{
-				article = support_independence
-				source_country = c:SIA
-				target_country = c:CAM
-			}
-		}
-	}
 
 	#Russia is protecting Montenegro from being outright invaded by the Ottomans
-	create_treaty = {
-		name = treaty_name_rus_mon
-		first_country = c:RUS
-		second_country = c:MON
+	# COW 1816: removed future-dated 1.13 treaty block (1828.6.15) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1828.6.15
-		binding_period = { years = 35 }
-
-		articles_to_create = {
-			{
-				article = guarantee_independence
-				source_country = c:RUS
-				target_country = c:MON
-			}
-		}
-	}
 
 	# Treaty of Adrianople - Wallachia
-	create_treaty = {
-		name = treaty_name_treaty_of_adrianople
-		first_country = c:RUS
-		second_country = c:WAL
+	# COW 1816: removed future-dated 1.13 treaty block (1829.9.14) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1829.9.14
-		binding_period = { years = 30 } # The Organic Regulation ended in 1856
-
-		articles_to_create = {
-			{ # Organic Regulation
-				article = law_commitment
-				source_country = c:WAL
-				target_country = c:RUS
-				inputs = {
-					{ law_type = law_type:law_organic_regulation }
-				}
-			}
-			{ # Russian occupation
-				article = military_access
-				source_country = c:WAL
-				target_country = c:RUS
-			}
-			{ # Russian occupation
-				article = host_power_bloc_embassy
-				source_country = c:WAL
-				target_country = c:RUS
-			}
-			{ # To increase liberty desire
-				article = support_independence
-				source_country = c:RUS
-				target_country = c:WAL
-			}
-		}
-	}
 
 	# Treaty of Adrianople - Moldavia
-	create_treaty = {
-		name = treaty_name_treaty_of_adrianople
-		first_country = c:RUS
-		second_country = c:MOL
+	# COW 1816: removed future-dated 1.13 treaty block (1829.9.14) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1829.9.14
-		binding_period = { years = 30 } # The Organic Regulation ended in 1856
-
-		articles_to_create = {
-			{ # Organic Regulation
-				article = law_commitment
-				source_country = c:MOL
-				target_country = c:RUS
-				inputs = {
-					{ law_type = law_type:law_organic_regulation }
-				}
-			}
-			{ # Russian occupation
-				article = military_access
-				source_country = c:MOL
-				target_country = c:RUS
-			}
-			{ # Russian occupation
-				article = host_power_bloc_embassy
-				source_country = c:MOL
-				target_country = c:RUS
-			}
-			{ # To increase liberty desire
-				article = support_independence
-				source_country = c:RUS
-				target_country = c:MOL
-			}
-		}
-	}
 
 	#######################################################
 	# 			Anti-Cheese Treaties of 1836			  #
@@ -873,41 +424,8 @@
 	#Historically Russia was  giving food to stop Montenegro from Starving. Unfortunately can't be done in our game currently, so it's coming via Austria so they don't starve to death.
 
 	#Austria provides transit access and some grain aid (which historically came from Russia but this isn't possible ingame so it must come via Austria)
-	create_treaty = {
-		#name = treaty_name_mon_orthodox_donations
-		first_country = c:MON
-		second_country = c:AUS
+	# COW 1816: removed future-dated 1.13 treaty block (1821.1.15) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1821.1.15
-		binding_period = { years = 40 }
-
-		articles_to_create = {
-			{ # Pity for the poor
-				article = goods_transfer
-				source_country = c:AUS
-				target_country = c:MON
-				inputs = {
-					{ goods = g:grain }
-					{ quantity = 18 }
-				}
-			}
-			{ # an apple a day keeps the doctor (economic collapse from trade centres overordering) away. 
-				article = goods_transfer
-				source_country = c:AUS
-				target_country = c:MON
-				inputs = {
-					{ goods = g:fruit }
-					{ quantity = 4 }
-				}
-			}
-			{ # transit_rights_for_trade_centre
-				article = transit_rights
-				source_country = c:AUS
-				target_country = c:MON
-			}
-		}
-	}
 
 
 	### South African treaties for initial trading and such
@@ -917,69 +435,13 @@
 
 
 
-	create_treaty = {
-		first_country = c:GBR
-		second_country = c:PHL
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 }
 
-		articles_to_create = {
-			{
-				article = transit_rights
-				source_country = c:GBR
-				target_country = c:PHL
-			}
-			{ # Guarantee of Independence
-				article = guarantee_independence
-				source_country = c:GBR
-				target_country = c:PHL
-			}
-		}
-	}
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-	create_treaty = {
-		first_country = c:GBR
-		second_country = c:WBL
-
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 }
-
-		articles_to_create = {
-			{
-				article = transit_rights
-				source_country = c:GBR
-				target_country = c:WBL
-			}
-			{ # Guarantee of Independence
-				article = guarantee_independence
-				source_country = c:GBR
-				target_country = c:WBL
-			}
-		}
-	}
 
 	# Yemen coffee trade
-	create_treaty = {
-		first_country = c:LAH
-		second_country = c:ZAI
+	# COW 1816: removed future-dated 1.13 treaty block (1836.1.1) for 1816 start compatibility.
 
-		is_draft = no
-		entered_into_force_on = 1836.1.1
-		binding_period = { years = 10 }
-
-		articles_to_create = {
-			{
-				article = goods_transfer
-				source_country = c:ZAI
-				target_country = c:LAH
-				inputs = {
-					{ goods = g:coffee }
-					{ quantity = 20 }
-				}
-			}
-		}
-	}
 }

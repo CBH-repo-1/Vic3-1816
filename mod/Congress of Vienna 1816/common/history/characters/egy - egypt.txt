@@ -19,9 +19,5 @@
 		create_character = {
 			template = EGY_charles_marie_napoleon_de_beaufort_dhautpoul
 		}
-
-		create_character = {
-			template = EGY_jean_victor_besson
-		}
 	}
 }

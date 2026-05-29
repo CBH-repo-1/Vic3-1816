@@ -809,7 +809,7 @@
 						type="building_financial_district"
 						country="c:JAM"
 						levels=1
-						region="STATE_HOME_COUNTIES"
+						region="STATE_JAMAICA"
 					}
 				}
 				reserves=1
@@ -840,7 +840,7 @@
 						type="building_manor_house"
 						country="c:JAM"
 						levels=1
-						region="STATE_HOME_COUNTIES"
+						region="STATE_JAMAICA"
 					}
 				}
 				reserves=1
@@ -859,7 +859,7 @@
 						type="building_manor_house"
 						country="c:JAM"
 						levels=1
-						region="STATE_HOME_COUNTIES"
+						region="STATE_JAMAICA"
 					}
 				}
 				reserves=1

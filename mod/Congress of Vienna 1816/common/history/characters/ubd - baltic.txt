@@ -9,7 +9,7 @@
 			culture = cu:east_german
 			ruler = yes
 			is_general = yes
-			hq = region_baltic_states
+			hq = region_eastern_europe
 			commander_rank = commander_rank_3
 			birth_date = 1779.2.19
 			traits = {

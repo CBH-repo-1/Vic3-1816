@@ -389,7 +389,7 @@
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
-				building="building_military_shipyard"
+				building="building_shipyard"
 				add_ownership={
 					country={
 						country="c:USA"
@@ -397,7 +397,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden"  }
+				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
 				building="building_port"
@@ -417,11 +417,10 @@
 			create_building={
 				building="building_port"
 				add_ownership={
-					company={
-						type = company_russian_american_company
-						country="c:RUS"
-						levels=1
-					}
+					country={
+								country="c:RUS"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
@@ -429,11 +428,10 @@
 			create_building={
 				building="building_whaling_station"
 				add_ownership={
-					company={
-						type = company_russian_american_company
-						country="c:RUS"
-						levels=1
-					}
+					country={
+								country="c:RUS"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_wooden_whaling_ships" }
@@ -441,11 +439,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					company={
-						type = company_russian_american_company
-						country="c:RUS"
-						levels=1
-					}
+					country={
+								country="c:RUS"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
@@ -1640,11 +1637,10 @@
 			create_building={
 				building="building_shipyard"
 				add_ownership={
-					company={
-						type=company_william_cramp
-						country="c:USA"
-						levels=1
-					}
+					country={
+								country="c:USA"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
@@ -1890,11 +1886,10 @@
 			create_building={
 				building="building_shipyard"
 				add_ownership={
-					company={
-						type=company_william_cramp
-						country="c:USA"
-						levels=1
-					}
+					country={
+								country="c:USA"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
@@ -2090,11 +2085,10 @@
 			create_building={
 				building="building_shipyard"
 				add_ownership={
-					company={
-						type=company_william_cramp
-						country="c:USA"
-						levels=1
-					}
+					country={
+								country="c:USA"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
@@ -2422,11 +2416,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					company={
-						type=company_hbc
-						country="c:GBR"
-						levels=1
-					}
+					country={
+								country="c:GBR"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
@@ -2653,7 +2646,7 @@
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
-				building="building_military_shipyard"
+				building="building_shipyard"
 				add_ownership={
 					country={
 						country="c:QUE"
@@ -2661,7 +2654,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden"  }
+				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -2729,11 +2722,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					company={
-						type=company_hbc
-						country="c:GBR"
-						levels=1
-					}
+					country={
+								country="c:GBR"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
@@ -2762,11 +2754,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					company={
-						type=company_hbc
-						country="c:GBR"
-						levels=1
-					}
+					country={
+								country="c:GBR"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
@@ -2822,11 +2813,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					company={
-						type=company_hbc
-						country="c:GBR"
-						levels=1
-					}
+					country={
+								country="c:GBR"
+								levels=1
+							}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
